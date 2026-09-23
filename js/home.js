@@ -82,7 +82,15 @@ function variacaoHeroi(h){
 }
 
 function areaHeroi(h){
-  return h.area || h.local || 'Brasil';
+  if (h.cidade && h.estado) {
+    return `${h.cidade}/${h.estado}`;
+  }
+
+  if (h.estado) {
+    return h.estado;
+  }
+
+  return h.pais || 'Brasil';
 }
 
 function movement(h){
@@ -94,34 +102,111 @@ function movement(h){
 
 // ==================== DESTAQUE / NOTÍCIAS ====================
 
-const lead = N[0];
+// Troque apenas este ID quando quiser mudar a manchete.
+const ID_MANCHETE = "hercules-enfrenta-dinamo";
 
-if(lead){
-  $('#lead').style = img(lead.imagem);
+function capaNoticia(n) {
+  if (!n || !n.capa) return "";
+  return `assets/noticias/${n.id}/${n.capa}`;
+}
+
+
+// ==================== MANCHETE ====================
+
+const lead = N.find(n => n.id === ID_MANCHETE);
+
+if (lead) {
+
+  $('#lead').style = img(capaNoticia(lead));
+
   $('#lead').innerHTML = `
-    <div class="story-copy">
-      <span class="kicker">${lead.categoria || 'NOTÍCIA'}${lead.data ? ` • ${lead.data}` : ''}</span>
-      <h1>${lead.titulo}</h1>
-      <p>${lead.resumo || ''}</p>
-    </div>`;
+    <a href="noticia.html?id=${encodeURIComponent(lead.id)}"
+       style="color:inherit;text-decoration:none">
+
+      <div class="story-copy">
+
+        <span class="kicker">
+          ${lead.categoria || 'NOTÍCIA'}
+          ${lead.data ? ` • ${lead.data}` : ''}
+        </span>
+
+        <h1>${lead.titulo}</h1>
+
+        <p>${lead.subtitulo || lead.resumo || ''}</p>
+
+      </div>
+
+    </a>
+  `;
+
 } else {
+
   $('#lead').innerHTML = `
     <div class="story-copy">
       <span class="kicker">SUPERFOCO</span>
       <h1>O mundo muda. A gente acompanha.</h1>
       <p>Novas matérias serão adicionadas ao arquivo da redação.</p>
-    </div>`;
+    </div>
+  `;
 }
 
-$('#secondary').innerHTML = N.slice(1,4).map(n => `
-  <article class="story-card" style="${img(n.imagem)}">
-    <div class="story-copy">
-      <span class="kicker">${n.categoria || 'NOTÍCIA'}</span>
-      <h3>${n.titulo}</h3>
-    </div>
-  </article>`).join('');
+
+// ==================== DESTAQUES DO TOP 15 ====================
+
+// Pega os IDs dos 15 heróis mais bem colocados
+const top15Ids = H
+  .filter(h => typeof h.ranking === 'number')
+  .slice()
+  .sort((a, b) => a.ranking - b.ranking)
+  .slice(0, 15)
+  .map(h => h.id);
+
+
+// Notícias envolvendo pelo menos um herói do Top 15
+const destaquesTop15 = N
+  .filter(n => {
+    if (n.id === ID_MANCHETE) return false;
+    if (!Array.isArray(n.herois)) return false;
+
+    return n.herois.some(id => top15Ids.includes(id));
+  })
+  .slice()
+  .sort((a, b) => new Date(b.data) - new Date(a.data))
+  .slice(0, 3);
+
+
+// Coloca as 4 notícias AO LADO da manchete
+$('#secondary').innerHTML = destaquesTop15.map(n => `
+
+  <a href="noticia.html?id=${encodeURIComponent(n.id)}"
+     class="secondary-link">
+
+    <article
+      class="story-card"
+      style="${img(capaNoticia(n))}"
+    >
+
+      <div class="story-copy">
+
+        <span class="kicker">
+          ${n.categoria || 'NOTÍCIA'}
+        </span>
+
+        <h3>${n.titulo}</h3>
+
+      </div>
+
+    </article>
+
+  </a>
+
+`).join('');
+
+
+// ==================== EM ALTA ====================
 
 const tags = [...new Set(N.flatMap(n => n.tags || []))].slice(0,6);
+
 $('#trends').innerHTML = tags.length
   ? tags.map(t => `<span class="trend">#${t.replaceAll(' ','')}</span>`).join('')
   : `<span class="trend">Aguardando novas ocorrências...</span>`;
@@ -148,7 +233,7 @@ $('#heroesGrid').innerHTML = focus.length
       return `
         <article class="person">
           <a class="person-link" href="heroi.html?id=${encodeURIComponent(h.id)}">
-            <div class="photo" style="${img(fotoHeroi(h))}"></div>
+            <div class="photo" style="${img(iconeHeroi(h))}"></div>
             <div class="info">
               <span class="rank-badge">
                 ${typeof h.ranking === 'number' ? `#${h.ranking}` : 'SEM RANKING'}
@@ -169,7 +254,7 @@ $('#rising').innerHTML = H.length
       .slice(0,3)
       .map(h => `
         <a href="heroi.html?id=${encodeURIComponent(h.id)}" class="mini-person" style="color:inherit;text-decoration:none">
-          <div class="mini-photo" style="${img(fotoHeroi(h))}"></div>
+          <div class="mini-photo" style="${img(iconeHeroi(h))}"></div>
           <div>
             <b>${h.nome}</b>
             <small>${typeof h.ranking === 'number' ? `#${h.ranking}` : 'Sem ranking'}</small>

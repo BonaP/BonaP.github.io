@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícia | SuperFoco</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/noticia.css">
+</head>
+<body>
+<header class="top">
+   <div class="brand">
+    <a href="index.html" class="logo">SUPER<span>FOCO</span></a>
+    <small>O mundo muda. A gente acompanha.</small>
+</div>
+    <nav><a href="#">Início</a><a href="#ultimas">Notícias</a><a href="#herois">Heróis</a><a href="#procurados">Vilões</a><a href="#ranking">Ranking</a></nav><form id="searchForm" class="search"><input id="searchInput" placeholder="Pesquise herói, vilão ou acontecimento…"><button>Buscar</button></form>
+</header>
+
+<div id="searchResults" class="search-results hidden"></div>
+
+  <main class="news-page">
+    <div id="erro" class="news-error" hidden>Notícia não encontrada.</div>
+
+    <article id="materia" hidden>
+      <div class="news-kicker" id="categoria"></div>
+      <h1 id="titulo"></h1>
+      <p class="news-subtitle" id="subtitulo"></p>
+      <div class="news-meta"><span id="autor"></span><span id="data"></span></div>
+
+      <figure class="news-cover" id="capaWrap" hidden>
+        <img id="capa" alt="">
+        <figcaption id="capaLegenda"></figcaption>
+      </figure>
+
+      <div class="news-layout">
+        <div class="news-body" id="conteudo"></div>
+        <aside class="news-related" id="relacionadosWrap" hidden>
+          <h2>Relacionados</h2>
+          <div id="relacionados"></div>
+        </aside>
+      </div>
+    </article>
+  </main>
+
+  <script src="data/herois.js"></script>
+  <script src="data/viloes.js"></script>
+  <script src="data/grupos.js"></script>
+  <script src="data/noticias.js"></script>
+  <script src="js/noticia.js"></script>
+</body>
+</html>

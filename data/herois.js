@@ -11,11 +11,13 @@ window.SUPERFOCO_HEROIS=[
         quantidadeImagens:2,
         identidade:"Desconhecida",
         status:"ATIVO",
-        local:"Brasil",
+        pais:"Brasil",
+        estado:"SP",
+        cidade:"São Paulo",
         afiliacao:"Independente",
         primeiraAparicao:"A definir",
-        ranking:47,
-        rankingAnterior:53,
+        ranking:16,
+        rankingAnterior:25,
         melhorRanking:47,
         popularidade:71,
         sobre:"Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -27,6 +29,72 @@ window.SUPERFOCO_HEROIS=[
             {
                 usuario:"@SemCapa",
                 texto:"Quero ver como ficam os danos depois das lutas."
+            }
+        ]
+    },
+
+   //================================
+   // JURUPARI
+   //================================
+    {
+        id:"jurupari",
+        nome:"Jurupari",
+        arquivo:"JURUPARI",
+        pagina: true,
+        quantidadeImagens:2,
+        identidade:"Desconhecida",
+        status:"ATIVO",
+        pais:"Brasil",
+        estado:"MG",
+        cidade:"Belo Horizonte",
+        afiliacao:"Independente",
+        primeiraAparicao:"A definir",
+        ranking:80,
+        rankingAnterior:88,
+        melhorRanking:80,
+        popularidade:84,
+        sobre:"Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
+        poderes:["Superforça","Resistência sobre-humana"],
+        stats:{ocorrencias:"—",resgates:"—",prisoes:"—",danos:"—"},
+        inimigos:[""],
+        historico:[{data:"A definir",evento:"Primeira aparição pública registrada pelo SuperFoco."}],
+        comentarios:[{usuario:"@SuperFan",texto:"Esse cara ainda vai subir muito no ranking."},
+            {
+                usuario:"@SemCapa",
+                texto:"Como ninguém encontra um monstro desses pelas ruas ou nas florestas?"
+            }
+        ]
+    },
+
+   //================================
+   // Nympha das Ondas
+   //================================
+    {
+        id:"nympha-das-ondas",
+        nome:"Nympha das Ondas",
+        arquivo:"nympha-das-ondas",
+        pagina: true,
+        quantidadeImagens:2,
+        identidade:"Desconhecida",
+        status:"ATIVO",
+        pais:"Brasil",
+        estado:"RJ",
+        cidade:"Rio de Janeiro",
+        afiliacao:"Independente",
+        primeiraAparicao:"A definir",
+        ranking:10,
+        rankingAnterior:14,
+        melhorRanking:7,
+        popularidade:89,
+        sobre:"Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
+        poderes:["Voo","Combatente", "Surf"],
+        stats:{ocorrencias:"—",resgates:"—",prisoes:"—",danos:"—"},
+        inimigos:["Rei dos Ratos"],
+        historico:[{data:"A definir",evento:"Primeira aparição pública registrada pelo SuperFoco."}],
+        comentarios:[{usuario:"@SuperFan",texto:"Esse cara ainda vai subir muito no ranking."},
+            {
+                usuario:"@SemCapa",
+                texto:"Como ninguém encontra um monstro desses pelas ruas ou nas florestas?"
             }
         ]
     },
@@ -43,7 +111,9 @@ window.SUPERFOCO_HEROIS=[
         quantidadeImagens:2,
         identidade:"Desconhecida",
         status:"ATIVO",
-        local:"Brasil",
+        pais:"Brasil",
+        estado:"RJ",
+        cidade:"Rio de Janeiro",
         afiliacao:"Independente",
         primeiraAparicao:"Invasão de 28",
         ranking:800,
@@ -74,5 +144,53 @@ window.SUPERFOCO_HEROIS=[
                 texto:"O melhor HERÓI desse MUNDO COMETA!!!"
             }
         ]
+    },
+    //======================================
+    // ATLAS
+    //======================================
+
+    {
+        id:"atlas",
+        nome:"Atlas",
+        arquivo:"ATLAS",
+        pagina: true,
+        quantidadeImagens:2,
+        identidade:"Desconhecida",
+        status:"ATIVO",
+        pais:"Brasil",
+        estado:"RJ",
+        cidade:"Rio de Janeiro",
+        afiliacao:"Independente",
+        primeiraAparicao:"Invasão de 28",
+        ranking:1500,
+        rankingAnterior:1510,
+        melhorRanking:1500,
+        popularidade:65,
+        sobre: "Aparece em raras ocasiões pelas ruas e vielas do Rio de Janeiro e procura por traficantes e vendedores de drogas.",
+        poderes:[
+            "Superforça",
+            "Regeneração"
+        ],
+        stats:{ocorrencias:"—",resgates:"—",prisoes:"—",danos:"—"},
+        inimigos:["NENHUM REGISTRADO"],
+        historico:
+        [
+            {
+                data:"2033/04/14",
+                evento:"Vielas de uma favela do Rio de Janeiro"
+            }
+        ],
+        comentarios:
+        [
+            {
+                usuario:"@PixelMorto",
+                texto:"É impressão minha ou ele parece um demônio? O Trem feio!"},
+            {
+                usuario:"@VelvetDoom",
+                texto:"Ele lutando é impressionante! Quem dera ele fosse da Bahia 😭"
+            }
+        ]
     }
+
+
 ];
