@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Herói | SuperFoco</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/heroi.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <a href="index.html" class="brand-link">
+      <span class="logo">SUPER<span>FOCO</span></span>
+    </a>
+    <small>O mundo muda. A gente acompanha.</small>
+  </div>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="index.html#ultimas">Notícias</a>
+    <a href="index.html#herois">Heróis</a>
+    <a href="index.html#procurados">Vilões</a>
+    <a href="index.html#ranking">Ranking</a>
+  </nav>
+
+  <form id="searchForm" class="search">
+    <input id="searchInput" placeholder="Pesquise herói, vilão ou acontecimento…">
+    <button>Buscar</button>
+  </form>
+</header>
+
+<div id="searchResults" class="search-results hidden"></div>
+
+<main id="perfil">
+  <section class="profile-breaking">
+    <b>PERFIL</b>
+    <span>Arquivo público SuperFoco</span>
+  </section>
+
+  <section class="profile-heading">
+    <div class="profile-identity">
+      <img id="icone" class="profile-icon" alt="">
+      <div>
+        <span class="kicker">HERÓI EM FOCO</span>
+        <h1 id="nome">Carregando...</h1>
+        <div id="meta" class="profile-meta"></div>
+      </div>
+    </div>
+
+    <div class="profile-rank">
+      <span>RANKING SUPERFOCO</span>
+      <strong id="rank">—</strong>
+      <b id="variacao"></b>
+    </div>
+  </section>
+
+  <div class="profile-grid">
+    <div class="profile-main">
+      <section class="profile-image-block">
+        <img id="foto" class="profile-photo" alt="">
+        <div id="galeria" class="profile-gallery"></div>
+      </section>
+
+      <section>
+        <div class="section-title">
+          <h2>Sobre</h2>
+          <span>Quem é este herói</span>
+        </div>
+        <div class="article-box">
+          <p id="sobre"></p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">
+          <h2>Poderes conhecidos</h2>
+          <span>Habilidades observadas publicamente</span>
+        </div>
+        <div id="poderes" class="power-list"></div>
+      </section>
+    </div>
+
+    <aside class="profile-sidebar">
+      <section class="panel profile-panel">
+        <div class="section-title">
+          <h2>Informações</h2>
+        </div>
+        <dl id="info" class="profile-info"></dl>
+      </section>
+
+      <section class="panel profile-panel">
+        <div class="section-title">
+          <h2>SuperFoco Stats</h2>
+        </div>
+        <div id="stats" class="profile-stats"></div>
+      </section>
+
+      <section class="panel profile-panel">
+        <div class="section-title">
+          <h2>Inimigos conhecidos</h2>
+        </div>
+        <div id="inimigos" class="enemy-list"></div>
+      </section>
+    </aside>
+  </div>
+
+  <section>
+    <div class="section-title">
+      <h2>Histórico público</h2>
+      <span>Registros e acontecimentos conhecidos</span>
+    </div>
+    <div id="historico" class="timeline"></div>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <h2>Últimas notícias sobre <span id="nome-noticias">o herói</span></h2>
+      <span>Arquivo da redação</span>
+    </div>
+    <div id="noticias" class="profile-news"></div>
+  </section>
+
+  <section>
+    <div class="section-title">
+      <h2>A comunidade está falando</h2>
+      <span>Comentários recentes</span>
+    </div>
+    <div id="comentarios" class="comment-grid"></div>
+  </section>
+
+  <section id="erro" class="profile-error hidden">
+    <h2>Herói não encontrado</h2>
+    <p>Confira o endereço ou volte para a página inicial do SuperFoco.</p>
+    <a class="more" href="index.html">Voltar para a Home →</a>
+  </section>
+</main>
+
+<footer>
+  <div class="logo">SUPER<span>FOCO</span></div>
+  <p>Informações compiladas a partir de registros públicos, relatos de testemunhas e apuração da equipe SuperFoco.</p>
+  <p>Projeto ficcional para campanha de RPG.</p>
+</footer>
+
+<script src="data/herois.js"></script>
+<script src="data/viloes.js"></script>
+<script src="data/noticias.js"></script>
+<script src="js/heroi.js"></script>
+</body>
+</html>

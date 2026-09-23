@@ -1,8 +1,1 @@
-window.NOTICIAS=[
-{id:'hercules-dinamo',categoria:'CONFRONTO',titulo:'Hércules enfrenta Dínamo em novo confronto',resumo:'Batalha reacende a atenção sobre uma das rivalidades mais recorrentes entre os novos supers.',data:'23 SET 2026',imagem:'assets/noticias/hercules-dinamo.jpg',tags:['Hércules','Dínamo']},
-{id:'rei-ratos',categoria:'INVESTIGAÇÃO',titulo:'Laboratório ligado ao Rei dos Ratos entra na mira das autoridades',resumo:'Relatos apontam experimentos clandestinos envolvendo animais.',data:'22 SET 2026',imagem:'assets/noticias/rei-ratos.jpg',tags:['Rei dos Ratos','Hércules']},
-{id:'cometa',categoria:'PERFIL',titulo:'Quem é Cometa, o novo herói que vem chamando atenção?',resumo:'Voo e ataques de fogo colocaram o jovem super no radar do público.',data:'21 SET 2026',imagem:'assets/noticias/cometa.jpg',tags:['Cometa']},
-{id:'registro',categoria:'BRASIL',titulo:'Implementação do registro de supers avança pelo país',resumo:'Medidas ampliam o debate sobre atuação, responsabilidade e identificação de supers.',data:'20 SET 2026',imagem:'assets/noticias/registro.jpg',tags:['RGS']},
-{id:'vanguarda',categoria:'EQUIPES',titulo:'Vanguarda participa de operação conjunta no Sudeste',resumo:'A equipe regional voltou a aparecer em uma ocorrência de grande repercussão.',data:'19 SET 2026',imagem:'assets/noticias/vanguarda.jpg',tags:['Vanguarda']},
-{id:'danos',categoria:'OPINIÃO PÚBLICA',titulo:'Quem paga a conta depois de uma batalha entre supers?',resumo:'Danos materiais voltam ao centro da discussão após confrontos em áreas urbanas.',data:'18 SET 2026',imagem:'assets/noticias/danos.jpg',tags:['Supers']}
-];
+window.SUPERFOCO_NOTICIAS=[];

@@ -1,5 +1,27 @@
-window.VILOES=[
-{id:'dinamo',nome:'Dínamo',status:'Procurado',perigo:3,rival:'Hércules',imagem:'assets/viloes/dinamo.jpg'},
-{id:'rei-dos-ratos',nome:'Rei dos Ratos',status:'Procurado',perigo:3,rival:'Hércules',imagem:'assets/viloes/rei-dos-ratos.jpg'},
-{id:'acaso',nome:'Acaso',status:'Monitorado',perigo:3,rival:'Atlas',imagem:'assets/viloes/acaso.jpg'},
-{id:'ferrugem',nome:'Ferrugem',status:'Procurado',perigo:2,rival:'Hércules',imagem:'assets/viloes/ferrugem.jpg'}];
+window.SUPERFOCO_VILOES=[
+    {
+        id:"dinamo",
+        nome:"Dínamo"
+        pagina: false
+    },
+    {
+        id:"rei-dos-ratos",
+        nome:"Rei dos Ratos"
+        pagina: false
+    },
+    {
+        id:"cirurgiao",
+        nome:"Cirurgião"
+        pagina: false
+    },
+    {
+        id:"ferrugem",
+        nome:"Ferrugem"
+        pagina: false
+    },
+    {
+        id:"hipoteca",
+        nome:"Hipoteca"
+        pagina: false
+    }
+];
