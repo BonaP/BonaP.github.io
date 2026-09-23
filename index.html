@@ -1,0 +1,19 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SuperFoco — O mundo muda. A gente acompanha.</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="top"><div class="brand"><span class="logo">SUPER<span>FOCO</span></span><small>O mundo muda. A gente acompanha.</small></div><nav><a href="#">Início</a><a href="#ultimas">Notícias</a><a href="#herois">Heróis</a><a href="#procurados">Vilões</a><a href="#ranking">Ranking</a></nav><form id="searchForm" class="search"><input id="searchInput" placeholder="Pesquise herói, vilão ou acontecimento…"><button>Buscar</button></form></header>
+<div id="searchResults" class="search-results hidden"></div>
+<main>
+<section class="breaking"><b>AGORA</b><span id="breakingText">Acompanhamento SuperFoco das principais ocorrências envolvendo supers.</span></section>
+<section class="hero-grid"><article id="lead" class="lead"></article><div id="secondary" class="secondary"></div></section>
+<section class="trends"><b>EM ALTA</b><div id="trends"></div></section>
+<div class="content-grid"><div>
+<section id="herois"><div class="section-title"><h2>Heróis em Foco</h2><span>Quem está movimentando o país</span></div><div id="heroesGrid" class="cards"></div></section>
+<section id="ultimas"><div class="section-title"><h2>Últimas Notícias</h2><span>Atualizações da redação</span></div><div id="latest" class="latest"></div></section>
+</div><aside>
+<section id="ranking" class="panel"><div class="section-title"><h2>Ranking SuperFoco</h2><span>Top 5 nacional</span></div><ol id="rankingList" class="ranking"></ol><a class="more" href="ranking.html">Ver ranking completo →</a></section>
+<section class="panel rise"><div class="section-title"><h2>Em Ascensão</h2></div><div id="rising"></div></section>
+<section id="procurados" class="panel"><div class="section-title"><h2>Procurados</h2></div><div id="wanted"></div></section>
+</aside></div>
+<section class="numbers"><div><strong id="nSupers">327</strong><span>supers catalogados</span></div><div><strong id="nHeroes">184</strong><span>heróis ativos</span></div><div><strong id="nWanted">73</strong><span>supers procurados</span></div><div><strong>41</strong><span>ocorrências neste mês</span></div></section>
+<section class="community"><div class="section-title"><h2>A comunidade está falando</h2></div><div id="comments" class="comment-grid"></div></section>
+</main><footer><div class="logo">SUPER<span>FOCO</span></div><p>Informações compiladas a partir de registros públicos, relatos de testemunhas e apuração da equipe SuperFoco.</p><p>Projeto ficcional para campanha de RPG.</p></footer>
+<script src="data/herois.js"></script><script src="data/viloes.js"></script><script src="data/noticias.js"></script><script src="js/home.js"></script></body></html>
