@@ -98,7 +98,7 @@ window.SUPERFOCO_HEROIS=[
     {
         id:"filobats-teribelis",
         nome:"FiloBats Teribelis",
-        arquivo:"FiloBats-Teribelis",
+        arquivo:"FILOBATS_TERIBELIS",
         pagina: true,
         identidade:"CONHECIDA",
         status:"ATIVO",
@@ -298,7 +298,7 @@ window.SUPERFOCO_HEROIS=[
     {
         id:"nympha-das-ondas",
         nome:"Nympha das Ondas",
-        arquivo:"nympha-das-ondas",
+        arquivo:"NYMPHA_DAS_ONDAS",
         pagina: true,
         identidade:"Marina Alencar dos Santos",
         status:"ATIVO",
