@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Notícias | SuperFoco</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/noticias.css">
+</head>
+
+<body>
+
+<header class="top">
+  <div class="brand">
+    <a href="index.html" class="logo">SUPER<span>FOCO</span></a>
+    <small>O mundo muda. A gente acompanha.</small>
+  </div>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="noticias.html">Notícias</a>
+      <a href="herois.html">Heróis</a>
+      <a href="viloes.html">Vilões</a>
+      <a href="ranking.html">Ranking</a>
+    </nav>
+
+  <form id="searchForm" class="search">
+    <input id="searchInput" placeholder="Pesquise herói, vilão ou acontecimento…">
+    <button>Buscar</button>
+  </form>
+</header>
+
+<main class="news-archive">
+
+  <section class="archive-heading">
+    <span class="kicker">ARQUIVO SUPERFOCO</span>
+    <h1>Notícias</h1>
+    <p>
+      Acompanhe todas as matérias, ocorrências e acontecimentos
+      registrados pelo SuperFoco.
+    </p>
+  </section>
+
+
+  <!-- FILTROS -->
+
+  <section class="news-filters">
+
+    <div class="filter-search">
+      <label for="filtroTexto">Pesquisar</label>
+
+      <input
+        type="search"
+        id="filtroTexto"
+        placeholder="Herói, vilão, acontecimento..."
+      >
+    </div>
+
+
+    <div class="filter-field">
+      <label for="filtroAno">Ano</label>
+
+      <select id="filtroAno">
+        <option value="">Todos os anos</option>
+      </select>
+    </div>
+
+
+    <div class="filter-field">
+      <label for="filtroMes">Mês</label>
+
+      <select id="filtroMes">
+        <option value="">Todos os meses</option>
+        <option value="1">Janeiro</option>
+        <option value="2">Fevereiro</option>
+        <option value="3">Março</option>
+        <option value="4">Abril</option>
+        <option value="5">Maio</option>
+        <option value="6">Junho</option>
+        <option value="7">Julho</option>
+        <option value="8">Agosto</option>
+        <option value="9">Setembro</option>
+        <option value="10">Outubro</option>
+        <option value="11">Novembro</option>
+        <option value="12">Dezembro</option>
+      </select>
+    </div>
+
+
+    <div class="filter-field">
+      <label for="filtroCategoria">Categoria</label>
+
+      <select id="filtroCategoria">
+        <option value="">Todas</option>
+      </select>
+    </div>
+
+
+    <button id="limparFiltros" class="clear-filters" type="button">
+      Limpar filtros
+    </button>
+
+  </section>
+
+
+  <div class="archive-status">
+    <strong id="quantidadeNoticias">0</strong>
+    <span id="textoQuantidade">notícias encontradas</span>
+  </div>
+
+
+  <!-- LISTAGEM -->
+
+  <section id="listaNoticias" class="archive-list"></section>
+
+  <div id="semNoticias" class="archive-empty" hidden>
+    <strong>Nenhuma notícia encontrada.</strong>
+    <p>Tente alterar os filtros da pesquisa.</p>
+  </div>
+
+</main>
+
+
+<footer>
+  <div class="logo">SUPER<span>FOCO</span></div>
+
+  <p>
+    Informações compiladas a partir de registros públicos,
+    relatos de testemunhas e apuração da equipe SuperFoco.
+  </p>
+
+  <p>Projeto ficcional para campanha de RPG.</p>
+</footer>
+
+
+<script src="data/herois.js"></script>
+<script src="data/viloes.js"></script>
+<script src="data/noticias.js"></script>
+
+<script src="js/noticiaspg.js"></script>
+
+</body>
+</html>

@@ -267,20 +267,42 @@ $('#rising').innerHTML = H.length
 
 // ==================== VILÕES ====================
 
-$('#wanted').innerHTML = V.length
-  ? V.slice(0,3).map(v => {
-      const perigo = Number.isInteger(v.perigo) ? Math.max(0,Math.min(5,v.perigo)) : null;
-      return `
+const wanted = V.filter(v =>
+  v.pagina !== false &&
+  (v.status || '').toUpperCase() === 'SOLTO'
+);
+
+$('#wanted').innerHTML = wanted.length
+  ? wanted.map(v => `
+
+      <a
+        href="vilao.html?id=${encodeURIComponent(v.id)}"
+        class="wanted-link"
+      >
+
         <div class="mini-person">
-          <div class="mini-photo" style="${img(v.imagem)}"></div>
+
+          <div
+            class="mini-photo"
+            style="${img(`assets/icones/ICONE-${v.arquivo}.png`)}"
+          ></div>
+
           <div>
             <b>${v.nome}</b>
-            <small>${v.status || 'Registro público'}</small>
+            <small>${v.status || 'SITUAÇÃO DESCONHECIDA'}</small>
           </div>
-          <span class="danger">${perigo === null ? 'ARQUIVO' : '●'.repeat(perigo)+'○'.repeat(5-perigo)}</span>
-        </div>`;
-    }).join('')
-  : `<small>Nenhum registro.</small>`;
+
+          <span class="danger">
+            ARQUIVO
+          </span>
+
+        </div>
+
+      </a>
+
+    `).join('')
+
+  : `<small>Nenhum vilão procurado.</small>`;
 
 // ==================== ÚLTIMAS NOTÍCIAS ====================
 

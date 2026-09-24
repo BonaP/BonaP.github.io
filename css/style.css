@@ -61,3 +61,30 @@
   outline:3px solid var(--red);
   outline-offset:-3px;
 }
+
+/* ===== Links dos Procurados ===== */
+
+.wanted-link{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.wanted-link:hover{
+  background:#f3f4f6;
+}
+
+.wanted-link:hover .mini-person strong{
+  color:var(--red);
+}
+
+.wanted-link .mini-person{
+  cursor:pointer;
+  transition:background .15s ease;
+}
+
+.wanted-link:focus-visible{
+  outline:3px solid var(--red);
+  outline-offset:2px;
+}

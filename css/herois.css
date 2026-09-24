@@ -1,0 +1,514 @@
+.heroes-page{
+  max-width:1220px;
+  margin:auto;
+  padding:22px;
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+.heroes-heading{
+  background:var(--paper);
+  border-top:4px solid var(--red);
+  border-radius:7px;
+  padding:24px;
+  margin-bottom:18px;
+}
+
+.heroes-heading h1{
+  margin:5px 0 8px;
+  font-size:42px;
+  letter-spacing:-1.5px;
+}
+
+.heroes-heading p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.5;
+}
+
+
+/* =========================
+   FILTROS
+========================= */
+
+.heroes-filters{
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:7px;
+
+  padding:16px;
+
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1fr auto;
+  gap:12px;
+
+  align-items:end;
+
+  margin-bottom:14px;
+}
+
+.filter-search,
+.filter-field{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.heroes-filters label{
+  font-size:11px;
+  font-weight:900;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+.heroes-filters input,
+.heroes-filters select{
+  height:42px;
+
+  border:1px solid var(--line);
+  border-radius:5px;
+
+  background:white;
+
+  padding:0 11px;
+
+  font-size:14px;
+  color:var(--ink);
+}
+
+.heroes-filters input:focus,
+.heroes-filters select:focus{
+  outline:2px solid #d7192033;
+  border-color:var(--red);
+}
+
+.clear-filters{
+  height:42px;
+
+  border:0;
+  border-radius:5px;
+
+  padding:0 16px;
+
+  background:var(--dark);
+  color:white;
+
+  font-weight:800;
+
+  cursor:pointer;
+}
+
+.clear-filters:hover{
+  background:var(--red);
+}
+
+
+/* =========================
+   CONTADOR
+========================= */
+
+.heroes-status{
+  padding:10px 2px 16px;
+
+  color:var(--muted);
+  font-size:13px;
+}
+
+.heroes-status strong{
+  color:var(--ink);
+}
+
+
+/* =========================
+   TABELA
+========================= */
+
+.heroes-table{
+  background:var(--paper);
+  border-radius:7px;
+  overflow:hidden;
+}
+
+.heroes-table-header,
+.hero-row{
+
+  display:grid;
+
+  grid-template-columns:
+    minmax(250px,2fr)
+    90px
+    140px
+    minmax(190px,1.3fr)
+    150px;
+
+  align-items:center;
+}
+
+
+/* CABEÇALHO */
+
+.heroes-table-header{
+  min-height:42px;
+
+  padding:0 18px;
+
+  background:var(--dark);
+  color:white;
+
+  font-size:10px;
+  font-weight:900;
+
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+
+
+/* LINHA DO HERÓI */
+
+.hero-row{
+  min-height:82px;
+
+  padding:10px 18px;
+
+  border-bottom:1px solid var(--line);
+
+  color:var(--ink);
+  text-decoration:none;
+
+  transition:background .15s;
+}
+
+.hero-row:last-child{
+  border-bottom:0;
+}
+
+.hero-row:hover{
+  background:#f7f8fa;
+}
+
+
+/* =========================
+   HERÓI
+========================= */
+
+.hero-name{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  min-width:0;
+}
+
+.hero-icon{
+  width:58px;
+  height:58px;
+
+  border-radius:50%;
+
+  object-fit:cover;
+
+  background:#eef0f4;
+  border:1px solid var(--line);
+
+  flex:0 0 auto;
+}
+
+.hero-name-text{
+  min-width:0;
+}
+
+.hero-name-text strong{
+  display:block;
+
+  font-size:17px;
+  line-height:1.1;
+}
+
+.hero-name-text span{
+  display:block;
+
+  margin-top:5px;
+
+  color:var(--muted);
+
+  font-size:11px;
+}
+
+
+/* =========================
+   RANK
+========================= */
+
+.hero-rank{
+  font-size:20px;
+  font-weight:900;
+}
+
+.hero-rank.no-rank{
+  color:var(--muted);
+  font-size:14px;
+}
+
+
+/* =========================
+   POPULARIDADE
+========================= */
+
+.hero-popularity{
+  font-weight:800;
+}
+
+.popularity-bar{
+  width:90px;
+  height:5px;
+
+  margin-top:6px;
+
+  background:#e5e7eb;
+
+  border-radius:99px;
+
+  overflow:hidden;
+}
+
+.popularity-fill{
+  height:100%;
+
+  background:var(--red);
+
+  border-radius:99px;
+}
+
+
+/* =========================
+   ATUAÇÃO
+========================= */
+
+.hero-location{
+  font-size:13px;
+  line-height:1.4;
+}
+
+.hero-location strong{
+  display:block;
+}
+
+.hero-location span{
+  color:var(--muted);
+  font-size:11px;
+}
+
+
+/* =========================
+   STATUS
+========================= */
+
+.hero-status{
+  display:flex;
+  align-items:center;
+  gap:8px;
+
+  font-size:12px;
+  font-weight:900;
+
+  text-transform:uppercase;
+}
+
+.status-dot{
+  width:10px;
+  height:10px;
+
+  border-radius:50%;
+
+  flex:0 0 auto;
+}
+
+
+/* ATIVO */
+
+.status-active{
+  background:#22a447;
+}
+
+
+/* DESATIVADO / DESAPARECIDO */
+
+.status-inactive{
+  background:#d71920;
+}
+
+
+/* MORTO / APOSENTADO */
+
+.status-retired{
+  background:#8b929c;
+}
+
+
+/* STATUS NÃO RECONHECIDO */
+
+.status-unknown{
+  background:#c5cad1;
+}
+
+
+/* =========================
+   SEM RESULTADOS
+========================= */
+
+.heroes-empty{
+  margin-top:12px;
+
+  background:var(--paper);
+
+  border-left:5px solid var(--red);
+  border-radius:7px;
+
+  padding:24px;
+}
+
+.heroes-empty p{
+  margin:7px 0 0;
+  color:var(--muted);
+}
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media(max-width:900px){
+
+  .heroes-filters{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .filter-search{
+    grid-column:1 / -1;
+  }
+
+  .heroes-table{
+    overflow-x:auto;
+  }
+
+  .heroes-table-header,
+  .hero-row{
+    min-width:850px;
+  }
+
+}
+
+
+@media(max-width:600px){
+
+  .heroes-heading h1{
+    font-size:34px;
+  }
+
+  .heroes-filters{
+    grid-template-columns:1fr;
+  }
+
+  .filter-search{
+    grid-column:auto;
+  }
+
+}
+
+/* =========================
+   ORDENAÇÃO
+========================= */
+
+.sort-area{
+  grid-column:1 / -1;
+
+  display:flex;
+  align-items:center;
+  gap:14px;
+
+  padding-top:14px;
+  margin-top:2px;
+
+  border-top:1px solid var(--line);
+}
+
+.sort-label{
+  font-size:11px;
+  font-weight:900;
+  text-transform:uppercase;
+  color:var(--muted);
+  letter-spacing:.3px;
+  white-space:nowrap;
+}
+
+.sort-buttons{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+
+/* BOTÃO DESATIVADO */
+
+.sort-buttons .sort-button{
+  appearance:none;
+
+  border:1px solid #d5d9e0;
+  border-radius:20px;
+
+  background:#f3f4f6;
+  color:#4b5563;
+
+  padding:7px 14px;
+
+  font-family:inherit;
+  font-size:12px;
+  font-weight:800;
+
+  line-height:1;
+
+  cursor:pointer;
+
+  transition:
+    background .15s ease,
+    color .15s ease,
+    border-color .15s ease,
+    transform .15s ease;
+}
+
+
+.sort-buttons .sort-button:hover{
+  background:#e8eaee;
+  border-color:#b8bec7;
+  color:var(--ink);
+}
+
+
+/* BOTÃO ATIVO */
+
+.sort-buttons .sort-button.active{
+  background:var(--dark);
+  border-color:var(--dark);
+  color:white;
+}
+
+
+/* MARCADOR DO ATIVO */
+
+.sort-buttons .sort-button.active::before{
+  content:"✓";
+  margin-right:6px;
+
+  color:var(--red);
+  font-weight:900;
+}
+
+
+/* PEQUENO EFEITO AO CLICAR */
+
+.sort-buttons .sort-button:active{
+  transform:scale(.97);
+}

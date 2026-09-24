@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Ranking | SuperFoco</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ranking.css">
+</head>
+
+<body>
+
+<header class="top">
+
+  <div class="brand">
+    <a href="index.html" class="logo">
+      SUPER<span>FOCO</span>
+    </a>
+
+    <small>O mundo muda. A gente acompanha.</small>
+  </div>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="noticias.html">Notícias</a>
+      <a href="herois.html">Heróis</a>
+      <a href="viloes.html">Vilões</a>
+      <a href="ranking.html">Ranking</a>
+    </nav>
+
+  <form id="searchForm" class="search">
+
+    <input
+      id="searchInput"
+      placeholder="Pesquise herói, vilão ou acontecimento…"
+    >
+
+    <button>Buscar</button>
+
+  </form>
+
+</header>
+
+
+<main class="ranking-page">
+
+  <!-- CABEÇALHO -->
+
+  <section class="ranking-heading">
+
+    <span class="kicker">RANKING SUPERFOCO</span>
+
+    <h1>Ranking de Heróis</h1>
+
+    <p>
+      Os heróis de maior destaque segundo o Ranking SuperFoco.
+      A classificação considera atuação pública, relevância e
+      registros acompanhados pela nossa equipe.
+    </p>
+
+  </section>
+
+
+  <!-- PÓDIO -->
+
+  <section class="ranking-section">
+
+    <div class="section-title">
+      <h2>Pódio</h2>
+      <span>Os três primeiros colocados</span>
+    </div>
+
+    <div id="podio" class="ranking-podium"></div>
+
+  </section>
+
+
+  <!-- TOP 15 -->
+
+  <section class="ranking-section">
+
+    <div class="section-title">
+      <h2>Top 15</h2>
+      <span>Heróis em maior destaque no momento</span>
+    </div>
+
+    <div id="top15" class="ranking-top15"></div>
+
+  </section>
+
+
+  <!-- RESTANTE -->
+
+  <section class="ranking-section">
+
+    <div class="section-title">
+      <h2>Ranking Geral</h2>
+      <span>Demais heróis classificados</span>
+    </div>
+
+
+    <div class="ranking-table">
+
+      <div class="ranking-table-header">
+
+        <div>Posição</div>
+        <div>Herói</div>
+        <div>Popularidade</div>
+        <div>Atuação</div>
+        <div>Status</div>
+
+      </div>
+
+
+      <div id="rankingLista"></div>
+
+    </div>
+
+
+    <div
+      id="rankingVazio"
+      class="ranking-empty"
+      hidden
+    >
+
+      Nenhum outro herói classificado.
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<footer>
+
+  <div class="logo">
+    SUPER<span>FOCO</span>
+  </div>
+
+  <p>
+    Informações compiladas a partir de registros públicos,
+    relatos de testemunhas e apuração da equipe SuperFoco.
+  </p>
+
+  <p>
+    Projeto ficcional para campanha de RPG.
+  </p>
+
+</footer>
+
+
+<script src="data/herois.js"></script>
+<script src="js/rankingpg.js"></script>
+
+</body>
+</html>

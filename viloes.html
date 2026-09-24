@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Vilões | SuperFoco</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/viloes.css">
+</head>
+
+<body>
+
+<header class="top">
+
+  <div class="brand">
+
+    <a href="index.html" class="logo">
+      SUPER<span>FOCO</span>
+    </a>
+
+    <small>O mundo muda. A gente acompanha.</small>
+
+  </div>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="noticias.html">Notícias</a>
+      <a href="herois.html">Heróis</a>
+      <a href="viloes.html">Vilões</a>
+      <a href="ranking.html">Ranking</a>
+    </nav>
+
+  <form id="searchForm" class="search">
+
+    <input
+      id="searchInput"
+      placeholder="Pesquise herói, vilão ou acontecimento…"
+    >
+
+    <button>Buscar</button>
+
+  </form>
+
+</header>
+
+
+<div
+  id="searchResults"
+  class="search-results hidden"
+></div>
+
+
+<main class="villains-page">
+
+
+  <!-- CABEÇALHO -->
+
+  <section class="villains-heading">
+
+    <span class="kicker">
+      BANCO DE SUPERS
+    </span>
+
+    <h1>Vilões</h1>
+
+    <p>
+      Arquivo público de criminosos, ameaças e indivíduos
+      hostis registrados pelo SuperFoco.
+    </p>
+
+  </section>
+
+
+  <!-- FILTROS -->
+
+  <section class="villains-filters">
+
+
+    <div class="filter-group filter-search">
+
+      <label for="filtroVilao">
+        Pesquisar
+      </label>
+
+      <input
+        id="filtroVilao"
+        type="text"
+        placeholder="Nome, identidade, cidade..."
+      >
+
+    </div>
+
+
+    <div class="filter-group">
+
+      <label for="filtroPais">
+        País
+      </label>
+
+      <select id="filtroPais">
+
+        <option value="">
+          Todos
+        </option>
+
+      </select>
+
+    </div>
+
+
+    <div class="filter-group">
+
+      <label for="filtroEstado">
+        Estado
+      </label>
+
+      <select id="filtroEstado">
+
+        <option value="">
+          Todos
+        </option>
+
+      </select>
+
+    </div>
+
+
+    <div class="filter-group">
+
+      <label for="filtroSituacao">
+        Situação
+      </label>
+
+      <select id="filtroSituacao">
+
+        <option value="">
+          Todas
+        </option>
+
+        <option value="SOLTO">
+          Solto
+        </option>
+
+        <option value="PRESO">
+          Preso
+        </option>
+
+      </select>
+
+    </div>
+
+
+    <div class="filter-group">
+
+      <label for="filtroAmeaca">
+        Ameaça
+      </label>
+
+      <select id="filtroAmeaca">
+
+        <option value="">
+          Todas
+        </option>
+
+        <option value="BAIXA">
+          Baixa
+        </option>
+
+        <option value="MODERADA">
+          Moderada
+        </option>
+
+        <option value="ALTA">
+          Alta
+        </option>
+
+        <option value="SEVERA">
+          Severa
+        </option>
+
+        <option value="EXTREMA">
+          Extrema
+        </option>
+
+      </select>
+
+    </div>
+
+
+    <button
+      id="limparFiltros"
+      class="clear-filters"
+      type="button"
+    >
+      Limpar filtros
+    </button>
+
+
+    <!-- ORDENAÇÃO -->
+
+    <div class="sort-area">
+
+      <span class="sort-label">
+        Organizar por
+      </span>
+
+      <div class="sort-buttons">
+
+        <button
+          type="button"
+          class="sort-button active"
+          data-sort="alfabetica"
+        >
+          Alfabética
+        </button>
+
+        <button
+          type="button"
+          class="sort-button"
+          data-sort="ameaca"
+        >
+          Ameaça
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTADOR -->
+
+  <div class="villains-result-count">
+
+    <strong id="quantidadeViloes">
+      0
+    </strong>
+
+    <span id="textoQuantidade">
+      vilões encontrados
+    </span>
+
+  </div>
+
+
+  <!-- TABELA -->
+
+  <section class="villains-table">
+
+
+    <div class="villains-table-header">
+
+      <div>Vilão</div>
+
+      <div>Ameaça</div>
+
+      <div>Atuação</div>
+
+      <div>Situação</div>
+
+    </div>
+
+
+    <div id="listaViloes"></div>
+
+
+    <div
+      id="semViloes"
+      class="villains-empty"
+      hidden
+    >
+      Nenhum vilão encontrado com esses filtros.
+    </div>
+
+
+  </section>
+
+
+</main>
+
+
+<footer>
+
+  <div class="logo">
+    SUPER<span>FOCO</span>
+  </div>
+
+  <p>
+    Informações compiladas a partir de registros públicos,
+    relatos de testemunhas e apuração da equipe SuperFoco.
+  </p>
+
+  <p>
+    Projeto ficcional para campanha de RPG.
+  </p>
+
+</footer>
+
+
+<script src="data/viloes.js"></script>
+<script src="js/viloespg.js"></script>
+
+</body>
+</html>

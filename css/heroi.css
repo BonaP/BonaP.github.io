@@ -67,9 +67,24 @@
   background:var(--bg);
   border-radius:5px
 }
+
 .profile-gallery{
-  display:flex;gap:10px;overflow-x:auto;padding-top:12px 14px 14px
+  display:flex;
+  align-items:center;
+  gap:10px;
+
+  overflow-x:auto;
+
+  margin-top:0;
+  padding:4px 10px;
+
+  min-height:76px;
+
+  background:var(--paper);
+
+  border-radius:0 0 7px 7px;
 }
+
 .profile-gallery img{
   width:76px;height:76px;object-fit:cover;
   background:#eef0f4;border:2px solid transparent;

@@ -1,27 +1,60 @@
-window.SUPERFOCO_VILOES=[
-    {
-        id:"dinamo",
-        nome:"Dínamo"
-        pagina: false
+window.SUPERFOCO_VILOES = [
+
+  {
+    id:"dinamo",
+    nome:"Dínamo",
+    arquivo:"DINAMO",
+    pagina:true,
+
+    identidade:"Desconhecida",
+
+    status:"SOLTO",
+
+    pais:"Brasil",
+    estado:"SP",
+    cidade:"São Paulo",
+
+    primeiraAparicao:"A definir",
+
+    ameaca:"ALTA",
+
+    sobre:"Descrição pública de Dínamo...",
+
+    poderes:[
+      "Eletrocinese",
+      "Descargas elétricas"
+    ],
+
+    crimes:[
+      "Roubo",
+      "Destruição de propriedade",
+      "Ataque contra super-heróis"
+    ],
+
+    stats:{
+      ocorrencias:12,
+      confrontos:5,
+      prisoes:1,
+      fugas:1
     },
-    {
-        id:"rei-dos-ratos",
-        nome:"Rei dos Ratos"
-        pagina: false
-    },
-    {
-        id:"cirurgiao",
-        nome:"Cirurgião"
-        pagina: false
-    },
-    {
-        id:"ferrugem",
-        nome:"Ferrugem"
-        pagina: false
-    },
-    {
-        id:"hipoteca",
-        nome:"Hipoteca"
-        pagina: false
-    }
+
+    inimigos:[
+      "hercules"
+    ],
+
+    historico:[
+      {
+        data:"2028",
+        evento:"Enfrenta Hércules no centro de São Paulo."
+      }
+    ],
+
+    comentarios:[
+      {
+        usuario:"@SuperFan",
+        texto:"Esse cara é problema."
+      }
+    ]
+  }
+
 ];

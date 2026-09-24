@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  >
+
+  <title>Vilão | SuperFoco</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/vilao.css"
+  >
+
+</head>
+
+
+<body>
+
+
+<header class="top">
+
+  <div class="brand">
+
+    <a
+      href="index.html"
+      class="logo"
+    >
+      SUPER<span>FOCO</span>
+    </a>
+
+    <small>
+      O mundo muda. A gente acompanha.
+    </small>
+
+  </div>
+
+
+  <nav>
+
+    <a href="index.html">
+      Início
+    </a>
+
+    <a href="noticias.html">
+      Notícias
+    </a>
+
+    <a href="herois.html">
+      Heróis
+    </a>
+
+    <a href="index.html#procurados">
+      Vilões
+    </a>
+
+    <a href="ranking.html">
+      Ranking
+    </a>
+
+  </nav>
+
+
+  <form
+    id="searchForm"
+    class="search"
+  >
+
+    <input
+      id="searchInput"
+      placeholder="Pesquise herói, vilão ou acontecimento…"
+    >
+
+    <button>
+      Buscar
+    </button>
+
+  </form>
+
+</header>
+
+
+<main id="perfil">
+
+
+  <!-- IDENTIFICAÇÃO -->
+
+  <section class="profile-breaking">
+
+    <b>ARQUIVO CRIMINAL</b>
+
+    <span>
+      Banco público SuperFoco
+    </span>
+
+  </section>
+
+
+  <!-- CABEÇALHO -->
+
+  <section class="profile-heading">
+
+
+    <div class="profile-identity">
+
+      <img
+        id="icone"
+        class="profile-icon"
+        alt=""
+      >
+
+
+      <div>
+
+        <span class="kicker">
+          VILÃO EM FOCO
+        </span>
+
+        <h1 id="nome">
+          Carregando...
+        </h1>
+
+        <div
+          id="meta"
+          class="profile-meta"
+        ></div>
+
+      </div>
+
+    </div>
+
+
+    <!-- NÍVEL DE AMEAÇA -->
+
+    <div class="threat-box">
+
+      <span>
+        NÍVEL DE AMEAÇA
+      </span>
+
+      <strong id="ameaca">
+        —
+      </strong>
+
+    </div>
+
+
+  </section>
+
+
+  <div class="profile-grid">
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+
+    <div class="profile-main">
+
+
+      <!-- FOTO -->
+
+      <section class="profile-image-block">
+
+        <img
+          id="foto"
+          class="profile-photo"
+          alt=""
+        >
+
+        <div
+          id="galeria"
+          class="profile-gallery"
+        ></div>
+
+      </section>
+
+
+      <!-- SOBRE -->
+
+      <section>
+
+        <div class="section-title">
+
+          <h2>Sobre</h2>
+
+          <span>
+            Informações conhecidas
+          </span>
+
+        </div>
+
+
+        <div class="article-box">
+
+          <p id="sobre"></p>
+
+        </div>
+
+      </section>
+
+
+      <!-- PODERES -->
+
+      <section>
+
+        <div class="section-title">
+
+          <h2>
+            Poderes conhecidos
+          </h2>
+
+          <span>
+            Capacidades observadas
+          </span>
+
+        </div>
+
+
+        <div
+          id="poderes"
+          class="power-list"
+        ></div>
+
+      </section>
+
+
+      <!-- CRIMES -->
+
+      <section>
+
+        <div class="section-title">
+
+          <h2>
+            Crimes conhecidos
+          </h2>
+
+          <span>
+            Ocorrências atribuídas ao indivíduo
+          </span>
+
+        </div>
+
+
+        <div
+          id="crimes"
+          class="crime-list"
+        ></div>
+
+      </section>
+
+
+    </div>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="profile-sidebar">
+
+
+      <section class="panel profile-panel">
+
+        <div class="section-title">
+
+          <h2>
+            Informações
+          </h2>
+
+        </div>
+
+
+        <dl
+          id="info"
+          class="profile-info"
+        ></dl>
+
+      </section>
+
+
+      <!-- SITUAÇÃO -->
+
+      <section class="panel profile-panel">
+
+        <div class="section-title">
+
+          <h2>
+            Situação
+          </h2>
+
+        </div>
+
+
+        <div
+          id="situacao"
+          class="villain-status"
+        ></div>
+
+      </section>
+
+
+      <!-- ESTATÍSTICAS -->
+
+      <section class="panel profile-panel">
+
+        <div class="section-title">
+
+          <h2>
+            SuperFoco Stats
+          </h2>
+
+        </div>
+
+
+        <div
+          id="stats"
+          class="profile-stats"
+        ></div>
+
+      </section>
+
+
+      <!-- HERÓIS -->
+
+      <section class="panel profile-panel">
+
+        <div class="section-title">
+
+          <h2>
+            Heróis enfrentados
+          </h2>
+
+        </div>
+
+
+        <div
+          id="inimigos"
+          class="enemy-list"
+        ></div>
+
+      </section>
+
+
+    </aside>
+
+  </div>
+
+
+  <!-- HISTÓRICO -->
+
+  <section>
+
+    <div class="section-title">
+
+      <h2>
+        Histórico criminal
+      </h2>
+
+      <span>
+        Registros públicos conhecidos
+      </span>
+
+    </div>
+
+
+    <div
+      id="historico"
+      class="timeline"
+    ></div>
+
+  </section>
+
+
+  <!-- NOTÍCIAS -->
+
+  <section>
+
+    <div class="section-title">
+
+      <h2>
+        Últimas notícias sobre
+        <span id="nome-noticias">
+          o vilão
+        </span>
+      </h2>
+
+      <span>
+        Arquivo da redação
+      </span>
+
+    </div>
+
+
+    <div
+      id="noticias"
+      class="profile-news"
+    ></div>
+
+  </section>
+
+
+  <!-- COMENTÁRIOS -->
+
+  <section>
+
+    <div class="section-title">
+
+      <h2>
+        A comunidade está falando
+      </h2>
+
+      <span>
+        Comentários recentes
+      </span>
+
+    </div>
+
+
+    <div
+      id="comentarios"
+      class="comment-grid"
+    ></div>
+
+  </section>
+
+
+  <!-- ERRO -->
+
+  <section
+    id="erro"
+    class="profile-error hidden"
+  >
+
+    <h2>
+      Vilão não encontrado
+    </h2>
+
+    <p>
+      Confira o endereço ou volte para a página inicial do SuperFoco.
+    </p>
+
+    <a
+      class="more"
+      href="index.html"
+    >
+      Voltar para a Home →
+    </a>
+
+  </section>
+
+
+</main>
+
+
+<footer>
+
+  <div class="logo">
+    SUPER<span>FOCO</span>
+  </div>
+
+  <p>
+    Informações compiladas a partir de registros públicos,
+    relatos de testemunhas e apuração da equipe SuperFoco.
+  </p>
+
+  <p>
+    Projeto ficcional para campanha de RPG.
+  </p>
+
+</footer>
+
+
+<script src="data/herois.js"></script>
+<script src="data/viloes.js"></script>
+<script src="data/noticias.js"></script>
+
+<script src="js/vilao.js"></script>
+
+
+</body>
+</html>
