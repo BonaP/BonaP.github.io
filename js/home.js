@@ -284,17 +284,47 @@ $('#wanted').innerHTML = V.length
 
 // ==================== ÚLTIMAS NOTÍCIAS ====================
 
-$('#latest').innerHTML = N.length
-  ? N.slice(1).map(n => `
-      <article class="news-row">
-        <div class="thumb" style="${img(n.imagem)}"></div>
-        <div>
-          <span class="kicker">${n.categoria || 'NOTÍCIA'}${n.data ? ` • ${n.data}` : ''}</span>
-          <h3>${n.titulo}</h3>
-          <p>${n.resumo || ''}</p>
-        </div>
-      </article>`).join('')
-  : `<div style="padding:18px;color:var(--muted)">Nenhuma notícia publicada ainda.</div>`;
+const ultimasNoticias = N
+  .slice()
+  .sort((a, b) => new Date(b.data) - new Date(a.data));
+
+$('#latest').innerHTML = ultimasNoticias.length
+  ? ultimasNoticias.map(n => `
+      
+      <a href="noticia.html?id=${encodeURIComponent(n.id)}"
+         style="color:inherit;text-decoration:none">
+
+        <article class="news-row">
+
+          <div
+            class="thumb"
+            style="${img(capaNoticia(n))}">
+          </div>
+
+          <div>
+
+            <span class="kicker">
+              ${n.categoria || 'NOTÍCIA'}
+              ${n.data ? ` • ${n.data}` : ''}
+            </span>
+
+            <h3>${n.titulo}</h3>
+
+            <p>
+              ${n.subtitulo || n.resumo || ''}
+            </p>
+
+          </div>
+
+        </article>
+
+      </a>
+
+    `).join('')
+
+  : `<div style="padding:18px;color:var(--muted)">
+       Nenhuma notícia publicada ainda.
+     </div>`;
 
 // ==================== COMUNIDADE ====================
 
