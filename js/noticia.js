@@ -46,8 +46,16 @@
       case 'subtitulo':
         return `<h2 class="news-subheading">${esc(bloco.texto)}</h2>`;
       case 'texto':
-      default:
-        return `<p>${esc(bloco.texto)}</p>`;
+default: {
+  const paragrafos = String(bloco.texto || '')
+    .trim()
+    .split(/\r?\n+/)
+    .filter(Boolean);
+
+  return paragrafos
+    .map(paragrafo => `<p>${esc(paragrafo.trim())}</p>`)
+    .join('');
+}
     }
   }).join('');
 
