@@ -797,5 +797,786 @@ window.SUPERFOCO_NOTICIAS = [
                 texto: "Hércules permaneceu no local até o fim do atendimento policial.\nAntes de sair, ainda foi questionado por um repórter sobre qual dos três havia dado mais trabalho.\nOlhou para o homem forte.\nDepois para o responsável pelas descargas elétricas.\nDepois para o rapaz que havia decidido fugir pelos telhados.\nPensou por alguns segundos.\n“O elétrico.”\nOlhou para um dos braços, ainda travado.\n“Definitivamente o elétrico.”"
             }
         ]
+    },
+    {
+        id: "hercules-aparece-em-grande-evento-do-banco-supremo-e-consolida-parceria",
+        titulo: "Hércules aparece em grande evento do Banco Supremo e consolida parceria",
+        subtitulo: "Um ano após voltar aos holofotes ao lado da instituição, Hércules assume papel de destaque no principal evento anual do Banco Supremo. Aparição mostra que relação deixou de ser uma campanha pontual e se tornou parte permanente da imagem pública do herói.",
+        data: "2027-05-20",
+        autor: "Caio Vaz Nogueira",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Hércules ocupa o palco principal durante evento do Banco Supremo em São Paulo. A parceria entre o herói e a instituição entrou em seu segundo ano.",
+        herois: ["hercules"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "Quando Hércules apareceu novamente diante das câmeras ao lado do Banco Supremo, no início de 2026, havia uma pergunta bastante razoável sobre quanto tempo aquilo duraria.\nPouco mais de um ano depois, temos uma resposta.\nO herói foi uma das principais atrações do grande evento anual realizado pelo Banco Supremo nesta quinta-feira, em São Paulo. Executivos, investidores, funcionários, parceiros comerciais e convidados acompanharam uma programação dedicada aos projetos da instituição — e Hércules apareceu em praticamente todos os lugares.\nNos telões.\nNos materiais distribuídos aos convidados.\nNos corredores.\nE, eventualmente, no palco.\nA presença é mais um indicativo de que a relação entre Hércules e Banco Supremo deixou de ser simplesmente uma campanha publicitária.\nOs dois agora parecem compartilhar uma marca."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Hércules ocupa o palco principal durante evento do Banco Supremo em São Paulo. A parceria entre o herói e a instituição entrou em seu segundo ano."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "De patrocinado a parceiro"
+            },
+            {
+                tipo: "texto",
+                texto: "O Banco Supremo teve participação importante no retorno público de Hércules.\nA instituição passou a financiar manutenção, desenvolvimento e atualização das próteses utilizadas pelo herói, além de fornecer estrutura logística para parte de suas atividades.\nPara Hércules, isso significa acesso permanente a uma estrutura técnica que não é exatamente opcional quando seus quatro braços são máquinas.\nPara o banco, significa ter Hércules.\nNão é uma troca particularmente difícil de entender.\nA diferença agora é a escala.\nDurante o primeiro ano, Hércules aparecia principalmente em campanhas específicas. No evento desta quinta-feira, sua imagem estava integrada à própria comunicação institucional do banco."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "1.png",
+                legenda: "Hércules acompanhado por representantes do Banco Supremo durante o evento desta quinta-feira."
+            },
+            {
+                tipo: "texto",
+                texto: "Não parece mais que o Banco Supremo convidou Hércules para um evento.\nParece que Hércules faz parte dele."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "O que o banco está financiando"
+            },
+            {
+                tipo: "texto",
+                texto: "Parte da apresentação foi dedicada justamente à tecnologia desenvolvida para o herói.\nUm dos painéis mostrou a evolução das próteses utilizadas por Hércules e alguns dos sistemas incorporados às versões atuais. A exposição evitou, naturalmente, detalhes técnicos que poderiam comprometer sua segurança.\nMas permitiu observar o tamanho da operação necessária para manter quatro membros mecânicos submetidos regularmente a condições que fariam qualquer garantia ser cancelada imediatamente.\nDescargas elétricas.\nImpactos contra supers.\nVeículos.\nE, ocasionalmente, um viaduto."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "Exposição apresentou parte da tecnologia utilizada na manutenção das próteses de Hércules."
+            },
+            {
+                tipo: "texto",
+                texto: "O Banco Supremo também confirmou a ampliação da equipe responsável pelo suporte técnico do herói.\nA justificativa parece razoável.\nDesde que a parceria começou, as próteses já retornaram para manutenção com danos provocados por praticamente tudo que um engenheiro preferiria manter longe de equipamentos sofisticados.\nHércules, aparentemente, considera isso uso normal."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Hércules pega o microfone"
+            },
+            {
+                tipo: "texto",
+                texto: "A participação principal ocorreu durante a apresentação da tarde.\nHércules subiu ao palco acompanhado por representantes do banco para falar sobre o primeiro ano da parceria.\nO discurso foi relativamente curto.\nEle agradeceu aos técnicos responsáveis pelas próteses, mencionou funcionários que participaram diretamente das operações de suporte e afirmou que o acordo permitiu que continuasse trabalhando sem precisar escolher entre preservar o equipamento e utilizá-lo quando necessário.\nEntão resolveu resumir a relação de maneira própria:\n“Eu quebro. Eles consertam.”\nPausa.\n“Às vezes eu quebro de novo no mesmo dia.”\nOs engenheiros presentes receberam aplausos.\nProvavelmente merecidos."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Hércules agradeceu publicamente à equipe responsável pela manutenção de suas próteses."
+            },
+            {
+                tipo: "texto",
+                texto: "A fala descontraída não eliminou a parte mais séria da apresentação.\nHércules afirmou que pretende manter autonomia sobre suas atividades e que a parceria comercial não determina quais ocorrências atende.\nÉ uma separação importante.\nPrincipalmente quando o patrocinador é um banco."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Um herói dentro de uma marca"
+            },
+            {
+                tipo: "texto",
+                texto: "A presença crescente do Banco Supremo na imagem de Hércules também levanta uma questão inevitável.\nOnde termina o herói e começa a publicidade?\nAs próteses douradas já se tornaram visualmente associadas à instituição. Hércules aparece em campanhas do banco. Produtos licenciados utilizam sua imagem. Sua linha de suplementos ampliou ainda mais sua presença comercial.\nNada disso apaga sua atuação como herói.\nMas torna a relação entre atividade heroica e atividade comercial cada vez mais difícil de separar.\nNo evento, essa mistura estava por toda parte.\nTalvez nenhuma fotografia demonstre isso melhor do que uma feita longe do palco principal."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "4.png",
+                legenda: "Hércules diante de uma das campanhas exibidas durante o evento. A imagem do herói tornou-se presença recorrente na comunicação do Banco Supremo."
+            },
+            {
+                tipo: "texto",
+                texto: "É uma fotografia estranha.\nDe um lado, Hércules como produto.\nDo outro, Hércules tomando alguma coisa em um copinho de plástico enquanto conversa com funcionários.\nOs dois são, atualmente, parte da mesma figura pública."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Um ano depois"
+            },
+            {
+                tipo: "texto",
+                texto: "Quando a parceria foi anunciada, havia motivos para acompanhar com atenção o que aconteceria.\nEles continuam existindo.\nUma instituição financeira fornece recursos e tecnologia essenciais para um dos heróis mais conhecidos do país. Em troca, recebe uma figura pública extremamente popular associada à própria marca.\nÉ uma relação comercial.\nNenhuma das partes tenta esconder isso.\nMas depois de pouco mais de um ano, também é difícil tratar o acordo como mero contrato publicitário. Técnicos do banco trabalham diretamente com equipamentos dos quais Hércules depende diariamente, e o herói passou a aparecer como uma das figuras mais reconhecíveis da comunicação da instituição.\nAo final do evento, enquanto executivos deixavam o palco, Hércules permaneceu.\nHavia gente querendo fotografias.\nNaturalmente."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "5.png",
+                legenda: "Após o encerramento da programação, Hércules permaneceu no salão para atender funcionários e convidados."
+            },
+            {
+                tipo: "texto",
+                texto: "No começo, o Banco Supremo colocou Hércules em seus anúncios.\nAgora coloca Hércules em seus eventos, em seus painéis e em parte de sua própria identidade pública.\nE Hércules, por sua vez, anda por aí com quatro braços dourados mantidos pela instituição.\nDepois de um ano, talvez a maior mudança seja justamente essa.\nJá não parece estranho ver os dois juntos."
+            }
+        ]
+    },
+    {
+        id: "hercules-auxilia-resgate-apos-desabamento-de-predio-na-zona-central",
+        titulo: "Hércules auxilia resgate após desabamento de prédio na Zona Central",
+        subtitulo: "Parte de um edifício residencial desabou durante a madrugada em São Paulo. Hércules trabalhou ao lado do Corpo de Bombeiros por horas, removendo grandes blocos de concreto e sustentando trechos instáveis enquanto equipes buscavam moradores entre os escombros.",
+        data: "2027-11-09",
+        autor: "Helena Vasconcelos",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Hércules auxilia bombeiros na retirada de escombros após desabamento de edifício em São Paulo.",
+        herois: ["hercules"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "O primeiro chamado veio durante a madrugada.\nQuando as primeiras equipes chegaram, parte do prédio já havia desaparecido.\nUm edifício residencial sofreu um desabamento parcial nesta terça-feira em São Paulo, deixando moradores presos e transformando os primeiros andares em uma massa de concreto, ferragens, móveis e tubulações rompidas.\nO Corpo de Bombeiros iniciou as buscas imediatamente. A principal dificuldade não era apenas encontrar as vítimas.\nEra chegar até elas sem provocar um novo desabamento.\nHércules chegou pouco depois.\nDesta vez, ninguém precisava que ele enfrentasse alguém.\nPrecisavam que ele levantasse coisas.\nMuitas coisas."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Um prédio que ainda estava caindo"
+            },
+            {
+                tipo: "texto",
+                texto: "As primeiras horas foram também as mais perigosas.\nO desabamento inicial comprometeu partes que permaneceram de pé, especialmente nas proximidades da área atingida. Isso obrigou as equipes a avançarem lentamente enquanto engenheiros e bombeiros avaliavam cada trecho.\nHércules permitiu algumas exceções à palavra “lentamente”.\nGrandes blocos que normalmente exigiriam equipamentos pesados puderam ser deslocados pelo herói, mas até isso precisava ser feito sob orientação das equipes técnicas.\nMover a coisa errada poderia ser pior do que não mover nada.\nTestemunhas relatam que Hércules inicialmente tentou retirar uma grande peça de concreto por conta própria e foi imediatamente interrompido por um bombeiro.\nEle parou.\nEsperou as instruções.\nE, durante praticamente todo o restante da madrugada, trabalhou dessa maneira."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Hércules aguarda orientação dos bombeiros antes de remover uma estrutura durante as buscas."
+            },
+            {
+                tipo: "texto",
+                texto: "Força resolve muitos problemas.\nUm prédio parcialmente desabado consegue transformar força em outro problema com bastante facilidade."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Quatro braços no lugar de um guindaste"
+            },
+            {
+                tipo: "texto",
+                texto: "Por volta das primeiras horas da manhã, as equipes localizaram sobreviventes em uma área particularmente difícil de acessar.\nUma grande laje havia cedido e permanecido inclinada sobre parte dos escombros.\nRetirá-la naquele momento seria arriscado.\nEntão decidiram não retirar.\nHércules a levantou apenas o necessário.\nE ficou ali.\nDois braços sustentavam a maior parte do peso. Os outros dois foram posicionados em pontos diferentes para reduzir o movimento lateral da estrutura.\nBombeiros passaram por baixo.\nA situação lembrou inevitavelmente o acidente de fevereiro de 2026, quando Hércules sustentou parte de um viaduto danificado enquanto equipes retiravam vítimas.\nHá profissões em que experiência significa aprender a utilizar programas diferentes.\nHércules aparentemente está adquirindo experiência em segurar construções."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "Equipes utilizaram uma passagem mantida por Hércules para alcançar uma área isolada pelos escombros."
+            },
+            {
+                tipo: "texto",
+                texto: "Ele permaneceu naquela posição durante todo o resgate daquele setor.\nQuando o último bombeiro saiu, estruturas provisórias já estavam preparadas para receber parte do peso.\nSó então Hércules abaixou os braços."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "O trabalho mais delicado veio depois"
+            },
+            {
+                tipo: "texto",
+                texto: "Conforme as equipes avançavam, os grandes blocos deixaram de ser o único problema.\nOs bombeiros começaram a localizar sinais de pessoas em espaços pequenos entre os escombros.\nAli, força bruta tinha utilidade limitada.\nUma das cenas registradas durante a manhã mostra Hércules praticamente deitado sobre os destroços, utilizando apenas uma das mãos mecânicas para remover pequenos pedaços de concreto.\nOs outros três braços permaneciam suspensos.\nNão porque fossem inúteis.\nMas porque não havia espaço para utilizá-los."
+            },
+            {
+                tipo: "texto",
+                texto: "Pouco depois, uma pessoa foi retirada daquela região.\nA multidão que acompanhava a operação atrás do isolamento reagiu quando a maca apareceu.\nHércules não.\nEle já estava voltando para os escombros."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Horas coberto de concreto"
+            },
+            {
+                tipo: "texto",
+                texto: "O trabalho continuou durante a manhã.\nNesse ponto, quase não era possível enxergar o dourado original das próteses.\nPoeira havia entrado nas articulações, riscos apareciam em diversas placas externas e uma das proteções do braço inferior direito estava parcialmente deformada.\nIsso não o retirou da operação.\nTécnicos realizaram verificações rápidas nos equipamentos durante pequenas pausas e Hércules voltou às buscas.\nO Banco Supremo, responsável pelo suporte técnico das próteses, enviou profissionais ao local.\nDesta vez, a publicidade ficou em casa.\nOs técnicos estavam ali com caixas de ferramentas."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "4.png",
+                legenda: "As próteses de Hércules passaram por verificações durante a própria operação de resgate."
+            },
+            {
+                tipo: "texto",
+                texto: "A pausa durou poucos minutos."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Quando a força é a ferramenta"
+            },
+            {
+                tipo: "texto",
+                texto: "Hércules costuma aparecer no SuperFoco em circunstâncias bastante diferentes.\nHá perseguições.\nSupers.\nCampanhas publicitárias.\nEventos.\nAté suplementos.\nNesta terça-feira, nada disso importava.\nDurante horas, Hércules foi essencialmente uma peça extremamente forte de equipamento de resgate que também conseguia ouvir exatamente onde um bombeiro precisava que colocasse a mão.\nE talvez essa tenha sido uma das utilizações mais eficientes de suas capacidades até agora."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "5.png",
+                legenda: "Hércules após horas trabalhando ao lado das equipes de resgate."
+            },
+            {
+                tipo: "texto",
+                texto: "Ao deixar a área operacional para uma pausa, um repórter perguntou quantos quilos de concreto ele acreditava ter movimentado.\nHércules olhou para o prédio.\nDepois para os próprios braços.\n“Não faço ideia.”\nPensou por um instante.\n“Muito.”\nDesta vez, parece uma estimativa suficientemente precisa."
+            }
+        ]
+    },
+    {
+        id: "tentativa-de-roubo-termina-rapidamente-apos-aparicao-de-hercules",
+        titulo: "Tentativa de roubo termina rapidamente após aparição de Hércules",
+        subtitulo: "Grupo armado tentou assaltar uma joalheria na Zona Sul de São Paulo, mas abandonou o plano poucos minutos depois. O motivo foi simples: Hércules estava passando pela região.",
+        data: "2028-02-16",
+        autor: "Caio Vaz Nogueira",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Hércules se aproxima de estabelecimento durante tentativa de roubo na Zona Sul de São Paulo.",
+        herois: ["hercules"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "Nem toda ocorrência envolvendo um super-herói termina com carros destruídos, paredes atravessadas e alguma parte da cidade precisando explicar para a seguradora o que aconteceu.\nÀs vezes Hércules simplesmente aparece.\nFoi aproximadamente o que aconteceu nesta manhã, quando uma tentativa de roubo a uma joalheria na Zona Sul de São Paulo terminou antes que os criminosos conseguissem deixar o estabelecimento.\nSegundo relatos colhidos no local, quatro homens armados entraram na loja pouco depois da abertura. Funcionários e clientes foram obrigados a permanecer no chão enquanto parte do grupo recolhia relógios, joias e dinheiro.\nDo lado de fora, um quinto integrante aguardava em um automóvel.\nA ação provavelmente teria seguido como planejado.\nEntão alguém na rua começou a apontar para o outro lado da avenida.\nHércules estava vindo."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "O problema apareceu andando"
+            },
+            {
+                tipo: "texto",
+                texto: "Hércules não havia sido chamado para a ocorrência.\nDe acordo com testemunhas, ele estava a algumas quadras dali quando percebeu a movimentação de pessoas e ouviu relatos de que havia homens armados dentro de uma loja.\nEntão mudou de direção.\nIsso foi suficiente.\nUma gravação feita por uma pessoa em um prédio próximo mostra o momento em que um dos criminosos sai parcialmente da joalheria, observa Hércules se aproximando e retorna imediatamente para dentro.\nPoucos segundos depois, outro aparece.\nOlha também.\nE desaparece novamente.\nNesse ponto, provavelmente houve uma reunião bastante curta."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "1.png",
+                legenda: "Integrantes do grupo perceberam a aproximação de Hércules antes da chegada das primeiras viaturas."
+            },
+            {
+                tipo: "texto",
+                texto: "O motorista do veículo de fuga percebeu primeiro.\nEle foi embora.\nSem os outros.\nHá registros do automóvel deixando a rua aproximadamente um minuto antes da chegada de Hércules à porta.\nSolidariedade profissional tem limites."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Uma tentativa pouco convincente de negociação"
+            },
+            {
+                tipo: "texto",
+                texto: "Hércules parou diante da entrada.\nNão avançou imediatamente.\nFuncionários e clientes ainda estavam dentro, e havia armas envolvidas.\nSegundo duas testemunhas, ele teria gritado para que o grupo largasse o armamento e liberasse as pessoas.\nUm dos criminosos respondeu alguma coisa de dentro.\nNão conseguimos confirmar exatamente o quê.\nA parte seguinte foi registrada por vários celulares.\nUm revólver apareceu pela porta.\nHércules olhou para ele.\nDepois olhou para o homem segurando o revólver.\nE abriu os quatro braços.\nNão sabemos se o gesto significava “pode tentar”, “vamos conversar” ou apenas uma demonstração bastante eficiente da diferença de equipamento entre os dois lados.\nA arma foi colocada no chão."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Cinco minutos"
+            },
+            {
+                tipo: "texto",
+                texto: "Os quatro homens saíram pouco depois.\nUm de cada vez.\nArmas primeiro.\nDepois bolsas.\nDepois mãos levantadas.\nHércules mandou que permanecessem sentados junto à fachada e ficou aguardando a chegada da polícia.\nNenhum golpe foi registrado.\nNenhum disparo foi efetuado.\nE, para uma ocorrência envolvendo Hércules, absolutamente nada de grande foi arremessado contra outra coisa."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "Suspeitos permaneceram sob vigilância de Hércules até a chegada da polícia."
+            },
+            {
+                tipo: "texto",
+                texto: "O motorista que abandonou os companheiros foi localizado posteriormente pelas autoridades.\nOs demais não tiveram oportunidade de discutir o plano de fuga com ele."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "“Eu só estava passando”"
+            },
+            {
+                tipo: "texto",
+                texto: "A polícia chegou pouco depois e assumiu a ocorrência.\nHércules permaneceu no local para prestar informações e conversar rapidamente com funcionários do estabelecimento.\nUma fotografia feita nesse momento provavelmente será a imagem mais lembrada do caso.\nNão mostra combate.\nMostra Hércules parado junto a dois policiais enquanto, atrás deles, um dos suspeitos é conduzido até uma viatura.\nEm uma das mãos mecânicas, ele segura uma sacola de papel.\nSegundo uma pessoa que estava no local, Hércules havia comprado comida poucos minutos antes de perceber a movimentação."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Hércules conversou com policiais após a prisão dos envolvidos. O herói afirmou que estava apenas passando pela região."
+            },
+            {
+                tipo: "texto",
+                texto: "Perguntado por um repórter se havia recebido algum chamado para atender a ocorrência, Hércules respondeu:\n“Não. Eu só estava passando.”\nOlhou para a sacola.\n“Minha comida deve estar fria.”\nNão houve feridos.\nOs produtos retirados da loja foram recuperados.\nE a intervenção inteira durou poucos minutos.\nPara quatro homens que começaram a manhã planejando um assalto, deve ter sido uma maneira bastante desagradável de descobrir que Hércules também anda na rua."
+            }
+        ]
+    },
+    {
+        id: "quem-e-a-mulher-que-esta-surfando-pelos-ceus-do-rio",
+        titulo: "Quem é a mulher que está SURFANDO pelos céus do Rio?",
+        subtitulo: "Vídeos publicados nas redes sociais mostram uma mulher desconhecida cruzando diferentes pontos do Rio de Janeiro sobre uma espécie de prancha formada por água. Ainda não se sabe quem ela é — nem exatamente como consegue fazer isso.",
+        data: "2024-03-09",
+        autor: "Caio Vaz Nogueira",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Registro feito nesta manhã mostra uma mulher ainda não identificada deslocando-se sobre uma massa de água acima do Rio de Janeiro.",
+        herois: ["nympha-das-ondas"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "O Rio de Janeiro aparentemente ganhou uma surfista que não precisa do mar.\nVídeos publicados nesta quarta-feira mostram uma mulher desconhecida atravessando o céu da cidade sobre aquilo que, à primeira vista, parece ser uma onda suspensa no ar.\nSim.\nUma onda.\nNo céu.\nOs primeiros registros começaram a circular durante a manhã. As imagens eram distantes, tremidas e suficientemente estranhas para que a reação inicial de muita gente fosse a mesma: montagem.\nEntão apareceram outros vídeos.\nDe outros ângulos.\nEm outros bairros.\nE ficou consideravelmente mais difícil continuar culpando algum editor de vídeo particularmente dedicado."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Registro feito nesta manhã mostra uma mulher ainda não identificada deslocando-se sobre uma massa de água acima do Rio de Janeiro."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Não foi um único vídeo"
+            },
+            {
+                tipo: "texto",
+                texto: "O registro mais antigo localizado pelo SuperFoco mostra a mulher passando rapidamente sobre uma avenida.\nSão apenas alguns segundos.\nEla aparece entre dois edifícios, desce em direção à rua e volta a ganhar altitude antes de desaparecer atrás de um prédio.\nPouco depois, surgiu um segundo vídeo.\nDepois um terceiro.\nNo início da tarde, já havia gravações suficientes para reconstruir parte de seu deslocamento pela cidade.\nE todas mostram aproximadamente a mesma coisa.\nA mulher não parece simplesmente voar.\nHá água sob seus pés.\nA massa líquida acompanha seus movimentos, formando algo entre uma prancha e uma pequena onda. Quando ela muda de direção, a água se curva junto com ela.\nEm alguns vídeos, parte do líquido se desprende e cai sobre a rua."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "1.png",
+                legenda: "Vídeos feitos por diferentes pessoas registraram a mesma figura cruzando regiões distintas da cidade."
+            },
+            {
+                tipo: "texto",
+                texto: "Naturalmente, a internet já decidiu que ela está surfando.\nÉ difícil argumentar contra."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Quem é ela?"
+            },
+            {
+                tipo: "texto",
+                texto: "Ainda não sabemos.\nNão há, até o momento, registro conhecido de uma heroína atuando publicamente no Rio com essas características.\nTambém não encontramos qualquer declaração da própria mulher.\nAs imagens mais próximas permitem identificar apenas algumas características gerais. Ela parece jovem, possui cabelos longos e utiliza roupas que, embora incomuns, não se parecem particularmente com um uniforme profissional de super-herói.\nTambém não há símbolo claramente identificável.\nIsso pode significar que estamos vendo alguém em sua primeira aparição pública.\nOu simplesmente alguém que nunca teve interesse em aparecer diante das câmeras.\nEsse segundo plano parece ter falhado consideravelmente hoje."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "Este é um dos registros mais próximos obtidos até agora da mulher vista sobrevoando o Rio."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "E de onde vem tanta água?"
+            },
+            {
+                tipo: "texto",
+                texto: "Essa talvez seja a pergunta mais interessante.\nOs vídeos não mostram claramente de onde o líquido surge.\nEm alguns registros, a quantidade parece pequena: apenas o suficiente para formar a superfície sobre a qual ela se desloca.\nEm outros, principalmente durante mudanças bruscas de direção, há dezenas ou talvez centenas de litros se movimentando ao redor dela.\nUma gravação particularmente curiosa mostra a mulher descendo próximo à orla.\nEla toca brevemente a superfície do mar.\nPoucos segundos depois, volta a subir acompanhada por uma quantidade muito maior de água.\nIsso levantou duas possibilidades bastante óbvias: ela pode estar controlando água existente ao redor ou ser capaz de produzi-la de alguma maneira.\nAinda é cedo demais para saber."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Ela estava indo para algum lugar"
+            },
+            {
+                tipo: "texto",
+                texto: "O detalhe mais estranho dos registros talvez seja que a mulher não parece estar realizando uma demonstração.\nEla também não parece estar patrulhando.\nNa maior parte dos vídeos, simplesmente está indo para algum lugar.\nHá momentos em que reduz a velocidade para evitar edifícios, muda de direção e até parece olhar para o trânsito abaixo antes de continuar.\nEm determinado registro, chega a descer próximo de um semáforo antes de voltar a subir."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "A desconhecida também foi registrada próxima à orla, onde aparentemente utilizou água do próprio mar durante o deslocamento."
+            },
+            {
+                tipo: "texto",
+                texto: "Até o momento, não há relatos de ataques, confrontos ou danos significativos associados à aparição.\nO maior prejuízo conhecido parece ter sido para algumas pessoas que estavam diretamente abaixo dela e receberam uma quantidade inesperada de água.\nO SuperFoco continuará tentando identificar a desconhecida.\nEnquanto isso, a internet já está fazendo o trabalho que inevitavelmente faz quando alguém com poderes aparece sem se apresentar primeiro.\nEstá dando nomes.\n“Surfista do Céu”, “Garota da Onda”, “Aqua”, “Iara” e aproximadamente quatrocentas variações envolvendo a palavra “mar” já circulam pelas redes.\nNenhum deles parece particularmente definitivo.\nEntão, por enquanto, ficamos com a única informação sobre a qual todos parecem concordar:\ntem uma mulher surfando pelos céus do Rio de Janeiro."
+            }
+        ]
+    },
+    {
+        id: "nova-heroina-enfrenta-homem-coral-durante-competicao-de-surfe",
+        titulo: "Nova heroína enfrenta Homem-Coral durante competição de surfe",
+        subtitulo: "Evento no Rio de Janeiro foi interrompido após criatura coberta por formações de coral avançar sobre a praia. A mesma mulher vista “surfando pelos céus” dias antes apareceu diante de centenas de pessoas — e, desta vez, ficou difícil tratá-la apenas como uma desconhecida.",
+        data: "2024-03-23",
+        autor: "Caio Nogueira",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "",
+        herois: ["nympha-das-ondas"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "Há pouco mais de uma semana, publicamos uma pergunta bastante simples:\nquem é a mulher que está surfando pelos céus do Rio?\nAinda não temos a resposta.\nMas agora temos uma informação nova.\nEla aparentemente também luta.\nUma competição de surfe realizada neste domingo foi interrompida depois que um indivíduo que vem sendo chamado de Homem-Coral surgiu próximo à área reservada aos atletas e provocou uma confusão que rapidamente se transformou em confronto.\nCentenas de pessoas estavam na praia.\nCâmeras profissionais estavam ligadas.\nE, pela primeira vez, a misteriosa mulher das asas de borboleta apareceu perto o suficiente para que todos pudessem vê-la."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Mulher registrada anteriormente sobrevoando o Rio enfrentou o chamado Homem-Coral durante competição de surfe neste domingo."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "O mar começou a se mexer"
+            },
+            {
+                tipo: "texto",
+                texto: "A competição transcorria normalmente até pouco depois do início de uma das baterias.\nSegundo pessoas presentes, os primeiros sinais de que alguma coisa estava errada vieram da água.\nSurfistas começaram a abandonar uma área próxima às pedras depois de perceberem movimentos incomuns sob a superfície.\nEntão alguma coisa saiu do mar.\nO indivíduo possui forma aproximadamente humana, mas grande parte do corpo parece estar tomada por formações semelhantes a corais, cracas e outros organismos marinhos.\nTestemunhas relatam que ele avançou inicialmente contra equipamentos instalados próximos à água e reagiu agressivamente quando seguranças tentaram impedir sua aproximação.\nA organização interrompeu imediatamente a competição.\nA praia começou a ser evacuada.\nE alguém apareceu sobre uma prancha."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Ela voltou"
+            },
+            {
+                tipo: "texto",
+                texto: "Desta vez, ninguém precisou perguntar se era a mesma mulher.\nCabelo loiro.\nAntenas.\nAsas de borboleta.\nPrancha com a mesma estampa colorida.\nEla surgiu acompanhando uma onda que se separou do restante do mar e começou a subir atrás dela.\nNão houve entrada dramática.\nEla simplesmente atravessou a área da competição em alta velocidade e atingiu o Homem-Coral com uma massa de água."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "1.png",
+                legenda: "A desconhecida utilizou água do próprio mar durante o confronto."
+            },
+            {
+                tipo: "texto",
+                texto: "A diferença em relação aos vídeos anteriores ficou evidente quase imediatamente.\nEla não precisa da água para voar.\nAs asas não são decorativas.\nEm vários momentos, a mulher deixou a prancha, ganhou altitude utilizando as próprias asas e continuou movimentando a água abaixo dela.\nA prancha parece ser apenas isso:\numa prancha.\nO detalhe torna os vídeos da semana passada simultaneamente mais compreensíveis e mais absurdos.\nEla aparentemente pode voar, mas prefere surfar pelo céu."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Homem-Coral"
+            },
+            {
+                tipo: "texto",
+                texto: "Ainda há poucas informações sobre o responsável pelo ataque.\nO apelido surgiu entre pessoas presentes e rapidamente foi adotado nas redes sociais.\nVídeos mostram que impactos capazes de derrubar um adulto aparentemente tiveram pouco efeito sobre ele. As estruturas que cobrem seu corpo parecem formar uma espécie de proteção natural particularmente resistente.\nA desconhecida descobriu isso rapidamente.\nUma gravação mostra a mulher atingindo o Homem-Coral com uma onda e avançando logo depois.\nEle permanece de pé.\nEla para.\nOlha para ele.\nOlha para a própria mão.\nE recua imediatamente quando ele tenta acertá-la.\nProvavelmente uma decisão sensata.\nA partir desse momento, praticamente todo o confronto ocorreu à distância."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Água contra coral"
+            },
+            {
+                tipo: "texto",
+                texto: "A estratégia seguinte foi consideravelmente mais eficiente.\nA mulher começou a manter o Homem-Coral afastado das pessoas utilizando sucessivas massas de água, empurrando-o em direção ao mar.\nNão eram apenas ondas.\nEm determinado momento, a água se ergueu ao redor das pernas da criatura e pareceu prendê-la temporariamente no lugar.\nEm outro, uma massa líquida atingiu seu braço no instante em que tentava agarrar um funcionário.\nO confronto durou poucos minutos.\nMas aconteceu diante de centenas de testemunhas."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "O confronto ocorreu diante de centenas de pessoas que acompanhavam a competição."
+            },
+            {
+                tipo: "texto",
+                texto: "Eventualmente, uma onda particularmente forte lançou o Homem-Coral novamente para uma região mais profunda.\nEle não retornou à praia.\nNão sabemos se fugiu, se permanece na região ou mesmo qual era seu objetivo.\nA área foi mantida interditada durante parte do dia."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "“Nympha!”"
+            },
+            {
+                tipo: "texto",
+                texto: "A desconhecida permaneceu no local.\nE isso criou um problema que ela ainda não havia enfrentado.\nPessoas.\nMuitas pessoas.\nSem prédios para desaparecer atrás.\nSem centenas de metros de distância entre ela e os celulares.\nA mulher pousou na areia para verificar se alguém havia se ferido e imediatamente foi cercada — primeiro por funcionários, depois por competidores e finalmente por uma quantidade crescente de curiosos.\nUm dos vídeos mais compartilhados registra alguém perguntando seu nome.\nEla aparentemente hesita.\nOutra pessoa grita alguma coisa que não conseguimos compreender.\nEntão é possível ouvir claramente a resposta:\n“Nympha.”\nÉ a primeira vez que encontramos um registro no qual a mulher parece fornecer um nome.\nAinda não sabemos se é seu nome, um apelido ou uma identidade escolhida naquele momento.\nMas a praia parece ter decidido por ela.\nPoucos segundos depois, outras pessoas começam a repetir:\n“Nympha! Nympha!”"
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Após o confronto, a mulher identificou-se diante do público como “Nympha”."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Então é Nympha"
+            },
+            {
+                tipo: "texto",
+                texto: "Na nossa primeira matéria, chamamos aquela figura distante de “mulher desconhecida”.\nDepois vieram os vídeos.\nAs teorias.\nOs apelidos.\nE uma quantidade preocupante de pessoas tentando calcular sua velocidade utilizando prédios como régua.\nHoje ficou um pouco mais simples.\nA mulher que apareceu surfando pelo céu do Rio tem asas.\nControla água.\nAparentemente consegue voar sem a prancha.\nEnfrentou uma criatura marinha no meio de uma competição porque havia pessoas em risco.\nE, se ouvimos corretamente:\no nome dela é Nympha."
+            }
+        ]
+    },
+    {
+        id: "ela-e-nympha-das-ondas-nova-heroina-revela-a-propria-identidade",
+        titulo: "“Ela é Nympha das Ondas” — nova heroína revela a própria identidade",
+        subtitulo: "Depois de semanas aparecendo sobre os céus e as praias do Rio de Janeiro, a mulher que chamou atenção ao enfrentar o Homem-Coral decidiu encerrar parte do mistério. Seu nome heroico é Nympha das Ondas — e ela também não pretende esconder quem é fora dele.",
+        data: "2024-03-25",
+        autor: "Caio Vaz Nogueira",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "",
+        herois: ["nympha-das-ondas"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "Primeiro havia uma mulher surfando pelo céu.\nDepois descobrimos que ela tinha asas.\nEntão veio o Homem-Coral, uma competição de surfe interrompida e centenas de pessoas ouvindo um nome pela primeira vez:\nNympha.\nAgora podemos finalmente completar.\nNympha das Ondas.\nE, ao contrário de boa parte dos supers que começaram a surgir pelo país nos últimos anos, a nova heroína carioca aparentemente não vê muita utilidade em manter uma identidade secreta.\nEla mesma resolveu contar quem é."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "“Nympha das Ondas”"
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Nympha das Ondas durante sua primeira apresentação pública formal desde o confronto com o Homem-Coral."
+            },
+            {
+                tipo: "texto",
+                texto: "Não houve anúncio elaborado.\nNenhum palco.\nNenhuma contagem regressiva.\nE definitivamente nenhum vídeo institucional com música dramática.\nNympha simplesmente apareceu para conversar.\nDesde o confronto com o Homem-Coral, fotógrafos, curiosos e jornalistas passaram a encontrá-la com frequência cada vez maior nas praias do Rio. Em vez de evitar a atenção, ela começou a responder perguntas.\nHoje, quando um repórter perguntou diretamente como deveríamos chamá-la, veio a resposta:\n“Nympha das Ondas.”\nEla ainda repetiu o nome quando perguntaram se “Nympha” era apenas um apelido dado pelo público.\nNão era.\nO nome foi escolhido por ela.\nSegundo Nympha, “das Ondas” veio depois — em parte pela relação evidente com a água e em parte porque, nas palavras dela, “só Nympha parecia nome de personagem de jogo.”\nEla pareceu bastante satisfeita com a solução."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "E quem é Nympha?"
+            },
+            {
+                tipo: "texto",
+                texto: "Essa era inevitavelmente a pergunta seguinte.\nEsperávamos uma recusa.\nTalvez uma piada.\nNo mínimo alguma tentativa de separar a pessoa da heroína.\nNympha respondeu com o próprio nome.\nSem hesitação.\nEla revelou sua identidade civil, explicou brevemente que mora no Rio de Janeiro e confirmou que as características pelas quais ficou conhecida — incluindo as asas e antenas — não fazem parte de um traje.\nSão parte dela.\nQuando perguntaram se não estava preocupada em divulgar publicamente quem era, Nympha pareceu genuinamente confusa com a pergunta.\nSegundo ela, seria bastante difícil manter uma identidade secreta.\nÉ um argumento razoável.\nExistem muitas mulheres loiras no Rio de Janeiro.\nConsideravelmente menos possuem duas antenas e um par de asas gigantes de borboleta.\nUma heroína sem máscara\nA revelação também ajuda a explicar por que Nympha nunca pareceu particularmente preocupada em esconder o rosto durante suas aparições.\nEla não usa máscara.\nNão altera a voz.\nNão desaparece imediatamente depois de uma ocorrência.\nE, desde que começou a ser reconhecida, já foi fotografada conversando com banhistas, surfistas e comerciantes como se a atenção repentina fosse mais curiosa do que inconveniente.\nEssa relação com o público ficou evidente novamente hoje.\nTerminada a conversa com jornalistas, Nympha não foi embora.\nFicou na praia.\nTirou fotografias.\nConversou com crianças.\nAssinou duas pranchas.\nE descobriu, aparentemente naquele momento, que pessoas já estavam pedindo autógrafos."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "Nympha afirmou que não pretende manter uma separação rígida entre sua vida civil e suas aparições como heroína."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Ela é uma heroína?"
+            },
+            {
+                tipo: "texto",
+                texto: "Essa pergunta produziu uma resposta um pouco menos imediata.\nNympha confirmou que pretende continuar ajudando quando encontrar pessoas em perigo.\nTambém disse que o confronto com o Homem-Coral não foi planejado e que não estava procurando alguém para enfrentar naquele dia.\nHavia um problema.\nEla podia ajudar.\nEntão ajudou.\nQuando perguntaram se isso significava que agora se considerava oficialmente uma super-heroína, ela pensou por alguns segundos.\nE respondeu:\n“Acho que sim.”\nDepois perguntou se precisava preencher algum formulário.\nNão precisa.\nPelo menos ainda não."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Das redes para a praia"
+            },
+            {
+                tipo: "texto",
+                texto: "Em menos de um mês, Nympha passou de uma silhueta quase impossível de identificar entre prédios para uma das novas supers mais reconhecíveis do Rio.\nParte disso certamente vem dos poderes.\nControlar grandes quantidades de água chama atenção.\nVoar também.\nFazer as duas coisas sobre uma prancha estampada enquanto possui asas gigantes de borboleta torna o anonimato praticamente inviável.\nMas há outra diferença.\nNympha parece gostar das pessoas.\nE as pessoas, pelo menos até agora, parecem gostar bastante dela."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Questionada se agora se considera uma super-heroína, Nympha respondeu: “Acho que sim.”"
+            },
+            {
+                tipo: "texto",
+                texto: "Então podemos finalmente atualizar nossa primeira pergunta.\nNão é mais:\n“Quem é a mulher que está surfando pelos céus do Rio?”\nNós sabemos.\nEla controla água.\nEla voa.\nEla surfa quando poderia simplesmente usar as asas.\nEla enfrentou o Homem-Coral diante de uma praia lotada.\nNão usa máscara.\nNão pretende esconder quem é.\nE aparentemente ainda está se acostumando com a ideia de que agora existem pessoas querendo seu autógrafo.\nEla é Nympha das Ondas."
+            }
+        ]
+    },
+    {
+        id: "nympha-impede-embarcacao-desgovernada-de-atingir-pier",
+        titulo: "Nympha impede embarcação desgovernada de atingir píer",
+        subtitulo: "Falha durante aproximação deixou embarcação de passageiros avançando em direção a um píer no Rio de Janeiro. Nympha das Ondas utilizou água da própria baía para reduzir a velocidade do barco enquanto funcionários retiravam pessoas da estrutura.",
+        data: "2024-05-18",
+        autor: "Rafael Montenegro",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Nympha das Ondas utilizou água da própria baía para desacelerar embarcação que avançava em direção a um píer no Rio.",
+        herois: ["nympha-das-ondas"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "Quem estava no píer percebeu que alguma coisa estava errada antes mesmo dos primeiros gritos.\nA embarcação vinha rápido demais.\nO barco de passageiros realizava uma manobra de aproximação quando, por razões ainda investigadas, deixou de reduzir a velocidade normalmente. O que deveria ser uma atracação rotineira transformou-se, em poucos segundos, em uma embarcação de várias toneladas avançando diretamente contra uma estrutura ocupada.\nFuncionários começaram a retirar passageiros.\nPessoas correram pelo píer.\nA tripulação tentou corrigir a trajetória.\nE então a água ao redor do barco começou a subir.\nNympha estava ali."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Nympha das Ondas utilizou água da própria baía para desacelerar embarcação que avançava em direção a um píer no Rio."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Não havia espaço suficiente"
+            },
+            {
+                tipo: "texto",
+                texto: "A distância entre o barco e o píer diminuía rapidamente quando Nympha entrou na água.\nVídeos gravados por passageiros mostram a heroína voando rente à superfície antes de mergulhar os braços.\nO efeito foi imediato.\nUma grande quantidade de água começou a acompanhar o movimento dela.\nNympha não tentou simplesmente criar uma parede.\nPrimeiro, direcionou uma corrente contra uma das laterais da proa, alterando ligeiramente a trajetória. Depois, concentrou uma massa muito maior diretamente à frente da embarcação.\nO barco continuou avançando.\nSó que cada vez mais devagar."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "1.png",
+                legenda: "A diferença de escala entre Nympha e a embarcação chamou atenção nos registros feitos durante o resgate."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "“Tira todo mundo daí!”"
+            },
+            {
+                tipo: "texto",
+                texto: "O áudio de uma das gravações permite ouvir Nympha gritando para que as pessoas continuassem deixando o píer.\nEla sabia que talvez não conseguisse parar o barco.\nE, por alguns segundos, realmente pareceu que não conseguiria.\nA embarcação rompeu a primeira massa de água e continuou avançando.\nNympha foi empurrada para trás.\nRecuperou altitude.\nE tentou novamente.\nDesta vez, a água não atingiu apenas a frente do casco.\nEla começou a circular ao redor dele.\nTestemunhas descrevem o mar próximo à embarcação se movimentando em direções diferentes simultaneamente, criando resistência ao avanço enquanto Nympha tentava deslocar a proa para uma região vazia ao lado do píer.\nFuncionou.\nMas por pouco."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Metros"
+            },
+            {
+                tipo: "texto",
+                texto: "A embarcação finalmente parou a poucos metros da estrutura principal.\nParte de uma plataforma lateral foi atingida e sofreu danos, mas o impacto direto contra a área onde passageiros aguardavam foi evitado.\nQuando percebeu que o barco havia parado, Nympha ainda permaneceu sobre a água por alguns segundos.\nEntão caiu sentada sobre a própria prancha."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "A embarcação finalmente parou a poucos metros da estrutura principal. Parte de uma plataforma lateral foi atingida e sofreu danos, mas o impacto direto contra a área onde passageiros aguardavam foi evitado. Quando percebeu que o barco havia parado, Nympha ainda permaneceu sobre a água por alguns segundos. Então caiu sentada sobre a própria prancha."
+            },
+            {
+                tipo: "texto",
+                texto: "A embarcação parou a poucos metros da principal área ocupada do píer.\nNão houve registro de mortes.\nAlgumas pessoas sofreram ferimentos leves durante a evacuação e foram atendidas no local.\nA tripulação permaneceu a bordo enquanto equipes técnicas começaram a avaliar a embarcação."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Uma heroína ainda pouco conhecida"
+            },
+            {
+                tipo: "texto",
+                texto: "Para boa parte das pessoas presentes, aquela foi a primeira vez que viram Nympha.\nA heroína ainda está longe de possuir a exposição pública que outros supers brasileiros acumularam nos últimos anos.\nMesmo no Rio, muita gente provavelmente ainda não reconheceria seu nome.\nIsso talvez tenha começado a mudar hoje.\nDepois do resgate, Nympha permaneceu no local e ajudou funcionários a retirar pessoas que ainda estavam dentro da embarcação.\nSem água sendo arremessada.\nSem grandes ondas.\nApenas carregando bolsas, auxiliando passageiros com dificuldade para andar e perguntando repetidamente se todos estavam bem."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Depois de conter a embarcação, Nympha permaneceu no local auxiliando na retirada dos passageiros."
+            },
+            {
+                tipo: "texto",
+                texto: "Quando uma pessoa perguntou como ela havia conseguido parar um barco daquele tamanho, Nympha respondeu que não tinha parado o barco.\nSegundo ela, apenas fez o mar ajudar.\nÉ uma explicação bastante modesta para o que aconteceu.\nO píer provavelmente concordaria."
+            }
+        ]
+    },
+    {
+        id: "nympha-salva-banhistas-arrastados-por-correnteza-no-rio",
+        titulo: "Nympha salva banhistas arrastados por correnteza no Rio",
+        subtitulo: "Heroína utilizou controle sobre a água para interromper corrente de retorno e trazer grupo de banhistas de volta à faixa rasa. Testemunhas afirmam que Nympha permaneceu no local auxiliando guarda-vidas após o resgate.",
+        data: "2024-08-12",
+        autor: "Rafael Montenegro",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Nympha das Ondas durante o resgate de banhistas arrastados por uma corrente de retorno no Rio.",
+        herois: ["nympha-das-ondas"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "O mar parecia normal para quem observava da areia.\nPara quem estava dentro dele, não.\nUma corrente de retorno surpreendeu um grupo de banhistas na tarde desta segunda-feira e começou a arrastá-los rapidamente para longe da praia. Guarda-vidas entraram no mar assim que perceberam a situação, mas a distância entre algumas das vítimas e a faixa de areia aumentava.\nEntão uma figura colorida atravessou a praia pelo alto.\nEra Nympha das Ondas."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "O grupo começou a desaparecer da praia"
+            },
+            {
+                tipo: "texto",
+                texto: "Segundo testemunhas, cinco pessoas estavam na água quando começaram a ter dificuldade para retornar.\nInicialmente, quem estava na areia não percebeu o problema.\nElas nadavam.\nMas não se aproximavam.\nUma das vítimas começou a pedir ajuda e chamou a atenção dos guarda-vidas.\nDois profissionais entraram imediatamente no mar enquanto pessoas próximas eram orientadas a deixar aquela região da água.\nNympha estava mais adiante na praia quando percebeu a movimentação.\nVídeos mostram a heroína abrindo as asas e ganhando altura quase imediatamente.\nA prancha ficou para trás.\nDesta vez, ela não estava ali para surfar."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Ela não puxou as pessoas. Puxou a água."
+            },
+            {
+                tipo: "texto",
+                texto: "A primeira reação de Nympha não foi tentar carregar os banhistas individualmente.\nEla desceu sobre a região onde três deles estavam concentrados e começou a movimentar a própria água ao redor do grupo.\nO efeito é estranho de assistir.\nAs ondas continuam avançando normalmente em direção à praia.\nMas, no meio delas, uma faixa larga da superfície muda de direção.\nE leva as pessoas junto."
+            },
+            {
+                tipo: "texto",
+                texto: "A estratégia permitiu que os guarda-vidas se concentrassem nas pessoas que estavam mais distantes.\nUma delas já apresentava dificuldade para permanecer acima da superfície.\nNympha mudou de direção.\nE foi buscá-la."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "“Olha pra mim”"
+            },
+            {
+                tipo: "texto",
+                texto: "Uma gravação feita da praia captura parte do segundo resgate.\nNympha está praticamente dentro da água ao lado de um homem exausto.\nEm vez de criar outra onda imediatamente, ela mantém o homem apoiado enquanto um guarda-vidas se aproxima.\nÉ possível ouvi-la repetindo:\n“Olha pra mim. Não tenta nadar agora.”\nQuando o profissional chega, Nympha volta a manipular a água.\nOs três retornam juntos."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "O último banhista retirado recebeu auxílio direto de Nympha e de um guarda-vidas."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Cinco pessoas fora da água"
+            },
+            {
+                tipo: "texto",
+                texto: "Todos os cinco banhistas foram retirados.\nNenhuma morte foi registrada.\nAs vítimas foram avaliadas ainda na areia, e algumas receberam atendimento por exaustão e ingestão de água.\nNympha também foi examinada rapidamente.\nNão porque estivesse ferida.\nSegundo uma testemunha, um dos profissionais simplesmente insistiu.\nEla permaneceu sentada por alguns minutos antes de voltar a ajudar."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Depois do resgate"
+            },
+            {
+                tipo: "texto",
+                texto: "Sem mais pessoas em risco, Nympha passou boa parte do restante da ocorrência ao lado dos guarda-vidas.\nAjudou a carregar equipamentos.\nLevou água para uma das vítimas.\nE conversou com familiares que haviam acompanhado o resgate da areia.\nEm determinado momento, também recuperou sua prancha, que havia ficado boiando alguns metros adiante."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Nympha permaneceu na praia depois que todos os banhistas foram retirados da água."
+            },
+            {
+                tipo: "texto",
+                texto: "É o segundo grande resgate envolvendo Nympha em poucos meses.\nEm maio, ela impediu que uma embarcação desgovernada atingisse diretamente um píer.\nAgora, o problema era menor em escala.\nCinco pessoas.\nUma correnteza.\nNenhum monstro.\nNenhuma grande destruição.\nMas talvez seja justamente esse tipo de ocorrência que explique por que o nome Nympha das Ondas está começando a aparecer cada vez mais longe das páginas sobre supers.\nPara cinco pessoas naquela praia, hoje ela não precisou enfrentar vilão algum."
+            }
+        ]
+    },
+    {
+        id: "nympha-persegue-criminosos-em-lancha-e-encerra-fuga-no-mar",
+        titulo: "Nympha persegue criminosos em lancha e encerra fuga no mar",
+        subtitulo: "Perseguição iniciada após roubo na orla terminou longe da praia quando Nympha das Ondas alcançou uma lancha utilizada na fuga. Testemunhas registraram a heroína acompanhando a embarcação pelo ar antes de usar o próprio mar para interromper sua trajetória.",
+        data: "2024-11-27",
+        autor: "Rafael Montenegro",
+        categoria: "",
+        capa: "CAPA.png",
+        capaLegenda: "Nympha perseguiu a embarcação por vários minutos antes de interromper a fuga.",
+        herois: ["nympha-das-ondas"],
+        grupos: [],
+        viloes: [],
+        conteudo: [
+            {
+                tipo: "texto",
+                texto: "Uma lancha em alta velocidade.\nTrês suspeitos.\nPoliciais tentando acompanhar a fuga pela costa.\nE uma mulher com asas de borboleta vindo atrás deles em uma prancha.\nA tarde desta quarta-feira produziu algumas das imagens mais incomuns desde que Nympha das Ondas começou a atuar no Rio de Janeiro.\nSegundo as primeiras informações, três homens fugiram em direção ao mar após um roubo nas proximidades da orla. A embarcação já estava se afastando quando Nympha apareceu.\nEla não tentou descobrir para onde estavam indo.\nFoi atrás."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "CAPA.png",
+                legenda: "Nympha perseguiu a embarcação por vários minutos antes de interromper a fuga."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Uma perseguição em duas dimensões"
+            },
+            {
+                tipo: "texto",
+                texto: "Para os criminosos, havia uma vantagem óbvia.\nEles tinham uma lancha.\nPara Nympha, isso aparentemente não significava muita coisa.\nVídeos feitos da praia mostram a heroína inicialmente voando atrás da embarcação. Pouco depois, ela desceu até a superfície, recuperou sua prancha e começou a utilizar a água levantada pelo próprio deslocamento da lancha.\nA partir daí, a perseguição ficou estranha.\nA lancha precisava contornar as ondas.\nNympha passava por cima delas.\nQuando a embarcação mudava de direção, ela simplesmente inclinava a prancha e fazia a corrente que a carregava acompanhar a curva.\nEm determinado momento, um dos ocupantes percebeu que a distância estava diminuindo.\nE começou a apontar para trás."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Eles tentaram despistá-la"
+            },
+            {
+                tipo: "texto",
+                texto: "O piloto mudou repetidamente de direção.\nNão funcionou.\nQuanto mais agressivas eram as manobras, maior era o rastro de água deixado pela própria lancha.\nE Nympha parecia usar exatamente esse rastro para continuar avançando."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "1.png",
+                legenda: "Registros mostram Nympha diminuindo progressivamente a distância durante a perseguição."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "O mar deixou de colaborar"
+            },
+            {
+                tipo: "texto",
+                texto: "A fuga terminou quando a embarcação já estava consideravelmente afastada da faixa de areia.\nNympha ganhou altitude.\nAbandonou momentaneamente a corrente que utilizava para se deslocar.\nE passou por cima da lancha.\nEntão virou.\nO vídeo mais claro da ocorrência mostra a heroína parada no ar alguns metros à frente da embarcação.\nPor aproximadamente dois segundos, nada acontece.\nDepois, a superfície do mar diante da lancha começa a subir.\nNão como uma onda comum.\nA água forma uma elevação larga e relativamente uniforme diretamente no caminho dos fugitivos.\nO piloto tenta virar.\nOutra corrente aparece lateralmente.\nA lancha perde velocidade quase imediatamente."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Sem bater"
+            },
+            {
+                tipo: "texto",
+                texto: "Nympha poderia ter virado a embarcação.\nNão fez isso.\nEm vez disso, a água começou a envolver o casco pelas laterais, reduzindo gradualmente sua velocidade até praticamente imobilizá-lo.\nOs motores continuaram funcionando por alguns segundos.\nA lancha não saiu do lugar."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "2.png",
+                legenda: "A embarcação foi imobilizada sem ser virada."
+            },
+            {
+                tipo: "texto",
+                texto: "Nympha permaneceu próxima, mas não entrou na lancha.\nTambém não tentou retirar os suspeitos.\nEsperou.\nPoucos minutos depois, uma embarcação policial alcançou o local.\nOs três homens foram detidos."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "“Eu não ia entrar lá”"
+            },
+            {
+                tipo: "texto",
+                texto: "Já de volta à costa, perguntaram por que Nympha simplesmente não havia pousado na embarcação.\nA resposta veio imediatamente:\n“Três caras numa lancha? Eu não ia entrar lá.”\nTalvez seja uma das explicações táticas mais simples já oferecidas por uma super-heroína.\nEla também confirmou que deliberadamente evitou virar o barco.\nSegundo Nympha, não sabia se algum dos homens conseguiria nadar."
+            },
+            {
+                tipo: "subtitulo",
+                texto: "Devolvendo a lancha"
+            },
+            {
+                tipo: "texto",
+                texto: "Depois das prisões, surgiu um último problema.\nA embarcação precisava voltar.\nCom um policial assumindo o comando, a lancha retornou lentamente para a costa.\nNympha acompanhou o trajeto.\nDesta vez sem perseguição."
+            },
+            {
+                tipo: "imagem",
+                arquivo: "3.png",
+                legenda: "Nympha acompanhou as embarcações durante o retorno à costa."
+            },
+            {
+                tipo: "texto",
+                texto: "Nos últimos meses, Nympha já impediu uma embarcação desgovernada de atingir um píer e retirou banhistas de uma corrente de retorno.\nHoje foi diferente.\nNão havia ninguém para resgatar.\nHavia alguém tentando fugir.\nDescobrimos, portanto, outra coisa sobre a heroína carioca.\nFugir dela pelo mar provavelmente não é uma boa ideia."
+            }
+        ]
     }
 ];
