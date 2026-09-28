@@ -11,8 +11,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "Invasão de 28",
-        ranking: 2001,
-        rankingAnterior: 2000,
+        ranking: 2002,
+        rankingAnterior: 2001,
         melhorRanking: 502,
         popularidade: 50,
         sobre: "Aparece em raras ocasiões pelas ruas e vielas do Rio de Janeiro e procura por traficantes e vendedores de drogas.",
@@ -56,8 +56,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "Invasão de 28",
-        ranking: 1001,
-        rankingAnterior: 1031,
+        ranking: 1002,
+        rankingAnterior: 1001,
         melhorRanking: 501,
         popularidade: 100,
         sobre: "Avistado há alguns anos na guerra, o Cometa aparece em situações de crise pelo mundo — sua origem é um mistério, a resistência a calor extremo e o controle de fogo e plasma. O traje branco e azul-petróleo com crista em chamas virou símbolo entre fãs, embora ninguém saiba seu nome real ou de onde veio. Ganhou destaque lutando ao lado de heróis locais, mas some por pequenos periodos — e sendo muito carismatico sempre tenta dar atenção aos seus fãs e imprensa, um herói tão poderoso quanto enigmático.",
@@ -407,7 +407,7 @@ window.SUPERFOCO_HEROIS = [
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
         ranking: 503,
-        rankingAnterior: 497,
+        rankingAnterior: 504,
         melhorRanking: 80,
         popularidade: 50,
         sobre: "Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -595,7 +595,7 @@ window.SUPERFOCO_HEROIS = [
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
         ranking: 504,
-        rankingAnterior: 554,
+        rankingAnterior: 505,
         melhorRanking: 20,
         popularidade: 50,
         sobre: "Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -635,12 +635,12 @@ window.SUPERFOCO_HEROIS = [
         identidade: "Tatupeba",
         status: "ATIVO",
         pais: "Brasil",
-        estado: "RS",
-        cidade: "Rio Grande do Sul",
+        estado: "RN",
+        cidade: "Rio Grande do Norte",
         afiliacao: "Independente",
         primeiraAparicao: "2026/09/22",
         ranking: 502,
-        rankingAnterior: 510,
+        rankingAnterior: 503,
         melhorRanking: 27,
         popularidade: 66,
         sobre: "Tatupeba é um super-herói brasileiro que atua principalmente nas cidades do Sul do país. Originalmente humano, foi permanentemente transformado em uma gigantesca criatura semelhante a um tatu, tornando Tatupeba não apenas seu nome de herói, mas sua nova identidade. Extremamente resistente, é capaz de cavar rapidamente pelo subterrâneo e provocar fortes tremores ao se movimentar ou golpear o solo. Apesar de ser reconhecido como um importante protetor da região, seu estilo de combate costuma causar grandes danos materiais, o que limita sua popularidade junto ao público.",
@@ -655,12 +655,12 @@ window.SUPERFOCO_HEROIS = [
         historico: [],
         comentarios: [
             {
-                usuario: "@GauchoSupremo",
-                texto: "O TATUPEBA É NOSSO PORRAAAAA 🦔🦔🦔💪💪 SUL REPRESENTA!!! 🔥🔥🔥",
+                usuario: "@NordestinoSupremo",
+                texto: "O TATUPEBA É NOSSO PORRAAAAA 🦔🦔🦔💪💪 NORDESTE REPRESENTA!!! 🔥🔥🔥",
                 estrelas: 5
             },
             {
-                usuario: "@curitibano_41",
+                usuario: "@bahiano_41",
                 texto: "Ele salvou um monte de gente naquele desabamento 🙏❤️ mas simplesmente DESTRUIU A RUA INTEIRA pra chegar lá 😭😭😭🚧🚧🚧",
                 estrelas: 3
             },
@@ -686,7 +686,7 @@ window.SUPERFOCO_HEROIS = [
             },
             {
                 usuario: "@SismologoDoX",
-                texto: "\"terremoto de pequena intensidade registrado no Sul\" Eu automaticamente: TATUPEBA QUE PORRA VC FEZ 😭😭😭🌎💥",
+                texto: "\"terremoto de pequena intensidade registrado no Nordeste\" Eu automaticamente: TATUPEBA QUE PORRA VC FEZ 😭😭😭🌎💥",
                 estrelas: 2
             },
             {
@@ -701,7 +701,7 @@ window.SUPERFOCO_HEROIS = [
             },
             {
                 usuario: "@TatupebaUpdates",
-                texto: "🚨 LEMBRETE DIÁRIO 🚨 TATUPEBA TEM 347 OCORRÊNCIAS E 1.184 RESGATES 🦔👑❤️ RESPEITEM O REI DO SUL 🗣️🗣️🗣️🔥🔥🔥",
+                texto: "🚨 LEMBRETE DIÁRIO 🚨 TATUPEBA TEM 347 OCORRÊNCIAS E 1.184 RESGATES 🦔👑❤️ RESPEITEM O REI DO NORDESTE 🗣️🗣️🗣️🔥🔥🔥",
                 estrelas: 5
             },
             {
@@ -725,16 +725,326 @@ window.SUPERFOCO_HEROIS = [
                 estrelas: 4
             },
             {
-                usuario: "@SulSemTatupeba",
-                texto: "\"Rei do Sul\" 👑 irmão eu não votei nesse tatu não 😭😭😭😭",
+                usuario: "@NordesteSemTatupeba",
+                texto: "\"Rei do Nordeste\" 👑 irmão eu não votei nesse tatu não 😭😭😭😭",
                 estrelas: 1
             },
             {
-                usuario: "@SulCOMTatupeba",
+                usuario: "@NordesteCOMTatupeba",
                 texto: "E NINGUÉM PERGUNTOU 🦔👑🦔👑🦔👑 VIDA LONGA AO REI 🔥🔥🔥🔥🔥",
                 estrelas: 5
             }
         ],
         pontuacao: 4336
+    },
+    {
+        id: "sol-de-bronze",
+        nome: "Sol de Bronze",
+        arquivo: "SOL_DE_BRONZE",
+        pagina: true,
+        identidade: "",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "Tocantis",
+        cidade: "Palmas",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 51,
+        rankingAnterior: "",
+        melhorRanking: 51,
+        popularidade: 72,
+        sobre: "Sol de Bronze é um herói nordestino de poucas palavras e muitos feitos, portador de um poderoso lampião que lhe permite controlar fogo e luz, além de criar ilusões. Quieto, tranquilo e pouco interessado nos holofotes, prefere uma praia, uma rede e um pouco de sossego a entrevistas e eventos públicos, jeito que, ironicamente, conquistou muitos admiradores. Quando surge uma ocorrência, porém, sua postura muda: Sol de Bronze trabalha incansavelmente e só para quando o serviço está devidamente terminado, seja enfrentando criminosos, resgatando civis ou auxiliando equipes de emergência. Ele não faz grandes discursos nem procura reconhecimento — prefere deixar que seu trabalho fale por ele.",
+        poderes: [],
+        stats: {
+            ocorrencias: 251,
+            resgates: 1105,
+            prisoes: 116,
+            danos: 1170000
+        },
+        inimigos: ["Manipulação de Luz", "Ilusão", "Clarão"],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@lari.jpg",
+                texto: "Salvou um prédio inteiro, perguntaram como ele conseguiu e ele respondeu “deu trabalho”. CINCO ESTRELAS.",
+                estrelas: 5
+            },
+            {
+                usuario: "@anabeatrizs",
+                texto: "Homem quieto, trabalhador e que gosta de praia. Deus eu nunca te pedi nada.",
+                estrelas: 5
+            },
+            {
+                usuario: "@carlosalmeida",
+                texto: "Muito competente. Só podia explicar melhor o que tá acontecendo às vezes. O homem termina a ocorrência e simplesmente vai embora kkkkk",
+                estrelas: 4
+            },
+            {
+                usuario: "@mariaclarac",
+                texto: "Não ironicamente o homem mais bonito desse site.",
+                estrelas: 5
+            },
+            {
+                usuario: "@sertanejo_raiz",
+                texto: "Esse representa. Sua a camisa, trabalha calado e só para quando o serviço termina.",
+                estrelas: 5
+            },
+            {
+                usuario: "@pauloribeiro",
+                texto: "Herói bom, comunicação péssima. Ninguém sabe o que ele tá pensando.",
+                estrelas: 3
+            },
+            {
+                usuario: "@vitoriaazevedo",
+                texto: "Preciso urgentemente saber se ele é solteiro para fins acadêmicos.",
+                estrelas: 5
+            },
+            {
+                usuario: "@cassiofarias",
+                texto: "Vi ele pessoalmente uma vez. Pediram foto, ele tirou. Agradeceram, fez 👍 e foi embora. É exatamente igual nas entrevistas.",
+                estrelas: 5
+            },
+            {
+                usuario: "@gabrielmatos",
+                texto: "O lampião é absurdo. Queria entender melhor como funciona, mas aparentemente o próprio dono não está interessado em explicar.",
+                estrelas: 3
+            },
+            {
+                usuario: "@yasminsilva",
+                texto: "Infelizmente meu tipo é homem que responderia mensagem com “blz”.",
+                estrelas: 3
+            },
+            {
+                usuario: "@eduardocosta",
+                texto: "Já vi notícia dele ficando horas depois da luta ajudando bombeiro e equipe de resgate. Não é só porrada. O cara termina o serviço.",
+                estrelas: 5
+            },
+            {
+                usuario: "@mateusrocha",
+                texto: "Acho engraçado chamarem ele de misterioso. Pra mim ele só não gosta de conversar mesmo.",
+                estrelas: 3
+            },
+            {
+                usuario: "@biaoliveira",
+                texto: "deixem o homem voltar pra rede ⭐⭐⭐⭐⭐",
+                estrelas: 3
+            },
+            {
+                usuario: "@rodrigues1984",
+                texto: "Bom herói, mas simpatia passou longe. Cruzei com ele uma vez e parecia que queria estar em qualquer outro lugar.",
+                estrelas: 2
+            },
+            {
+                usuario: "@jessicamoraes",
+                texto: "A camisa dele está SEMPRE suada. Essa informação não afetou negativamente minha avaliação.",
+                estrelas: 3
+            },
+            {
+                usuario: "@henriquemelo",
+                texto: "Juazeiro parece alguém que te chama pra festa. Sol de Bronze parece alguém que pergunta se precisa mesmo ir. Identificação imediata.",
+                estrelas: 4
+            },
+            {
+                usuario: "@claudinhaf",
+                texto: "“Homem de poucas palavras e muitos feitos” e infelizmente funcionou em mim.",
+                estrelas: 3
+            },
+            {
+                usuario: "@nordestina_021",
+                texto: "O povo: 😍 NOSSO HERÓI MISTERIOSO Ele: só querendo terminar logo pra ir pra praia",
+                estrelas: 3
+            }
+        ],
+        pontuacao: 7133
+    },
+    {
+        id: "shockstar",
+        nome: "ShockStar",
+        arquivo: "SHOCKSTAR",
+        pagina: true,
+        identidade: "Alok Hilton",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "RJ",
+        cidade: "Rio de Janeiro",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 1001,
+        rankingAnterior: 1002,
+        melhorRanking: 502,
+        popularidade: 87,
+        sobre: "Conhecido pelo nome de SchockStar, Alok Hilton é uma das figuras mais chamativas do cenário heroico do Rio de Janeiro. Herdeiro de uma das famílias mais influentes da cidade e famoso também por sua carreira como DJ, Alok transformou sua presença nos palcos em uma extensão de sua atuação como herói. Desde o surgimento de seus poderes elétricos, passou a ser visto em situações de emergência por diferentes regiões da cidade, protegendo pessoas independentemente de sua classe social ou localização. Extravagante, confiante e extremamente confortável diante das câmeras, SchockStar raramente perde a oportunidade de conversar com fãs, participar de eventos ou aparecer diante da imprensa. Seu visual cercado por eletricidade e sua personalidade provocadora fizeram dele uma figura facilmente reconhecível, mas, para muitos, ainda existe uma curiosidade maior por trás do personagem público: até onde vai Alok Hilton e onde realmente começa o SchockStar?",
+        poderes: ["Controla a Eletrícidade"],
+        stats: {
+            ocorrencias: 190,
+            resgates: 75,
+            prisoes: 20,
+            danos: 2400000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@biaxavier",
+                texto: "EU JÁ GOSTAVA DELE COMO DJ AGORA O HOMEM SOLTA RAIO???? 😭⚡ Deus tem seus favoritos mesmo",
+                estrelas: 5
+            },
+            {
+                usuario: "@cria_do_alemao",
+                texto: "Maluco já tocava aqui antes desse negócio de herói. E não era aqueles famosos que vem, tira foto e some não. Respeito.",
+                estrelas: 5
+            },
+            {
+                usuario: "@matheus.rj",
+                texto: "Bom herói, mas ele claramente se acha o personagem principal do Rio KKKKKKKKK",
+                estrelas: 4
+            },
+            {
+                usuario: "@carloshenrique77",
+                texto: "Não vou dar 5 estrelas pra milionário brincando de super-herói. Mas pelo menos esse aparece quando precisa.",
+                estrelas: 3
+            },
+            {
+                usuario: "@funknaoecrime",
+                texto: "O que eu respeito nele é que ficou famoso e não começou a fingir que nunca pisou num baile. Continua valorizando a cultura que ajudou ele a crescer. ⚡",
+                estrelas: 5
+            },
+            {
+                usuario: "@analuizacosta",
+                texto: "Ele é insuportavelmente convencido. Infelizmente também é muito bonito.",
+                estrelas: 4
+            },
+            {
+                usuario: "@djmalboro_jr",
+                texto: "Quem acha que ele só conseguiu espaço por dinheiro nunca viu o cara comandando uma pista. Pode comprar equipamento. Não dá pra comprar presença.",
+                estrelas: 5
+            },
+            {
+                usuario: "@rodrigo_sampa",
+                texto: "Não entendo o hype. Tem herói com muito mais experiência e vocês estão babando ovo porque ele é famoso.",
+                estrelas: 2
+            },
+            {
+                usuario: "@dudamenezes",
+                texto: "gente ele me tirou de uma confusão na saída de uma festa e ainda perguntou se eu tinha como voltar pra casa 😭 nunca mais falo mal",
+                estrelas: 5
+            },
+            {
+                usuario: "@jvitor021",
+                texto: "SchockStar salvando o Rio de dia e destruindo o tímpano do carioca de noite 🔥🔥🔥",
+                estrelas: 4
+            },
+            {
+                usuario: "@augusto_real",
+                texto: "Herói patrocinado pelo dinheiro do papai.",
+                estrelas: 3
+            },
+            {
+                usuario: "@marcelinho021",
+                texto: "Engraçado que o “dinheiro do papai” não impediu ele de entrar numa área que metade desses heróis famosos nem pisa. 🤷🏾‍♂️",
+                estrelas: 5
+            },
+            {
+                usuario: "@yasmin.jpg",
+                texto: "Ele chegou no baile de CASACO DE PELE no calor do Rio. Esse homem prefere morrer estiloso do que usar uma camiseta 😭😭😭",
+                estrelas: 5
+            },
+            {
+                usuario: "@superobservador",
+                texto: "Poder bruto ele claramente tem. O problema é experiência. Às vezes dá pra perceber que ele ainda pensa como alguém que acabou de começar.",
+                estrelas: 4
+            },
+            {
+                usuario: "@gabrielafreitas",
+                texto: "A mão brilhando, o casaco, a cicatriz, a pose de vilão… aí você vai ver e o cidadão tá arrecadando dinheiro pra projeto social KKKKK",
+                estrelas: 4
+            },
+            {
+                usuario: "@pauloroberto",
+                texto: "Minha única preocupação é esse negócio de eletricidade no meio de multidão. Quero ver como ele vai lidar com isso conforme começar a enfrentar coisa mais séria.",
+                estrelas: 3
+            },
+            {
+                usuario: "@tata021",
+                texto: "Minha mãe conhece a família dele por causa de um projeto antigo. Independente do personagem que ele faz no palco, o Alok sempre tratou todo mundo com respeito.",
+                estrelas: 5
+            },
+            {
+                usuario: "@lucca.mp3",
+                texto: "O MALUCO USA O MESMO NOME DE DJ E DE HERÓI KKKKKKKKK Identidade secreta: ❌ Marketing: ✅",
+                estrelas: 5
+            },
+            {
+                usuario: "@carolzinha",
+                texto: "SchockStar se você estiver lendo isso eu estou solteira ⚡❤️",
+                estrelas: 5
+            }
+        ],
+        pontuacao: 2838
+    },
+    {
+        id: "omni",
+        nome: "Omni",
+        arquivo: "OMNI",
+        pagina: true,
+        identidade: "",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "RJ",
+        cidade: "Rio de Janeiro",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 2001,
+        rankingAnterior: 2002,
+        melhorRanking: 1002,
+        popularidade: 79,
+        sobre: "Omni surgiu pouco depois da guerra, mas só ganhou fama quando passou a aparecer ao lado do Cometa. Para a maioria das pessoas, ele é simplesmente \"o parceiro do Cometa\", e é assim que a imprensa costuma chamá-lo. Muitos acreditam que é um remanescente da invasão, mas sua origem é um mistério: ninguém sabe se é humano ou alienígena. Pode assumir ao menos três formas, uma extremamente veloz, uma que controla a gravidade e uma de força bruta e temperamento explosivo. Mesmo à sombra do Cometa, é conhecido por nunca deixar ninguém para trás, e quem já foi salvo por ele sabe que Omni é muito mais do que um ajudante.",
+        poderes: [],
+        stats: {
+            ocorrencias: 27,
+            resgates: 15,
+            prisoes: 3,
+            danos: 1900000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@CarolMenezes",
+                texto: "Ele me tirou de um prédio depois de um ataque e VOLTOU porque falaram que ainda tinha uma pessoa lá dentro. Podem chamar de parceiro do Cometa o quanto quiserem. Pra mim ele é herói.",
+                estrelas: 5
+            },
+            {
+                usuario: "@thiagaoRJ",
+                texto: "sem o Cometa alguém saberia quem esse cara é?",
+                estrelas: 3
+            },
+            {
+                usuario: "@AlienWatchBR",
+                texto: "Surgiu logo depois da invasão, ninguém sabe nome, espécie, planeta, NADA e todo mundo simplesmente aceita????",
+                estrelas: 2
+            },
+            {
+                usuario: "@SuperFocoEnjoyer",
+                texto: "A imprensa: “parceiro do Cometa” Omni carregando 3 pessoas enquanto segura um ônibus com gravidade: 👍",
+                estrelas: 4
+            },
+            {
+                usuario: "@RenanX",
+                texto: "Um dia ainda vão parar de chamar ele de “parceiro do Cometa”.",
+                estrelas: 5
+            },
+            {
+                usuario: "@QuéOta.67",
+                texto: "ELE NÃO É 1 É 3!!! VAMOOO!!!! 🔥🔥🔥",
+                estrelas: 5
+            },
+            {
+                usuario: "@QuéOta.67",
+                texto: "Ele ainda vai crescer assim como o COMETA!! VOA Omni!!!! 👽👽👽👽",
+                estrelas: 5
+            }
+        ],
+        pontuacao: 525
     }
 ];
