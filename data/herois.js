@@ -11,8 +11,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "Invasão de 28",
-        ranking: 2002,
-        rankingAnterior: 2001,
+        ranking: 2003,
+        rankingAnterior: 2002,
         melhorRanking: 502,
         popularidade: 50,
         sobre: "Aparece em raras ocasiões pelas ruas e vielas do Rio de Janeiro e procura por traficantes e vendedores de drogas.",
@@ -745,7 +745,7 @@ window.SUPERFOCO_HEROIS = [
         identidade: "",
         status: "ATIVO",
         pais: "Brasil",
-        estado: "Tocantis",
+        estado: "TO",
         cidade: "Palmas",
         afiliacao: "Independente",
         primeiraAparicao: "",
@@ -994,8 +994,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 2001,
-        rankingAnterior: 2002,
+        ranking: 2002,
+        rankingAnterior: 2001,
         melhorRanking: 1002,
         popularidade: 79,
         sobre: "Omni surgiu pouco depois da guerra, mas só ganhou fama quando passou a aparecer ao lado do Cometa. Para a maioria das pessoas, ele é simplesmente \"o parceiro do Cometa\", e é assim que a imprensa costuma chamá-lo. Muitos acreditam que é um remanescente da invasão, mas sua origem é um mistério: ninguém sabe se é humano ou alienígena. Pode assumir ao menos três formas, uma extremamente veloz, uma que controla a gravidade e uma de força bruta e temperamento explosivo. Mesmo à sombra do Cometa, é conhecido por nunca deixar ninguém para trás, e quem já foi salvo por ele sabe que Omni é muito mais do que um ajudante.",
@@ -1046,5 +1046,458 @@ window.SUPERFOCO_HEROIS = [
             }
         ],
         pontuacao: 525
+    },
+    {
+        id: "remy-leavou",
+        nome: "Remy Leavou",
+        arquivo: "REMY_LEAVOU",
+        pagina: true,
+        identidade: "Remy Leavou",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "RJ",
+        cidade: "Rio de Janeiro",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 2004,
+        rankingAnterior: 2003,
+        melhorRanking: 2003,
+        popularidade: 50,
+        sobre: "Houve relatos de que ele é capaz de realizar magias. Salvou uma família em um acidente com seus poderes uma única vez.",
+        poderes: [],
+        stats: {
+            ocorrencias: 1,
+            resgates: 3,
+            prisoes: 0,
+            danos: 0
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [],
+        pontuacao: 218
+    },
+    {
+        id: "lumina",
+        nome: "Lúmina",
+        arquivo: "LUMINA",
+        pagina: true,
+        identidade: "",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "RJ",
+        cidade: "Rio de Janeiro",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 2001,
+        rankingAnterior: "",
+        melhorRanking: 2001,
+        popularidade: 50,
+        sobre: "",
+        poderes: [],
+        stats: {
+            ocorrencias: 15,
+            resgates: 85,
+            prisoes: 12,
+            danos: 30000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [],
+        pontuacao: 727
+    },
+    {
+        id: "maria-bonita",
+        nome: "Maria Bonita",
+        arquivo: "MARIA_BONITA",
+        pagina: true,
+        identidade: "Dandara Nascimento",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "BA",
+        cidade: "Salvador",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 52,
+        rankingAnterior: "",
+        melhorRanking: 52,
+        popularidade: 78,
+        sobre: "Dandara Nascimento, conhecida publicamente como **Maria Bonita**, é uma das heroínas mais respeitadas de Salvador, cidade que conhece como a palma da mão. Sem qualquer poder confirmado, enfrenta supers e criminosos contando apenas com preparo, armas, técnica e uma capacidade excepcional de elaborar estratégias sob pressão. Combatente de primeira linha, Dandara prefere conhecer o adversário e o terreno antes de entrar em ação, mas é igualmente perigosa quando precisa improvisar. Sua visão afiada, reflexos e velocidade de raciocínio são tão impressionantes que ainda há quem duvide que ela seja realmente uma humana sem poderes — algo que Maria Bonita nunca pareceu interessada em provar ou desmentir.",
+        poderes: ["Super Inteligência"],
+        stats: {
+            ocorrencias: 355,
+            resgates: 1.72,
+            prisoes: 151,
+            danos: 1250000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@soteropolitana",
+                texto: "Ela conhece Salvador melhor que o Google Maps.",
+                estrelas: 3
+            },
+            {
+                usuario: "@lucasazevedo",
+                texto: "Continuo não acreditando que essa mulher não tem poder. NÃO É POSSÍVEL.",
+                estrelas: 5
+            },
+            {
+                usuario: "@nandacosta",
+                texto: "Dandara fazendo discurso é meu evento esportivo favorito.",
+                estrelas: 5
+            },
+            {
+                usuario: "@marcosvinicius",
+                texto: "Excelente heroína, mas às vezes parece que ela já sabia que a confusão ia acontecer antes de todo mundo.",
+                estrelas: 4
+            },
+            {
+                usuario: "@biaoliveira",
+                texto: "Bonita, inteligente, confiante, armada e sabe falar em público. Deus realmente tem seus favoritos.",
+                estrelas: 3
+            },
+            {
+                usuario: "@baianooriginal",
+                texto: "Quem é de Salvador sabe. Tem lugar que nem motorista de aplicativo quer entrar e Maria Bonita aparece saindo pelo outro lado 😭",
+                estrelas: 3
+            },
+            {
+                usuario: "@rodrigues1984",
+                texto: "Competente demais, mas não gosto dessa história de uma civil andar com esse arsenal todo.",
+                estrelas: 3
+            },
+            {
+                usuario: "@gabrielmatos",
+                texto: "“Ela não tem poderes.” Irmão eu vi um vídeo dessa mulher olhando UMA VEZ pra um prédio e falando exatamente de qual janela o tiro ia sair.",
+                estrelas: 5
+            },
+            {
+                usuario: "@carolzinhaa",
+                texto: "Ela termina uma ocorrência e ainda dá entrevista falando como se tivesse ensaiado o discurso por três semanas.",
+                estrelas: 5
+            },
+            {
+                usuario: "@eduardocosta",
+                texto: "Uma das poucas que eu vejo chegar numa ocorrência e primeiro perguntar onde estão os civis antes de perguntar onde está o criminoso.",
+                estrelas: 3
+            },
+            {
+                usuario: "@joaovictor",
+                texto: "Meu poder favorito da Maria Bonita é PREPARO.",
+                estrelas: 4
+            },
+            {
+                usuario: "@lari.jpg",
+                texto: "Toda vez que Dandara fala “eu tenho um plano” alguém vai preso.",
+                estrelas: 3
+            },
+            {
+                usuario: "@vitoriaazevedo",
+                texto: "Eu teria medo de mentir pra essa mulher até por telefone.",
+                estrelas: 3
+            },
+            {
+                usuario: "@felipealves",
+                texto: "Ela sabe onde você está, onde você vai estar e provavelmente qual ônibus você pegou pra chegar lá.",
+                estrelas: 4
+            },
+            {
+                usuario: "@jessicamoraes",
+                texto: "A quantidade de menina pequena fantasiada de Maria Bonita nos eventos daqui é muito bonitinha 😭",
+                estrelas: 5
+            },
+            {
+                usuario: "@carlosantana",
+                texto: "Pode colocar vinte supers numa sala. Se ela começar a distribuir função todo mundo obedece.",
+                estrelas: 5
+            },
+            {
+                usuario: "@anonimoSSA",
+                texto: "Não compro essa de “sem poderes”. Ou tem alguma coisa que não contam ou os exames estão errados.",
+                estrelas: 2
+            },
+            {
+                usuario: "@pedrohenrique_77",
+                texto: "O vilão tem superforça, resistência, raio no olho e sei lá mais o quê. Maria Bonita tem 40 minutos de preparação. Meus sentimentos ao vilão.",
+                estrelas: 5
+            },
+            {
+                usuario: "@amandafreitas",
+                texto: "O mais absurdo é que Dandara não tenta convencer ninguém de que é sobre-humana. Perguntam como ela percebeu alguma coisa impossível e ela mete um “eu vi” 😭",
+                estrelas: 5
+            },
+            {
+                usuario: "@rafael.m",
+                texto: "Salvador não é a cidade onde Maria Bonita trabalha. Salvador é o mapa que ela decorou.",
+                estrelas: 5
+            }
+        ],
+        pontuacao: 6715
+    },
+    {
+        id: "juazeiro",
+        nome: "Juazeiro",
+        arquivo: "JUAZEIRO",
+        pagina: true,
+        identidade: "Josué Carvalho",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "MA",
+        cidade: "São Luís",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 11,
+        rankingAnterior: 13,
+        melhorRanking: 11,
+        popularidade: 86,
+        sobre: "agora um Sobre\nJosué Carvalho, conhecido como Juazeiro, é um herói de São Luís, Maranhão, reconhecido pelo terceiro olho que lhe permite enxergar fragmentos do futuro e antecipar acontecimentos antes que ocorram. Sua precognição faz com que muitas de suas ações pareçam fruto de uma sorte absurda, enquanto Josué prefere alimentar essa impressão com seu jeito brincalhão e despreocupado. Carismático e provocador mesmo diante do perigo, costuma encarar situações impossíveis com um sorriso, confiando que já viu o suficiente para saber onde precisa estar — embora nem sempre revele o quanto realmente sabe sobre aquilo que ainda está por acontecer.",
+        poderes: ["Terceiro Olho", "Precognição", "Antecipação de Combate", "Caminho Seguro", "Vislumbres", "Leitura de Probabilidades", "Manipulação da Sorte", "Azar", "Golpe de Sorte", "Instinto Premonitório"],
+        stats: {
+            ocorrencias: 286,
+            resgates: 1320,
+            prisoes: 128,
+            danos: 1050000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@maranhense97",
+                texto: "O homem desviou de um tiro ANTES DO CARA SACAR A ARMA. Normal.",
+                estrelas: 5
+            },
+            {
+                usuario: "@lari.jpg",
+                texto: "O terceiro olho eu entendo. O que eu não entendo é por que os outros dois ficam com essa cara de quem sabe de alguma coisa 😭",
+                estrelas: 5
+            },
+            {
+                usuario: "@joaovictor",
+                texto: "Juazeiro antes da luta: “isso vai dar certo” Todo mundo: COMO? Juazeiro: “vai.”",
+                estrelas: 5
+            },
+            {
+                usuario: "@carlosalmeida",
+                texto: "Excelente herói. Insuportável quando perguntam como ele sabia e ele responde “chutei”.",
+                estrelas: 4
+            },
+            {
+                usuario: "@anabeatrizs",
+                texto: "Ele sabe o que você vai falar e MESMO ASSIM deixa você terminar só pra fazer piada depois.",
+                estrelas: 5
+            },
+            {
+                usuario: "@gabrielmatos",
+                texto: "O poder mais forte dele não é ver o futuro. É saber que vai ganhar e ainda ter tempo de debochar.",
+                estrelas: 5
+            },
+            {
+                usuario: "@rodrigues1984",
+                texto: "Não gosto desse negócio de manipular sorte. Como alguém fiscaliza um poder desses?",
+                estrelas: 3
+            },
+            {
+                usuario: "@sao_luis_021",
+                texto: "Patrimônio histórico, cultural e paranormal do Maranhão.",
+                estrelas: 5
+            },
+            {
+                usuario: "@biaoliveira",
+                texto: "Vi um vídeo dele jogando uma moeda pra cima, entrando num prédio e saindo 15 minutos depois. A MOEDA CAIU NA MÃO DELE QUANDO SAIU. Eu desisto.",
+                estrelas: 5
+            },
+            {
+                usuario: "@felipealves",
+                texto: "Ainda quero saber se ele realmente prevê as coisas ou só faz parecer que prevê porque acha engraçado.",
+                estrelas: 4
+            },
+            {
+                usuario: "@jessicamoraes",
+                texto: "Repórter perguntou se ele já sabia o resultado da ocorrência. Ele olhou pra câmera e falou “agora eu sei”. EU ODEIO ESSE HOMEM KKKKKKK",
+                estrelas: 5
+            },
+            {
+                usuario: "@eduardocosta",
+                texto: "Brincadeiras à parte, os números de resgate dele são excelentes. Quando Juazeiro aparece cedo numa ocorrência normalmente significa que muita gente vai sair inteira.",
+                estrelas: 5
+            },
+            {
+                usuario: "@nandacosta",
+                texto: "Imagina jogar UNO com esse desgraçado.",
+                estrelas: 5
+            },
+            {
+                usuario: "@apostador123",
+                texto: "ME RESPONDE A DM JUAZEIRO É SÓ UM JOGO",
+                estrelas: 1
+            },
+            {
+                usuario: "@mateusrocha",
+                texto: "Todo perfil desse site tem gente perguntando se o herói venceria outro herói. No dele tem gente pedindo número da Mega-Sena.",
+                estrelas: 5
+            },
+            {
+                usuario: "@carolzinhaa",
+                texto: "Acho muito engraçado que ele tem literalmente TRÊS OLHOS e isso nem está no top 3 coisas estranhas sobre ele.",
+                estrelas: 4
+            },
+            {
+                usuario: "@vitoriaazevedo",
+                texto: "Se esse homem falar “não vai por aí” eu mudo de rua, cidade, estado e talvez país.",
+                estrelas: 5
+            },
+            {
+                usuario: "@pedrohenrique_77",
+                texto: "Criminoso: prepara uma emboscada perfeita durante três semanas Juazeiro chegando pela porta dos fundos: boa noite",
+                estrelas: 5
+            },
+            {
+                usuario: "@luizfernando",
+                texto: "Meu favorito foi quando perguntaram qual era a chance dele sobreviver e ele falou “pra mim? boa”.",
+                estrelas: 3
+            },
+            {
+                usuario: "@marcosvinicius",
+                texto: "Muito competente, mas deve ser absolutamente impossível fazer surpresa de aniversário pra ele.",
+                estrelas: 3
+            },
+            {
+                usuario: "@isabelly",
+                texto: "Juazeiro vendo os comentários antes da gente postar 👁️👁️👁️",
+                estrelas: 3
+            }
+        ],
+        pontuacao: 8231
+    },
+    {
+        id: "xique-xique",
+        nome: "Xique-Xique",
+        arquivo: "XIQUE_XIQUE",
+        pagina: true,
+        identidade: "Severino Batista de Moura",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "PE",
+        cidade: "Petrolina",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 53,
+        rankingAnterior: "",
+        melhorRanking: 53,
+        popularidade: 75,
+        sobre: "Severino Batista de Moura já foi um homem comum de Petrolina, até um incidente de origem ainda pouco compreendida transformar permanentemente seu corpo em uma estrutura vegetal semelhante a um enorme cacto. Hoje conhecido como Xique-Xique, percorre principalmente o sertão pernambucano enfrentando criminosos e ocorrências super-humanas com a mesma delicadeza de uma planta cheia de espinhos: nenhuma. Excelente atirador e dono de uma resistência extraordinária, Severino é conhecido pelo temperamento difícil, pelas respostas curtas e por uma absoluta falta de paciência para imprensa, fãs ou cerimônias. Apesar da aparência ameaçadora e da fama de mal-humorado, seu histórico demonstra uma preocupação especial com comunidades menores e regiões afastadas dos grandes centros, onde muitas vezes é o primeiro — e único — super a aparecer quando alguma coisa dá errado.",
+        poderes: ["Fisiologia de Cacto", "Espinhos", "Disparo de Espinhos", "Regeneração Vegetal", "Reserva de Água", "Resistência ao Calor", "Fotossíntese", "Enraizamento", "Crescimento Vegetal", "Superforça", "Durabilidade Vegetal"],
+        stats: {
+            ocorrencias: 229,
+            resgates: 810,
+            prisoes: 137,
+            danos: 2080000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@sertanejo_87",
+                texto: "Pode ser mal-educado, mas quando ninguém queria vir resolver o problema aqui ele veio.",
+                estrelas: 5
+            },
+            {
+                usuario: "@marianacosta",
+                texto: "Salvou minha família. Pedi uma foto depois e ele falou “não”. Justo, eu acho.",
+                estrelas: 3
+            },
+            {
+                usuario: "@gabrielmatos",
+                texto: "O criminoso descarregou a arma inteira nele e Xique-Xique só olhou pro cara e falou “terminou?” KKKKKKKKK",
+                estrelas: 5
+            },
+            {
+                usuario: "@joaovictor",
+                texto: "Não sei o que é mais perigoso: o revólver ou tentar abraçar esse homem.",
+                estrelas: 4
+            },
+            {
+                usuario: "@cabrasertao",
+                texto: "Herói de verdade também aparece onde não tem câmera esperando.",
+                estrelas: 5
+            },
+            {
+                usuario: "@rodrigues1984",
+                texto: "Extremamente agressivo. Não acho normal um herói andar por aí com uma arma daquele tamanho.",
+                estrelas: 2
+            },
+            {
+                usuario: "@biaoliveira",
+                texto: "Entrevistadora: “Xique-Xique, poderia explicar o que aconteceu?” Ele: “Não.” E FOI EMBORA 😭",
+                estrelas: 5
+            },
+            {
+                usuario: "@carlosalmeida",
+                texto: "Não é simpático, não é cuidadoso e definitivamente não é diplomático. Mas resolve",
+                estrelas: 4
+            },
+            {
+                usuario: "@nandacosta",
+                texto: "Acho muito bonito que ele é literalmente um cacto e ainda conseguiu desenvolver uma personalidade mais espinhosa que o corpo.",
+                estrelas: 5
+            },
+            {
+                usuario: "@lucas_019",
+                texto: "Ele atirou no meu carro durante uma perseguição.",
+                estrelas: 1
+            },
+            {
+                usuario: "@anonimoPE",
+                texto: "Era você que tava dirigindo o carro da fuga, Lucas.",
+                estrelas: 5
+            },
+            {
+                usuario: "@carolzinhaa",
+                texto: "Não pode responder comentário aqui então só vou deixar registrado que o comentário do Lucas é CINEMA.",
+                estrelas: 4
+            },
+            {
+                usuario: "@eduardocosta",
+                texto: "O pessoal das capitais reclama dele, mas pergunta nas cidades pequenas por onde esse homem já passou.",
+                estrelas: 5
+            },
+            {
+                usuario: "@fernandaa",
+                texto: "Competente demais. Só acho que alguém precisa apresentar o conceito de “relações públicas” pra ele.",
+                estrelas: 3
+            },
+            {
+                usuario: "@pedrohenrique_77",
+                texto: "Xique-Xique tem três modos: calado, irritado e atirando.",
+                estrelas: 5
+            },
+            {
+                usuario: "@mateusrocha",
+                texto: "Vi ele tomando tiro, criando raiz no chão e continuando andando depois. A parte mais assustadora foi perceber que ele parecia mais irritado com o barulho do que com os tiros.",
+                estrelas: 4
+            },
+            {
+                usuario: "@sabrina.jpg",
+                texto: "Vocês ficam falando que ele é grosso. Eu consigo consertar ele.",
+                estrelas: 3
+            },
+            {
+                usuario: "@larissa_22",
+                texto: "Amiga ele é um cacto.",
+                estrelas: 3
+            },
+            {
+                usuario: "@sabrina.jpg",
+                texto: "Eu consigo.",
+                estrelas: 3
+            },
+            {
+                usuario: "@petrolinense",
+                texto: "Pode falar o que quiser. Severino não esqueceu de onde veio.",
+                estrelas: 3
+            }
+        ],
+        pontuacao: 6515
     }
 ];
