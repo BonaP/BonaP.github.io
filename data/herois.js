@@ -253,8 +253,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "São Paulo",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 3,
-        rankingAnterior: 2,
+        ranking: 4,
+        rankingAnterior: 3,
         melhorRanking: 1,
         popularidade: 45,
         sobre: "Heitor Alcântara, mais conhecido como Hércules, é um super-herói brasileiro com atuação concentrada em São Paulo. Ex-fisiculturista, iniciou sua carreira nos primeiros anos da Era dos Supers, quando ainda não possuía poderes ou aprimoramentos conhecidos, contando apenas com sua força física excepcional e treinamento. Sua primeira carreira foi interrompida após um violento confronto transmitido ao vivo, no qual perdeu ambos os braços, desaparecendo completamente da vida pública após sobreviver ao incidente. Mais de dois anos depois, retornou após uma extensa reconstrução corporal, apresentando capacidades físicas muito superiores às anteriores e quatro braços mecânicos capazes de exercer força sobre-humana e produzir poderosas descargas elétricas. Sua reconstrução e retorno foram financiados pelo Banco Supremo, que desde então mantém uma relação pública de patrocínio com o herói. Conhecido pelo estilo de combate direto, personalidade confiante e forte presença diante das câmeras, Hércules mantém sua identidade civil pública e atua profissionalmente como herói independente.",
@@ -437,8 +437,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 2,
-        rankingAnterior: 1,
+        ranking: 3,
+        rankingAnterior: 2,
         melhorRanking: 1,
         popularidade: 81,
         sobre: "HMarina Alencar dos Santos, mais conhecida como Nympha das Ondas, é uma super-heroína e surfista profissional brasileira com atuação concentrada no Rio de Janeiro. Já conhecida no meio esportivo antes do surgimento de seus poderes, Marina desenvolveu características semelhantes às de uma borboleta, incluindo quatro grandes asas que lhe permitem voar em alta velocidade. Em vez de abandonar sua antiga carreira, incorporou sua experiência como surfista à atividade heroica, utilizando uma prancha tanto para manobras aéreas quanto como arma em um estilo de combate extremamente móvel e acrobático. Extrovertida, festeira e naturalmente sociável, Nympha alcançou enorme popularidade por manter uma relação próxima e informal com o público, sendo frequentemente vista em praias, festas, bares e eventos do Rio de Janeiro. Apesar de lidar bem com fãs, jornalistas e com a própria fama, possui uma relação particularmente hostil com paparazzi e demonstra grande irritação quando considera que sua vida privada está sendo invadida.",
@@ -751,8 +751,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Palmas",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 51,
-        rankingAnterior: "",
+        ranking: 52,
+        rankingAnterior: 51,
         melhorRanking: 51,
         popularidade: 72,
         sobre: "Sol de Bronze é um herói nordestino de poucas palavras e muitos feitos, portador de um poderoso lampião que lhe permite controlar fogo e luz, além de criar ilusões. Quieto, tranquilo e pouco interessado nos holofotes, prefere uma praia, uma rede e um pouco de sossego a entrevistas e eventos públicos, jeito que, ironicamente, conquistou muitos admiradores. Quando surge uma ocorrência, porém, sua postura muda: Sol de Bronze trabalha incansavelmente e só para quando o serviço está devidamente terminado, seja enfrentando criminosos, resgatando civis ou auxiliando equipes de emergência. Ele não faz grandes discursos nem procura reconhecimento — prefere deixar que seu trabalho fale por ele.",
@@ -1119,8 +1119,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Salvador",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 52,
-        rankingAnterior: "",
+        ranking: 53,
+        rankingAnterior: 52,
         melhorRanking: 52,
         popularidade: 78,
         sobre: "Dandara Nascimento, conhecida publicamente como **Maria Bonita**, é uma das heroínas mais respeitadas de Salvador, cidade que conhece como a palma da mão. Sem qualquer poder confirmado, enfrenta supers e criminosos contando apenas com preparo, armas, técnica e uma capacidade excepcional de elaborar estratégias sob pressão. Combatente de primeira linha, Dandara prefere conhecer o adversário e o terreno antes de entrar em ação, mas é igualmente perigosa quando precisa improvisar. Sua visão afiada, reflexos e velocidade de raciocínio são tão impressionantes que ainda há quem duvide que ela seja realmente uma humana sem poderes — algo que Maria Bonita nunca pareceu interessada em provar ou desmentir.",
@@ -1384,8 +1384,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Petrolina",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 53,
-        rankingAnterior: "",
+        ranking: 54,
+        rankingAnterior: 53,
         melhorRanking: 53,
         popularidade: 75,
         sobre: "Severino Batista de Moura já foi um homem comum de Petrolina, até um incidente de origem ainda pouco compreendida transformar permanentemente seu corpo em uma estrutura vegetal semelhante a um enorme cacto. Hoje conhecido como Xique-Xique, percorre principalmente o sertão pernambucano enfrentando criminosos e ocorrências super-humanas com a mesma delicadeza de uma planta cheia de espinhos: nenhuma. Excelente atirador e dono de uma resistência extraordinária, Severino é conhecido pelo temperamento difícil, pelas respostas curtas e por uma absoluta falta de paciência para imprensa, fãs ou cerimônias. Apesar da aparência ameaçadora e da fama de mal-humorado, seu histórico demonstra uma preocupação especial com comunidades menores e regiões afastadas dos grandes centros, onde muitas vezes é o primeiro — e único — super a aparecer quando alguma coisa dá errado.",
@@ -1514,8 +1514,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Goiânia",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 14,
-        rankingAnterior: 13,
+        ranking: 15,
+        rankingAnterior: 14,
         melhorRanking: 12,
         popularidade: 75,
         sobre: "Alice Moreira de Carvalho, conhecida publicamente ao lado da criatura alienígena Cheshire, forma uma das parcerias mais incomuns em atividade no Centro-Oeste. Alice não possui capacidades sobre-humanas conhecidas. Seu diferencial está no vínculo estabelecido com Cheshire, uma criatura extraterrestre inteligente capaz de exercer telecinese e acessar pensamentos.\nEmbora frequentemente tratados como uma única unidade heroica, Alice insiste que Cheshire não é seu poder, equipamento ou propriedade. A criatura possui vontade própria e nem sempre segue as decisões de sua companheira — característica responsável tanto por alguns dos sucessos mais improváveis da dupla quanto por boa parte de seus problemas.\nAlice costuma atuar de maneira pouco convencional, utilizando Cheshire para contenção, proteção e controle do campo enquanto assume funções investigativas e conduz interrogatórios. Seu desempenho varia consideravelmente conforme os heróis com quem trabalha: operações ao lado de Piatã são conhecidas pela coordenação quase impecável, enquanto suas aparições com Lobo Guá costumam parecer muito mais caóticas do que os resultados sugerem.\nA origem de Cheshire e as circunstâncias exatas de seu encontro com Alice permanecem pouco esclarecidas.",
@@ -1742,8 +1742,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Campo Grande",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 15,
-        rankingAnterior: 14,
+        ranking: 16,
+        rankingAnterior: 15,
         melhorRanking: 13,
         popularidade: 75,
         sobre: "Lobo Guá é uma figura tão reconhecível quanto misteriosa entre os heróis do Centro-Oeste: permanentemente preso em uma forma semelhante a um enorme lobo-guará humanoide, é incapaz de falar, comunicando-se por gestos, sinais e vocalizações que poucos conseguem compreender. Apesar da aparência feroz e do comportamento aparentemente animalesco, demonstra grande inteligência, percepção e capacidade de tomar decisões durante operações, destacando-se principalmente pela velocidade e pelo combate corpo a corpo. Sua parceria com Piatã é particularmente conhecida, já que o herói consegue compreendê-lo perfeitamente e os dois desenvolveram uma sintonia excepcional em combate. Fora dessa dupla, porém, Lobo Guá é muito mais imprevisível: suas operações com Alice & Cheshire são famosas pelo caos, enquanto sua estranha obediência a Arranca Língua parece nascer de um genuíno medo da entidade que a acompanha.",
@@ -1945,8 +1945,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Cuiabá",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 13,
-        rankingAnterior: 12,
+        ranking: 14,
+        rankingAnterior: 13,
         melhorRanking: 12,
         popularidade: 82,
         sobre: "Piatã é um jovem herói indígena conhecido tanto por suas extraordinárias capacidades sensoriais quanto por sua habilidade de liderança. Suas grandes orelhas proporcionam uma audição excepcional, complementada por sentidos extremamente aguçados, enquanto seu treinamento o tornou um habilidoso combatente corpo a corpo com seu bastão, que também pode ser utilizado como zarabatana. Piatã possui ainda a incomum capacidade de se comunicar diretamente com animais, característica responsável por sua célebre parceria com Lobo Guá, com quem mantém uma sintonia quase perfeita. Calmo, adaptável e excelente improvisador, destaca-se especialmente quando atua ao lado de outros heróis: consegue organizar até o comportamento imprevisível de Alice & Cheshire e demonstra profundo respeito por Arranca Língua e sua relação com os ancestrais. Embora não simpatize com Alex Vorcaro, reconhece a importância de seus recursos e conhecimentos em operações mais complexas.",
@@ -2221,8 +2221,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Cuiabá",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 54,
-        rankingAnterior: 67,
+        ranking: 55,
+        rankingAnterior: 54,
         melhorRanking: 51,
         popularidade: 73,
         sobre: "Arranca Língua é uma das heroínas mais enigmáticas e temidas do Centro-Oeste. Mulher negra vinculada a um antigo espírito, possui a capacidade de se comunicar com entidades ancestrais e permitir que elas se manifestem através de seu corpo, assumindo características e habilidades sobrenaturais. Sua presença costuma provocar desconforto até mesmo entre outros super-heróis, especialmente Lobo Guá, que demonstra um medo inexplicável dela, possivelmente por enxergar as entidades que a acompanham. Apesar da aparência intimidadora, Arranca Língua é respeitada por sua atuação contra o crime e mantém uma relação de admiração mútua com Piatã. Por outro lado, recusa-se a trabalhar com Alex Vorcaro, afirmando que as presenças espirituais que o acompanham são feitas de pura treva. Reservada e pouco interessada na fama, é uma heroína cuja reputação oscila entre o respeito, o medo e a superstição.",
@@ -2981,8 +2981,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Florianópolis",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 55,
-        rankingAnterior: 284,
+        ranking: 56,
+        rankingAnterior: 55,
         melhorRanking: 55,
         popularidade: 68,
         sobre: "Cuca é uma super-heroína parcialmente transformada em crocodilo, conhecida por sua força brutal, personalidade explosiva e enorme carisma. Extremamente popular entre crianças e adolescentes, conquistou uma legião de fãs por sua espontaneidade, bom humor e disposição para interagir com o público, embora sua aparência intimide parte das gerações mais velhas. Em combate, prefere confrontos diretos, utilizando seus punhos e sua poderosa mandíbula para neutralizar adversários. Apesar de sua impulsividade e tendência a provocar companheiros, demonstra excelente desempenho ao lado de heróis experientes como Geada e Alvoredo. Sua parceria com Toró, entretanto, tornou-se controversa após uma operação conjunta terminar em uma catástrofe.",
@@ -3302,8 +3302,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Caxias do Sul",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 56,
-        rankingAnterior: 326,
+        ranking: 57,
+        rankingAnterior: 56,
         melhorRanking: 56,
         popularidade: 73,
         sobre: "Alvoredo é um dos heróis mais misteriosos e assustadores do Sul do Brasil, conhecido por sua transformação em um enorme lobisomem e por sua extraordinária capacidade de combate. Pouco se sabe sobre sua identidade, origem ou passado, e sua aparência monstruosa contribui para sua baixa popularidade. Entretanto, aqueles que foram salvos por ele costumam se tornar seus defensores mais fiéis. Apesar de reservado e pouco comunicativo, Alvoredo demonstra uma inteligência tática excepcional, sendo capaz de adaptar seu estilo de luta a praticamente qualquer aliado, desde a impulsiva Cuca até o experiente Geada. Sua coordenação com outros heróis é tão precisa que alguns especulam sobre uma possível conexão telepática, embora não existam evidências que confirmem essa capacidade.",
@@ -3680,5 +3680,1231 @@ window.SUPERFOCO_HEROIS = [
             }
         ],
         pontuacao: 8291
+    },
+    {
+        id: "ararurama",
+        nome: "Ararurama",
+        arquivo: "ARARURAMA",
+        pagina: true,
+        identidade: "Yara Aruã",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "AM",
+        cidade: "Manaus",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 2,
+        rankingAnterior: 4,
+        melhorRanking: 2,
+        popularidade: 88,
+        sobre: "Ararurama é uma das maiores heroínas do Brasil e a principal guardiã dos rios e lagos da Região Norte. Nascida em uma comunidade indígena isolada da Floresta Amazônica, cresceu profundamente conectada à natureza e se tornou a primeira indígena a receber superpoderes. Capaz de controlar enormes volumes de água, destaca-se tanto pelo extraordinário poder de combate quanto pela habilidade de realizar resgates em larga escala. Apesar de sua força, é conhecida pela personalidade amável, delicada e extremamente atenciosa com seus admiradores, conquistando uma legião de fãs que a tratam como uma verdadeira celebridade. Sua presença transmite segurança e tranquilidade, tornando-a uma das figuras mais queridas e confiáveis do cenário heroico nacional.",
+        poderes: ["Hidrocinese", "Manipulação de grandes volumes de água", "Criação de ondas e tsunamis", "Jatos de água de alta pressão", "Criação de barreiras aquáticas", "Manipulação de correntes aquáticas", "Levitação e deslocamento por meio da água", "Controle de água em área", "Contenção de inimigos com água", "Resgates aquáticos em larga escala"],
+        stats: {
+            ocorrencias: 336,
+            resgates: 2050,
+            prisoes: 124,
+            danos: 5100000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@manausencantada",
+                texto: "Eu encontrei a Ararurama depois de uma ocorrência aqui em Manaus e ela é EXATAMENTE como aparece nas entrevistas. Atendeu todo mundo, tirou foto com as crianças e ainda perguntou se alguém precisava de ajuda. Não é personagem de televisão não, ela é assim mesmo 😭💙",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "A mulher acabou de salvar umas 40 pessoas e ainda teve paciência pra tirar selfie KKKKKK"
+                    },
+                    {
+                        usuario: "@rioamazonas",
+                        texto: "Minha filha tem uma foto com ela desse dia. Tá emoldurada na sala."
+                    }
+                ]
+            },
+            {
+                usuario: "@rankingsemfiltro",
+                texto: "Terceira do Brasil é justo, mas acho que muita gente confunde popularidade com eficiência. Ela é excepcional em desastres naturais, só que em confrontos urbanos o controle de água em larga escala nem sempre é a melhor solução.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@aguaviva",
+                        texto: "Mas o ranking considera resgates, prisões e danos. Não é votação de popularidade."
+                    },
+                    {
+                        usuario: "@rankingsemfiltro",
+                        texto: "Eu sei. Só acho que o contexto das ocorrências também deveria pesar."
+                    }
+                ]
+            },
+            {
+                usuario: "@araruamaoficialfan",
+                texto: "ELA CURTIU MEU COMENTÁRIO NO INSTAGRAM!!!!!!!! EU NÃO TÔ BEM GENTE 😭😭😭",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguifc",
+                        texto: "Fã da Ararurama é igual fã de K-pop mesmo KKKKK"
+                    },
+                    {
+                        usuario: "@norteforte",
+                        texto: "E ela ainda responde os fãs quando consegue. ÍCONE."
+                    }
+                ]
+            },
+            {
+                usuario: "@engenheirodoporto",
+                texto: "O trabalho dela é impressionante, mas precisa haver mais cuidado com embarcações e estruturas próximas. Na última ocorrência, a correnteza deslocou dois barcos que não tinham nada a ver com o confronto. Felizmente ninguém se feriu.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@defensoresdonorte",
+                        texto: "Crítica justa. Poder controlar um rio inteiro não significa que todos os efeitos sejam previsíveis."
+                    },
+                    {
+                        usuario: "@engenheirodoporto",
+                        texto: "Exatamente. Não estou questionando a intenção dela, só os procedimentos."
+                    }
+                ]
+            },
+            {
+                usuario: "@ribeirinha_am",
+                texto: "Quem mora perto dos rios sabe o quanto ela significa. Quando a água sobe e começa o desespero, saber que existe alguém como Ararurama faz diferença. Ela já ajudou comunidades que quase nunca aparecem no noticiário.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@beatrizsilva",
+                        texto: "Esse é o tipo de heroísmo que deveria aparecer mais nas notícias."
+                    },
+                    {
+                        usuario: "@ribeirinha_am",
+                        texto: "E não é só aparecer e ir embora. Ela conversa com os moradores também."
+                    }
+                ]
+            },
+            {
+                usuario: "@memesdemanaus",
+                texto: "Ararurama com o Sagui é literalmente uma mãe levando o filho hiperativo no supermercado. Ela tentando explicar o plano e ele já tá pulando no telhado KKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "E O PIOR É QUE ELES LUTAM MUITO BEM JUNTOS"
+                    },
+                    {
+                        usuario: "@capivarasuprema",
+                        texto: "Ela deve ter desenvolvido paciência infinita depois de conhecer esse menino."
+                    }
+                ]
+            },
+            {
+                usuario: "@observadorheroico",
+                texto: "Uma das poucas heroínas que conseguem lidar com uma ocorrência gigantesca sem parecer que perderam o controle da situação. O jeito calmo dela transmite uma segurança absurda.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@norteforte",
+                        texto: "O contraste entre a delicadeza dela e a quantidade de água que consegue mover é surreal."
+                    }
+                ]
+            },
+            {
+                usuario: "@vaporquente",
+                texto: "Nunca vou esquecer a missão dela com Pés de Fogo. Duas heroínas excelentes e ninguém enxergando NADA por causa do vapor KKKKKKK. Ainda bem que deu tudo certo.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@capoeiradigital",
+                        texto: "As duas tentando resolver o problema e criando uma sauna industrial"
+                    },
+                    {
+                        usuario: "@aguaviva",
+                        texto: "Pelo menos aprenderam que nem toda combinação de poderes funciona."
+                    }
+                ]
+            },
+            {
+                usuario: "@vozdaaldeia",
+                texto: "O que mais admiro é que ela não parece ter esquecido de onde veio. Espero que continue usando a visibilidade que conquistou para defender os rios, as comunidades e a floresta.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@amazoniaviva",
+                        texto: "Representatividade também é responsabilidade. Até agora ela tem levado isso muito a sério."
+                    }
+                ]
+            },
+            {
+                usuario: "@criticosupers",
+                texto: "Vou ser a pessoa chata: ninguém deveria ter tanto poder sobre recursos naturais sem fiscalização. Estamos falando de alguém capaz de alterar correntes de água que afetam cidades inteiras. Gostar dela não elimina esse problema.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@manausencantada",
+                        texto: "Ela já salvou milhares de pessoas, cara."
+                    },
+                    {
+                        usuario: "@criticosupers",
+                        texto: "E merece reconhecimento por isso. Mas salvar pessoas não torna ninguém imune à fiscalização."
+                    },
+                    {
+                        usuario: "@direitodossupers",
+                        texto: "É uma discussão legítima, principalmente quando existem danos a terceiros."
+                    }
+                ]
+            },
+            {
+                usuario: "@espiritosdorio",
+                texto: "Ararurama e Rasga são uma dupla absurda. Ele prepara tudo e ela executa com uma precisão impressionante. Parece que os dois entendem coisas que o resto da equipe nem percebe.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@xamafc",
+                        texto: "Finalmente alguém valorizando o Rasga. O homem resolve metade dos problemas antes do combate começar."
+                    },
+                    {
+                        usuario: "@rioamazonas",
+                        texto: "É muito bonito ver os dois trabalhando juntos."
+                    }
+                ]
+            },
+            {
+                usuario: "@primeirafila",
+                texto: "Fui num evento com a Ararurama e ela percebeu uma menina chorando porque não tinha conseguido chegar perto. Ela mesma chamou a criança pra tirar foto. Pode parecer pequeno, mas aquilo foi tudo pra família. Sou fã pra sempre 💙",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@araruamaoficialfan",
+                        texto: "ELA É UMA PRINCESA EU NÃO AGUENTO"
+                    },
+                    {
+                        usuario: "@primeirafila",
+                        texto: "A menina saiu de lá pulando de felicidade. Foi muito fofo."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 9834
+    },
+    {
+        id: "sagui",
+        nome: "Sagui",
+        arquivo: "SAGUI",
+        pagina: true,
+        identidade: "Gabriel Monteiro da Silva",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "AM",
+        cidade: "Manaus",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 13,
+        rankingAnterior: 16,
+        melhorRanking: 13,
+        popularidade: 90,
+        sobre: "Nascido e criado em Manaus, Sagui é um jovem super-herói conhecido por sua personalidade extrovertida, carisma contagiante e impressionante agilidade. Dotado de características simiescas, incluindo uma cauda preênsil, elasticidade corporal e habilidades extraordinárias de escalada e salto, atravessa a cidade com facilidade enquanto enfrenta criminosos e diverte o público com suas piadas. Inspirado nas lendas do Rei Macaco, utiliza um bastão mágico extensível recebido de um misterioso Ancião da Floresta, supostamente confeccionado com uma variedade especial de pau-brasil. Entretanto, o artefato parece possuir vontade própria e nem sempre obedece aos comandos de seu portador. Apesar da atitude brincalhona e de sua juventude, Sagui leva a responsabilidade de proteger as pessoas a sério e sonha em se tornar um dos maiores heróis do Brasil.",
+        poderes: ["Agilidade sobre-humana", "Reflexos sobre-humanos", "Cauda preênsil", "Escalada sobre-humana", "Saltos extraordinários", "Equilíbrio aprimorado", "Coordenação motora sobre-humana", "Acrobacia avançada", "Combate com bastão", "Bastão mágico extensível", "Mobilidade tridimensional"],
+        stats: {
+            ocorrencias: 295,
+            resgates: 1180,
+            prisoes: 126,
+            danos: 1900000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@manausmemes",
+                texto: "O Sagui salvou um cara de cair de um prédio, colocou ele no chão e falou 'pronto, Uber aéreo, cinco estrelas por favor'. KKKKKKKKKKK EU AMO ESSE MOLEQUE",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@pedroam",
+                        texto: "Imagina quase morrer e ser resgatado pelo maior comediante de Manaus KKKKK"
+                    },
+                    {
+                        usuario: "@saguilovers",
+                        texto: "E O PIOR É QUE O CARA DEU CINCO ESTRELAS NO SUPERFOCO DEPOIS"
+                    }
+                ]
+            },
+            {
+                usuario: "@centromanaus",
+                texto: "Eu trabalho no centro e já vi ele em ação umas três vezes. O menino atravessa uma rua inteira sem tocar no chão. E sempre para pra conversar com as crianças. Merece todo o reconhecimento.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@amazonasnews",
+                        texto: "A mobilidade dele é absurda, principalmente entre os prédios."
+                    }
+                ]
+            },
+            {
+                usuario: "@bastaomagico",
+                texto: "O BASTÃO DELE SIMPLESMENTE SE RECUSOU A CRESCER NO MEIO DA LUTA KKKKKKKKKKK. Sagui ficou olhando pra ele tipo 'a gente conversa em casa'.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "O bastão é o verdadeiro vilão recorrente da história dele"
+                    },
+                    {
+                        usuario: "@florestaviva",
+                        texto: "Vai ver o bastão tem seus motivos 👀"
+                    }
+                ]
+            },
+            {
+                usuario: "@segurancapublicaam",
+                texto: "Ele é eficiente, mas precisa amadurecer. Durante uma perseguição ficou provocando os criminosos em vez de simplesmente imobilizá-los. Deu tudo certo, mas poderia ter colocado terceiros em risco.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "O cara quer prender bandido e fazer stand-up ao mesmo tempo"
+                    },
+                    {
+                        usuario: "@segurancapublicaam",
+                        texto: "E é justamente isso que me preocupa."
+                    }
+                ]
+            },
+            {
+                usuario: "@pesdefogofc",
+                texto: "SAGUI E PÉS DE FOGO SÃO A MELHOR DUPLA DO NORTE E NINGUÉM VAI ME CONVENCER DO CONTRÁRIO. Ela chutando bolas de fogo e ele desviando como se fosse coreografia ENSAIADA. ABSURDO.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@capoeiradigital",
+                        texto: "Os dois compartilham um único neurônio e ele funciona perfeitamente durante o combate KKKKK"
+                    },
+                    {
+                        usuario: "@norteforte",
+                        texto: "Brincadeiras à parte, a coordenação dos dois é realmente impressionante."
+                    }
+                ]
+            },
+            {
+                usuario: "@engenheirocivilam",
+                texto: "Como profissional da área, acho impressionante a maneira como ele utiliza o ambiente urbano. Mas gostaria que tivesse mais cuidado com fachadas e estruturas durante as perseguições. Nem tudo foi projetado pra receber um super-herói pulando em cima.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@centromanaus",
+                        texto: "Pelo menos ele causa menos destruição que vários outros heróis"
+                    },
+                    {
+                        usuario: "@engenheirocivilam",
+                        texto: "Concordo. Só não significa que o risco seja zero."
+                    }
+                ]
+            },
+            {
+                usuario: "@araruamafc",
+                texto: "Ararurama tentando dar entrevista e o Sagui aparecendo pendurado de cabeça pra baixo atrás dela KKKKKKK. Ela tem a paciência de uma mãe com cinco filhos.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "A dinâmica dos dois é literalmente mãe e filho hiperativo"
+                    },
+                    {
+                        usuario: "@aguaviva",
+                        texto: "E o mais incrível é que trabalham super bem juntos."
+                    }
+                ]
+            },
+            {
+                usuario: "@ribeirinhodoam",
+                texto: "Ele ajudou minha família durante uma ocorrência perto do porto. Não era nada grandioso, mas ficou até todo mundo estar seguro. Quando minha avó agradeceu, ele respondeu que herói bom não cobra passagem. Nunca esqueci.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausencantada",
+                        texto: "Essas histórias dizem muito mais sobre um herói do que qualquer propaganda."
+                    },
+                    {
+                        usuario: "@saguilovers",
+                        texto: "Ele é muito querido por um motivo ❤️"
+                    }
+                ]
+            },
+            {
+                usuario: "@criticosupers",
+                texto: "Talvez eu seja minoria, mas não gosto dessa transformação de combate em entretenimento. Estamos falando de criminosos, reféns e riscos reais. O Sagui age como se estivesse gravando um vídeo para a internet.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@bastaomagico",
+                        texto: "Fazer piada não significa que ele não esteja levando a situação a sério."
+                    },
+                    {
+                        usuario: "@criticosupers",
+                        texto: "Pode não significar, mas também não transmite profissionalismo."
+                    }
+                ]
+            },
+            {
+                usuario: "@uncafc",
+                texto: "O SAGUI ESCALANDO O UNCA NO MEIO DO COMBATE É A COISA MAIS ENGRAÇADA QUE EU JÁ VI. O grandão parece um prédio ambulante e o Sagui fica pulando pelos ombros dele KKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "O Unca deve ficar muito feliz de virar playground"
+                    },
+                    {
+                        usuario: "@uncafc",
+                        texto: "O pior é que a estratégia funciona MUITO bem."
+                    }
+                ]
+            },
+            {
+                usuario: "@xamafc",
+                texto: "Gosto dele, mas o Rasga deve precisar de muita paciência. O xamã preparando tudo cuidadosamente e o Sagui querendo sair correndo antes do ritual terminar. Pelo menos sabe ouvir quando a situação fica séria.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "O Sagui tem alergia a esperar KKKKK"
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "Ainda bem que ele reconhece quando precisa confiar no Rasga."
+                    }
+                ]
+            },
+            {
+                usuario: "@turismomanaus",
+                texto: "5/5  Não ironicamente, acho que o Sagui virou uma das figuras mais reconhecíveis de Manaus. Tem criança imitando ele nos parques, gente fazendo fantasia e turista querendo saber onde ele costuma aparecer.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@centromanaus",
+                        texto: "Já vi três crianças com bastão de brinquedo na mesma praça"
+                    },
+                    {
+                        usuario: "@manausmemes",
+                        texto: "Patrimônio cultural de Manaus KKKKK"
+                    }
+                ]
+            },
+            {
+                usuario: "@observadorheroico",
+                texto: "Sagui tem potencial para chegar muito mais longe no ranking. Mobilidade extraordinária, bom histórico de resgates e ótima capacidade de trabalhar com heróis de estilos diferentes. Falta experiência e disciplina.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@rankingsemfiltro",
+                        texto: "Concordo. Ele tem números excelentes para alguém tão jovem."
+                    },
+                    {
+                        usuario: "@saguilovers",
+                        texto: "Daqui uns anos ele vai estar entre os maiores, anotem."
+                    }
+                ]
+            },
+            {
+                usuario: "@bastaosemcontrole",
+                texto: "Quero saber quem é esse Ancião da Floresta que deu um bastão mágico pro Sagui e simplesmente foi embora. O velho entregou uma arma lendária com defeito de fábrica e não deixou nem manual de instruções.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@florestaviva",
+                        texto: "Ou o bastão funciona perfeitamente e o Sagui que ainda não entendeu como usar 👀"
+                    },
+                    {
+                        usuario: "@manausmemes",
+                        texto: "Garantia de 12 meses, levar na assistência técnica da floresta"
+                    }
+                ]
+            },
+            {
+                usuario: "@maedemanaus",
+                texto: "Meu filho adora o Sagui. Eu gosto porque ele mostra que alguém pode ser divertido e ainda fazer a coisa certa. Só espero que continue amadurecendo e não perca essa alegria que faz tanta gente gostar dele.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "É exatamente isso! Ele não precisa virar um herói sério e carrancudo pra crescer."
+                    },
+                    {
+                        usuario: "@maedemanaus",
+                        texto: "Exatamente. Só precisa aprender a hora de brincar e a hora de agir."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 7960
+    },
+    {
+        id: "pes-de-fogo",
+        nome: "Pés de Fogo",
+        arquivo: "PES_DE_FOGO",
+        pagina: true,
+        identidade: "Luana dos Santos Oliveira",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "AM",
+        cidade: "Manaus",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 51,
+        rankingAnterior: 58,
+        melhorRanking: 51,
+        popularidade: 80,
+        sobre: "Pés de Fogo é uma jovem heroína amazonense conhecida por sua personalidade energética, carisma contagiante e extraordinária habilidade com a capoeira. Capaz de controlar fogo exclusivamente através dos pés, transforma cada movimento de combate em uma combinação de acrobacias, chutes flamejantes e explosões de calor. Embora essa limitação impeça que manifeste suas chamas por outras partes do corpo, a concentração de seu poder torna seu fogo excepcionalmente mais intenso que o de muitos outros manipuladores de chamas. Acelerada, impulsiva e apaixonada pela capoeira, conquistou o carinho das comunidades amazônicas, onde é reconhecida tanto pela coragem quanto pela proximidade com a população. Apesar de seu enorme potencial, ainda enfrenta dificuldades para coordenar suas habilidades com determinados heróis, especialmente aqueles que dependem de planejamento ou possuem estilos de combate incompatíveis com o seu.",
+        poderes: ["Pirocinese concentrada nos pés", "Geração de chamas de alta intensidade", "Projeção de bolas de fogo por chutes", "Chutes flamejantes", "Explosões de fogo por impacto", "Ondas de calor produzidas pelos pés", "Propulsão por chamas", "Acrobacia e mobilidade aprimoradas", "Técnicas avançadas de capoeira", "Resistência ao calor dos próprios poderes"],
+        stats: {
+            ocorrencias: 268,
+            resgates: 1050,
+            prisoes: 113,
+            danos: 1650000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@gingademanaus",
+                texto: "Eu pratico capoeira há 12 anos e ver a Pés de Fogo lutando é simplesmente surreal. Ela consegue transformar uma meia-lua de compasso numa explosão de fogo. A menina tem uma técnica absurda, e ainda dá pra ver que ama o que faz. REPRESENTA DEMAIS! 🔥",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@capoeiristaam",
+                        texto: "O mais bonito é que ela não abandonou a capoeira depois de ganhar poderes. Ela fez da capoeira o próprio estilo de heroísmo."
+                    },
+                    {
+                        usuario: "@berimbaudefogo",
+                        texto: "Queria muito ver ela numa roda normal, sem usar os poderes."
+                    }
+                ]
+            },
+            {
+                usuario: "@comunidadenorte",
+                texto: "5/5  Ela apareceu aqui depois de uma ocorrência e ficou conversando com todo mundo, principalmente com as crianças. Não tem aquela distância de celebridade, parece uma amiga do bairro. É por isso que a gente gosta tanto dela.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@moradoram",
+                        texto: "Exatamente! Ela trata todo mundo igual."
+                    },
+                    {
+                        usuario: "@pesdefogofc",
+                        texto: "A nossa menina é gigante ❤️🔥"
+                    }
+                ]
+            },
+            {
+                usuario: "@saguilovers",
+                texto: "SAGUI E PÉS DE FOGO JUNTOS É CINEMA. Ela chuta três bolas de fogo, ele passa no meio delas dando mortal e ainda acerta o bandido com o bastão. Os dois parecem que compartilham o mesmo cérebro KKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "Um cérebro só, mas durante o combate ele vira um supercomputador."
+                    },
+                    {
+                        usuario: "@norteforte",
+                        texto: "A coordenação deles é realmente uma das melhores entre os heróis do Norte."
+                    }
+                ]
+            },
+            {
+                usuario: "@bombeiroam",
+                texto: "Ela é muito corajosa, mas precisa melhorar a avaliação de risco. Fogo não é brincadeira, especialmente em áreas residenciais. Já vi gravações em que um chute dela passou perto demais de material inflamável.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@gingademanaus",
+                        texto: "Crítica justa. Ela ainda é jovem e tem muito pra aprender."
+                    },
+                    {
+                        usuario: "@bombeiroam",
+                        texto: "Exatamente. O potencial é enorme, só precisa de mais controle."
+                    }
+                ]
+            },
+            {
+                usuario: "@chamasnospe",
+                texto: "A mulher literalmente tem o fogo mais absurdo que eu já vi saindo dos PÉS. Imagina quando ela aprender a controlar isso direito. Vai virar uma das maiores heroínas do Brasil, podem anotar.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@pesdefogofc",
+                        texto: "EU FALO ISSO HÁ ANOS"
+                    },
+                    {
+                        usuario: "@observadorheroico",
+                        texto: "A concentração do poder é impressionante. Mas intensidade não substitui precisão."
+                    }
+                ]
+            },
+            {
+                usuario: "@uncafc",
+                texto: "Eu gosto dela, mas não dá pra ignorar o que aconteceu quando lutou com o Unca. O cara tem medo de fogo e ela ficou soltando chama perto dele. Os dois acabaram machucados. Herói também precisa saber trabalhar em equipe.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@pesdefogofc",
+                        texto: "Mas ela não fez por mal! Os estilos deles simplesmente não combinam."
+                    },
+                    {
+                        usuario: "@uncafc",
+                        texto: "Não estou dizendo que fez por mal. Estou dizendo que precisam evitar repetir isso."
+                    }
+                ]
+            },
+            {
+                usuario: "@rodadecapoeira",
+                texto: "Minha filha começou capoeira depois de conhecer a Pés de Fogo. Hoje ela treina três vezes por semana e vive dizendo que vai ser heroína. Só por inspirar tanta criança, já merece cinco estrelas.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@berimbaudefogo",
+                        texto: "Isso é lindo demais ❤️"
+                    },
+                    {
+                        usuario: "@comunidadenorte",
+                        texto: "Ela virou referência pra muita menina daqui."
+                    }
+                ]
+            },
+            {
+                usuario: "@xamafc",
+                texto: "O Rasga deve sofrer tentando coordenar essa menina KKKKK. Ele passa meia hora preparando um plano e ela resolve atacar antes da explicação terminar. Não adianta ter poder absurdo se você não consegue esperar o momento certo.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@chamasnospe",
+                        texto: "Mas às vezes o improviso dela funciona melhor que o plano."
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "Às vezes. O problema são as outras vezes."
+                    }
+                ]
+            },
+            {
+                usuario: "@amazonasnews",
+                texto: "4/5  É uma das heroínas mais promissoras do Norte. Possui capacidade ofensiva impressionante, excelente mobilidade e forte apoio popular. O principal desafio para subir no ranking parece ser reduzir erros operacionais e melhorar a atuação conjunta.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@rankingsemfiltro",
+                        texto: "Concordo. Ela tem potencial pra ultrapassar muita gente."
+                    },
+                    {
+                        usuario: "@pesdefogofc",
+                        texto: "Quando aprender a controlar melhor o fogo ninguém segura!"
+                    }
+                ]
+            },
+            {
+                usuario: "@saunadomanaus",
+                texto: "Nunca vou superar a missão dela com a Ararurama. UMA JOGANDO FOGO, A OUTRA ÁGUA, E DE REPENTE NINGUÉM ENXERGAVA NADA. Criaram o maior banho de vapor da história do Amazonas KKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@aguaviva",
+                        texto: "As duas são incríveis, mas definitivamente não deveriam dividir o mesmo campo de batalha."
+                    },
+                    {
+                        usuario: "@manausmemes",
+                        texto: "Primeiro spa de super-heróis do Brasil."
+                    }
+                ]
+            },
+            {
+                usuario: "@professordecapoeira",
+                texto: "O que mais admiro é a disciplina corporal dela. Muita gente vê só o fogo, mas os movimentos são muito bem executados. Capoeira exige treino, ritmo e consciência do corpo. Isso não se ganha com superpoder.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@gingademanaus",
+                        texto: "FINALMENTE alguém falando da técnica dela."
+                    },
+                    {
+                        usuario: "@rodadecapoeira",
+                        texto: "O poder impressiona, mas a ginga é o que faz tudo funcionar."
+                    }
+                ]
+            },
+            {
+                usuario: "@criticosupers",
+                texto: "Carisma não deveria compensar imprudência. Ela tem um poder extremamente destrutivo, toma decisões impulsivas e já demonstrou dificuldade em operações conjuntas. Não estou dizendo que seja uma heroína ruim, mas precisa de supervisão.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@pesdefogofc",
+                        texto: "Ela salva pessoas de verdade, não é só carisma."
+                    },
+                    {
+                        usuario: "@criticosupers",
+                        texto: "E isso merece reconhecimento. Mas não elimina a necessidade de responsabilidade."
+                    }
+                ]
+            },
+            {
+                usuario: "@moradoradocomplexo",
+                texto: "Ela apareceu numa atividade comunitária sem câmera, sem imprensa e sem fazer propaganda. Ficou conversando, brincando com as crianças e participou de uma roda de capoeira. Tem gente que só é herói quando tem plateia. Ela não.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@comunidadenorte",
+                        texto: "É por isso que ela é tão querida nas comunidades."
+                    },
+                    {
+                        usuario: "@berimbaudefogo",
+                        texto: "Imagina abrir uma roda e a Pés de Fogo entrar pra jogar 😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@fogoemmovimento",
+                texto: "Uma dúvida sincera: se ela só consegue controlar fogo pelos pés, o que acontece quando precisa lutar num lugar cheio de gente? Porque a intensidade das chamas parece muito maior que a capacidade de controlar a direção delas.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@observadorheroico",
+                        texto: "Essa é justamente uma das limitações mais importantes do poder dela."
+                    },
+                    {
+                        usuario: "@chamasnospe",
+                        texto: "Por isso ela usa tanto chute direcionado e movimentação."
+                    }
+                ]
+            },
+            {
+                usuario: "@pequenaginga",
+                texto: "5/5  Eu sou uma menina negra de Manaus e ver uma heroína como ela me faz acreditar que posso fazer coisas grandes também. Não importa se ela ainda erra às vezes. Pra mim ela já é uma inspiração. ❤️🔥",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@gingademanaus",
+                        texto: "Esse comentário merece chegar até ela."
+                    },
+                    {
+                        usuario: "@pesdefogofc",
+                        texto: "É POR ISSO QUE A GENTE AMA A PÉS DE FOGO 😭❤️"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 7166
+    },
+    {
+        id: "unca",
+        nome: "Unca",
+        arquivo: "UNCA",
+        pagina: true,
+        identidade: "Ricardo Almeida Ferreira",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "AM",
+        cidade: "Manaus",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 58,
+        rankingAnterior: 57,
+        melhorRanking: 58,
+        popularidade: 83,
+        sobre: "Natural de São Paulo, Ricardo Almeida Ferreira era um engenheiro que se mudou para Manaus em busca de melhores oportunidades profissionais na Zona Franca, sem imaginar que sua vida mudaria completamente ao adquirir a capacidade de se transformar em uma gigantesca onça licantropa. Conhecido como Unca, tornou-se um dos combatentes mais fortes e resistentes da Região Norte, utilizando sua força monstruosa, garras e ferocidade para enfrentar ameaças que poucos heróis conseguiriam deter. Apesar da aparência intimidadora e da personalidade ríspida e grosseira, Unca é um homem competente, prestativo e profundamente comprometido em ajudar os outros. Sua formação como engenheiro faz com que valorize estratégias bem planejadas e riscos calculados, característica que o torna um excelente parceiro para heróis metódicos como Rasga. Entretanto, seu medo de fogo e as dificuldades de coordenar seus movimentos com combatentes menores ou muito ágeis podem prejudicar seu desempenho em determinadas operações.",
+        poderes: ["Força sobre-humana", "Transformação em onça licantropa", "Resistência física sobre-humana", "Garras afiadas", "Presas poderosas", "Mordida sobre-humana", "Sentidos felinos aprimorados", "Olfato e audição aguçados", "Visão noturna", "Agilidade felina", "Saltos sobre-humanos", "Combate corporal monstruoso"],
+        stats: {
+            ocorrencias: 241,
+            resgates: 710,
+            prisoes: 142,
+            danos: 7200000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@operariodazona",
+                texto: "Trabalhei com o Unca antes de tudo isso acontecer. O cara já era grosso naquela época KKKKK. Mas era o primeiro a ficar depois do expediente quando dava algum problema. Mudou de aparência, não de caráter.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@engenheiroam",
+                        texto: "Esse tipo de pessoa que reclama de tudo mas resolve tudo também KKKKK"
+                    },
+                    {
+                        usuario: "@manausraiz",
+                        texto: "Bom saber que ele já era assim antes de virar uma onça gigante."
+                    }
+                ]
+            },
+            {
+                usuario: "@centromanaus",
+                texto: "Vi ele segurando um caminhão que tinha perdido o controle. Salvou o motorista e evitou uma tragédia, mas destruiu metade da calçada. É difícil reclamar quando você vê o que poderia ter acontecido.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@obraspublicasam",
+                        texto: "A prefeitura deve ter uma pasta só com o nome dele."
+                    },
+                    {
+                        usuario: "@centromanaus",
+                        texto: "Prefiro pagar por uma calçada nova do que por um funeral."
+                    }
+                ]
+            },
+            {
+                usuario: "@felinosdobrasil",
+                texto: "DESCULPA MAS ELE É LITERALMENTE UMA ONÇA GIGANTE DE DOIS METROS E TANTO ANDANDO EM DUAS PATAS. COMO VOCÊS CONSEGUEM AGIR COMO SE ISSO FOSSE NORMAL????",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "Manaus já viu tanta coisa que o Unca é só mais uma terça-feira"
+                    },
+                    {
+                        usuario: "@biologiaheroica",
+                        texto: "Eu queria muito entender como funciona a anatomia dele."
+                    }
+                ]
+            },
+            {
+                usuario: "@criticosupers",
+                texto: "R$ 7200000 em danos estimados. Sete milhões e duzentos mil reais. Não importa quantas pessoas ele salvou, precisamos discutir se existe treinamento e supervisão adequados para alguém com esse nível de força.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@uncafc",
+                        texto: "Você prefere que ele deixe os criminosos destruírem tudo?"
+                    },
+                    {
+                        usuario: "@criticosupers",
+                        texto: "Não. Prefiro que exista um protocolo para minimizar danos. Uma coisa não exclui a outra."
+                    }
+                ]
+            },
+            {
+                usuario: "@saguilovers",
+                texto: "O SAGUI USANDO O UNCA DE ESCADA NO MEIO DA LUTA KKKKKKKKKKK. O grandão tá lá trocando soco e o Sagui correndo pelos ombros dele como se fosse um parque de diversões.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "Unca virou transporte público do Sagui"
+                    },
+                    {
+                        usuario: "@uncafc",
+                        texto: "E O PIOR É QUE FUNCIONA MUITO BEM"
+                    }
+                ]
+            },
+            {
+                usuario: "@engenheirocivilam",
+                texto: "Uma coisa que pouca gente percebe: Unca pensa como engenheiro. Ele pode ser brutal, mas quando tem informações suficientes consegue executar planos com muita precisão. A parceria dele com Rasga mostra isso perfeitamente.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@xamafc",
+                        texto: "Rasga calcula, Unca executa. Simples e eficiente."
+                    },
+                    {
+                        usuario: "@engenheiroam",
+                        texto: "Força bruta com planejamento é outra história."
+                    }
+                ]
+            },
+            {
+                usuario: "@pesdefogofc",
+                texto: "Gosto dos dois, mas POR FAVOR parem de colocar Unca e Pés de Fogo na mesma missão. Ele tem medo de fogo, ela luta chutando fogo. Os dois saíram machucados da última vez. Não precisa ser especialista pra ver o problema.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@uncafc",
+                        texto: "Finalmente alguém falando disso sem culpar só o Unca."
+                    },
+                    {
+                        usuario: "@gingademanaus",
+                        texto: "A culpa não é de nenhum dos dois. Os poderes simplesmente não combinam."
+                    }
+                ]
+            },
+            {
+                usuario: "@maedemanaus",
+                texto: "Meu filho ficou apavorado quando viu o Unca pela primeira vez. Depois ele ajudou a gente durante uma ocorrência e ainda carregou as nossas compras até a esquina. Meu filho agora chama ele de 'onção'.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "O ONÇÃO KKKKKKKKKKK"
+                    },
+                    {
+                        usuario: "@uncafc",
+                        texto: "Ele deve ter reclamado o caminho inteiro, mas carregou mesmo assim."
+                    }
+                ]
+            },
+            {
+                usuario: "@observadorheroico",
+                texto: "142 prisões é um número excelente. O problema do Unca no ranking não é falta de eficiência, mas o custo material das operações. É um dos melhores exemplos de como força extraordinária não significa necessariamente boa pontuação.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@rankingsemfiltro",
+                        texto: "Se reduzisse os danos pela metade, subiria bastante."
+                    },
+                    {
+                        usuario: "@observadorheroico",
+                        texto: "Exatamente. O potencial de crescimento está na precisão."
+                    }
+                ]
+            },
+            {
+                usuario: "@biologiaheroica",
+                texto: "Pergunta genuína: quando ele se transforma, a massa corporal aparece de onde? Porque a diferença de tamanho é gigantesca. A biologia desse homem deve ser um pesadelo para qualquer pesquisador.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@felinosdobrasil",
+                        texto: "A ciência vendo uma onça humanoide de 200 quilos: 'não fui treinada pra isso'"
+                    },
+                    {
+                        usuario: "@biologiaheroica",
+                        texto: "Eu só queria uma entrevista técnica com ele 😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@xamafc",
+                texto: "A melhor parceria do Unca é com Rasga e ninguém me convence do contrário. O xamã espera a hora certa, indica exatamente o que fazer e o Unca executa sem hesitar. Os dois parecem se entender muito bem.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@engenheiroam",
+                        texto: "É o poder de trabalhar com alguém que respeita planejamento."
+                    },
+                    {
+                        usuario: "@uncafc",
+                        texto: "Finalmente uma dupla que não termina com o Unca machucado."
+                    }
+                ]
+            },
+            {
+                usuario: "@moradordozona",
+                texto: "Ele destruiu o portão do meu estabelecimento durante uma perseguição e foi embora. Eu entendo que estava enfrentando criminosos, mas quem paga o prejuízo? Nem todo mundo tem dinheiro pra consertar o que um super-herói quebra.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@uncafc",
+                        texto: "Você chegou a procurar algum canal de ressarcimento?"
+                    },
+                    {
+                        usuario: "@moradordozona",
+                        texto: "Procurei. Ainda estou esperando uma resposta."
+                    },
+                    {
+                        usuario: "@direitodossupers",
+                        texto: "Esse tipo de situação precisa de um procedimento de indenização mais acessível."
+                    }
+                ]
+            },
+            {
+                usuario: "@araruamafc",
+                texto: "Ararurama e Unca juntos parecem uma cena de filme que ninguém conseguiu ensaiar. Água voando pra todo lado e uma onça gigante tentando encontrar onde bater KKKKK. São ótimos separados, mas precisam treinar muito como dupla.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@aguaviva",
+                        texto: "Os dois têm potencial, falta coordenação."
+                    },
+                    {
+                        usuario: "@manausmemes",
+                        texto: "É tipo colocar um gato gigante dentro de uma máquina de lavar."
+                    }
+                ]
+            },
+            {
+                usuario: "@trabalhadordam",
+                texto: "O Unca pode não sorrir pra câmera, mas quando precisaram tirar gente debaixo de uma estrutura que caiu, ele ficou até o último trabalhador sair. Não pediu entrevista, não quis foto. Só perguntou se tinha mais alguém.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@operariodazona",
+                        texto: "Isso é muito a cara dele."
+                    },
+                    {
+                        usuario: "@maedemanaus",
+                        texto: "É por histórias assim que eu respeito esse homem."
+                    }
+                ]
+            },
+            {
+                usuario: "@psicologiadossupers",
+                texto: "Acho curioso como o público espera que todo herói seja simpático. Unca é grosseiro, sim, mas demonstra responsabilidade e disposição para ajudar. Talvez devêssemos avaliar mais as ações e menos a capacidade de dar entrevistas.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@uncafc",
+                        texto: "EXATAMENTE. Ele não precisa virar influenciador pra ser um bom herói."
+                    },
+                    {
+                        usuario: "@criticosupers",
+                        texto: "Concordo quanto à personalidade. Minha crítica continua sendo aos danos materiais."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 6054
+    },
+    {
+        id: "rasga",
+        nome: "Rasga",
+        arquivo: "RASGA",
+        pagina: true,
+        identidade: "Ethan Walker",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "AM",
+        cidade: "Manaus",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 102,
+        rankingAnterior: "",
+        melhorRanking: 102,
+        popularidade: 87,
+        sobre: "Rasga é um poderoso xamã e estudioso das artes espirituais, conhecido por sua profunda conexão com a Floresta Amazônica e sua extraordinária capacidade de preparação. Nascido no Canadá, mudou-se ainda jovem para o Brasil acompanhando seus pais, pesquisadores e químicos interessados nas propriedades das plantas amazônicas. Durante uma expedição científica, acabou se perdendo na floresta e foi encontrado por uma comunidade indígena isolada, onde aprendeu os fundamentos da magia xamânica e desenvolveu uma ligação especial com os espíritos, os animais e a natureza. Embora não seja particularmente habilidoso em improvisações táticas, seu conhecimento sobrenatural e sua dedicação aos estudos permitem antecipar ameaças e encontrar soluções para problemas aparentemente impossíveis. Respeitado por outros heróis, especialmente Ararurama e Unca, Rasga costuma demonstrar que preparação e conhecimento podem ser tão importantes quanto força bruta.",
+        poderes: ["Magia xamânica", "Comunicação com espíritos", "Invocação de espíritos animais", "Manipulação de energia espiritual", "Rituais de proteção", "Criação de barreiras espirituais", "Percepção sobrenatural", "Comunicação com animais", "Rastreamento espiritual", "Purificação espiritual", "Encantamentos xamânicos", "Rituais de fortalecimento de aliados", "Conhecimento de ervas e plantas medicinais", "Conexão mística com a Floresta Amazônica"],
+        stats: {
+            ocorrencias: 205,
+            resgates: 620,
+            prisoes: 79,
+            danos: 850000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@xamafc",
+                texto: "O Rasga é o herói mais SUBESTIMADO do Norte. O cara descobre o que está acontecendo, prepara a solução, protege todo mundo e no final quem aparece na manchete é quem deu o último soco. Respeitem o xamã!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@observadorheroico",
+                        texto: "O ranking realmente não consegue medir muito bem o trabalho preventivo dele."
+                    },
+                    {
+                        usuario: "@norteforte",
+                        texto: "Sem o Rasga, várias operações nem teriam chegado à fase de combate."
+                    }
+                ]
+            },
+            {
+                usuario: "@estudantedebiologia",
+                texto: "Vi uma palestra dele sobre plantas amazônicas e fiquei impressionada. Ele consegue explicar propriedades químicas e conhecimentos tradicionais sem tratar nenhum dos dois como inferior. Foi uma das apresentações mais interessantes que já assisti.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@pesquisadoram",
+                        texto: "Seria interessante ele publicar mais sobre o assunto."
+                    },
+                    {
+                        usuario: "@florestaviva",
+                        texto: "Desde que respeite os conhecimentos que não podem ser divulgados sem autorização das comunidades."
+                    }
+                ]
+            },
+            {
+                usuario: "@manausmemes",
+                texto: "Rasga: precisamos esperar o momento certo. Sagui: e se eu pular naquela árvore AGORA? Rasga: NÃO. Sagui: tarde demais. KKKKKKKKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@saguilovers",
+                        texto: "O Sagui deve tirar uns dez anos da expectativa de vida dele por missão"
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "O homem consegue conversar com espíritos mas não consegue fazer o Sagui ficar parado."
+                    }
+                ]
+            },
+            {
+                usuario: "@engenheiroam",
+                texto: "5/5  A parceria do Rasga com Unca é excelente. Um identifica os riscos e determina a melhor abordagem, o outro executa com força e precisão. Dá pra perceber que o Unca fica muito mais confiante quando sabe exatamente o que precisa fazer.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@uncafc",
+                        texto: "Unca finalmente encontrou alguém que entrega o planejamento antes da obra KKKKK"
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "É uma das duplas mais eficientes do Norte."
+                    }
+                ]
+            },
+            {
+                usuario: "@criticosupers",
+                texto: "Não questiono a eficiência dele, mas me incomoda a falta de transparência. Como o público pode avaliar rituais e intervenções espirituais cujos resultados não são verificáveis por métodos convencionais? Poder sobrenatural também precisa de responsabilidade.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@xamafc",
+                        texto: "Nem tudo que ele faz é invisível. As barreiras e os efeitos dos rituais são observáveis."
+                    },
+                    {
+                        usuario: "@criticosupers",
+                        texto: "Observar um efeito não é a mesma coisa que compreender seus riscos."
+                    }
+                ]
+            },
+            {
+                usuario: "@ribeirinhodoam",
+                texto: "Ele ajudou a nossa comunidade quando começaram a acontecer coisas estranhas perto do rio. Não chegou fazendo espetáculo. Conversou com os mais velhos, ouviu todo mundo e passou dias estudando antes de agir. Depois disso tivemos paz.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@florestaviva",
+                        texto: "Esse respeito pelas pessoas do lugar faz muita diferença."
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "É exatamente assim que o Rasga trabalha."
+                    }
+                ]
+            },
+            {
+                usuario: "@pesdefogofc",
+                texto: "Eu gosto do Rasga, mas ele precisa aceitar que nem todo mundo consegue esperar meia hora pra agir KKKKK. A Pés de Fogo erra por impulsividade, só que às vezes o plano perfeito demora mais do que a situação permite.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@xamafc",
+                        texto: "E é por isso que eles precisam encontrar um meio-termo."
+                    },
+                    {
+                        usuario: "@gingademanaus",
+                        texto: "Os dois têm muito a aprender um com o outro."
+                    }
+                ]
+            },
+            {
+                usuario: "@araruamafc",
+                texto: "Ararurama e Rasga juntos passam uma tranquilidade absurda. Ela controla quantidades gigantescas de água e ele parece saber exatamente quando e como ajudar. A conexão dos dois é muito bonita.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@aguaviva",
+                        texto: "A afinidade entre eles vai muito além dos poderes."
+                    },
+                    {
+                        usuario: "@florestaviva",
+                        texto: "Os dois entendem costumes e experiências que muitos outros heróis desconhecem."
+                    }
+                ]
+            },
+            {
+                usuario: "@cientificocetico",
+                texto: "Acho preocupante um herói utilizar conhecimentos espirituais sem explicar claramente quais são os limites de suas intervenções. Não sou contra o Rasga, mas gostaria de ver estudos independentes sobre os efeitos de suas práticas.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@pesquisadoram",
+                        texto: "A questão é como investigar isso sem desrespeitar as comunidades que preservam esses conhecimentos."
+                    },
+                    {
+                        usuario: "@cientificocetico",
+                        texto: "Concordo. Transparência e respeito cultural precisam caminhar juntos."
+                    }
+                ]
+            },
+            {
+                usuario: "@espiritosdorio",
+                texto: "O HOMEM LITERALMENTE CONVERSA COM ESPÍRITOS E TEM GENTE ACHANDO ELE SEM GRAÇA PORQUE NÃO SOLTA LASER PELOS OLHOS. Vocês não sabem reconhecer um herói interessante.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "O poder dele é chamar reforço do além KKKKK"
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "Finalmente alguém com bom gosto nessa plataforma."
+                    }
+                ]
+            },
+            {
+                usuario: "@professorhistoria",
+                texto: "A história dele é interessante, mas acho importante lembrar que aprender práticas espirituais de uma comunidade indígena não torna alguém representante de todos os povos indígenas. Espero que ele tenha esse cuidado nas entrevistas.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@florestaviva",
+                        texto: "Perfeito. Existem muitos povos, tradições e conhecimentos diferentes."
+                    },
+                    {
+                        usuario: "@professorhistoria",
+                        texto: "Exatamente. Respeitar essas diferenças também faz parte da responsabilidade dele."
+                    }
+                ]
+            },
+            {
+                usuario: "@moradordazona",
+                texto: "Prefiro mil vezes um herói que leva dois dias planejando e resolve o problema sem destruir minha casa do que um que chega dando soco em tudo. R$ 850000 em danos é muito pouco comparado com vários outros.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@engenheiroam",
+                        texto: "Prevenção custa menos que reconstrução."
+                    },
+                    {
+                        usuario: "@uncafc",
+                        texto: "Não precisava atacar o Unca indiretamente KKKKK"
+                    }
+                ]
+            },
+            {
+                usuario: "@observadorheroico",
+                texto: "Rasga tem 205 ocorrências, 620 resgates e 79 prisões. Os números são modestos para o padrão nacional, mas o impacto estratégico dele é difícil de quantificar. É um caso em que a pontuação não representa completamente a contribuição do herói.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@rankingsemfiltro",
+                        texto: "Precisamos de métricas para operações preventivas e suporte."
+                    },
+                    {
+                        usuario: "@xamafc",
+                        texto: "O dia que inventarem pontos por impedir desastres antes de acontecer, ele sobe muito."
+                    }
+                ]
+            },
+            {
+                usuario: "@curiosidadesamazonicas",
+                texto: "Imagina ser uma criança canadense, se perder na Amazônia, ser acolhido por uma comunidade isolada e anos depois virar um xamã super-herói. A história desse homem parece roteiro de filme.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@manausmemes",
+                        texto: "O intercâmbio mais intenso da história"
+                    },
+                    {
+                        usuario: "@florestaviva",
+                        texto: "E ainda tem muita coisa sobre essa história que o público não conhece."
+                    }
+                ]
+            },
+            {
+                usuario: "@socorristaam",
+                texto: "Participei de uma operação em que ele passou horas preparando proteções antes de entrarmos numa área perigosa. Ninguém ficou ferido. Pode não render vídeo viral, mas pra quem estava lá fez toda a diferença.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@xamafc",
+                        texto: "É ISSO. O melhor combate é aquele em que todo mundo volta inteiro."
+                    },
+                    {
+                        usuario: "@socorristaam",
+                        texto: "Exatamente. Segurança não é espetáculo."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 5148
     }
 ];
