@@ -226,6 +226,42 @@
         );
     }
 
+function formatarDanos(valor) {
+
+    const n = Number(valor);
+
+    if (!Number.isFinite(n)) {
+        return valor || "—";
+    }
+
+    // Trilhões
+    if (n >= 1_000_000_000_000) {
+        return `R$ ${(n / 1_000_000_000_000).toLocaleString("pt-BR", {
+            maximumFractionDigits: 2
+        })} tri`;
+    }
+
+    // Bilhões
+    if (n >= 1_000_000_000) {
+        return `R$ ${(n / 1_000_000_000).toLocaleString("pt-BR", {
+            maximumFractionDigits: 2
+        })} bi`;
+    }
+
+    // Milhões
+    if (n >= 1_000_000) {
+
+        const milhoes = n / 1_000_000;
+
+        return `R$ ${milhoes.toLocaleString("pt-BR", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2
+        })} ${milhoes === 1 ? "milhão" : "milhões"}`;
+    }
+
+    // Menos de 1 milhão: número completo
+    return `R$ ${n.toLocaleString("pt-BR")}`;
+}
 
     // ==========================================
     // ESTATÍSTICAS
@@ -263,8 +299,10 @@
         ],
 
         [
-            "Danos",
-            h.stats?.danos ?? "—"
+    "Danos",
+    h.stats?.danos != null
+        ? formatarDanos(h.stats.danos)
+        : "—"
         ]
 
     ]) {
@@ -355,20 +393,61 @@
 
 
     // ==========================================
-    // COMENTÁRIOS
-    // ==========================================
+// COMENTÁRIOS
+// ==========================================
 
-    for (const c of h.comentarios || []) {
+function estrelasComentario(valor) {
 
-        $("#comentarios").insertAdjacentHTML(
-            "beforeend",
+    const quantidade = Math.max(
+        0,
+        Math.min(5, Number(valor ?? 3))
+    );
 
-            `<div class="comentario">
-                <strong>${c.usuario}</strong>
-                <br>
-                ${c.texto}
-            </div>`
-        );
-    }
+    return `
+        <span
+            class="comment-stars"
+            title="${quantidade} de 5 estrelas"
+            aria-label="${quantidade} de 5 estrelas"
+        >
+            ${"★".repeat(quantidade)}${"☆".repeat(5 - quantidade)}
+        </span>
+    `;
+}
+
+
+for (const c of h.comentarios || []) {
+
+    const respostas = (c.respostas || [])
+        .map(r => `
+            <div class="comment-reply">
+                <strong>${r.usuario || "Anônimo"}</strong>
+                <p>${r.texto || ""}</p>
+            </div>
+        `)
+        .join("");
+
+    $("#comentarios").insertAdjacentHTML(
+        "beforeend",
+
+        `<div class="comentario">
+
+            <div class="comment-header">
+                <strong>${c.usuario || "Anônimo"}</strong>
+                ${estrelasComentario(c.estrelas)}
+            </div>
+
+            <p class="comment-text">
+                ${c.texto || ""}
+            </p>
+
+            ${
+                respostas
+                    ? `<div class="comment-replies">${respostas}</div>`
+                    : ""
+            }
+
+        </div>`
+    );
+}
 
 })();

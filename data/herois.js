@@ -34,12 +34,14 @@ window.SUPERFOCO_HEROIS = [
             {
                 usuario: "@PixelMorto",
                 texto: "É impressão minha ou ele parece um demônio? O Trem feio!",
-                estrelas: 1
+                estrelas: 1,
+                respostas: []
             },
             {
                 usuario: "@VelvetDoom",
                 texto: "Ele lutando é impressionante! Quem dera ele fosse da Bahia 😭",
-                estrelas: 4
+                estrelas: 4,
+                respostas: []
             }
         ],
         pontuacao: 459
@@ -251,8 +253,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "São Paulo",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 2,
-        rankingAnterior: 5,
+        ranking: 3,
+        rankingAnterior: 2,
         melhorRanking: 1,
         popularidade: 45,
         sobre: "Heitor Alcântara, mais conhecido como Hércules, é um super-herói brasileiro com atuação concentrada em São Paulo. Ex-fisiculturista, iniciou sua carreira nos primeiros anos da Era dos Supers, quando ainda não possuía poderes ou aprimoramentos conhecidos, contando apenas com sua força física excepcional e treinamento. Sua primeira carreira foi interrompida após um violento confronto transmitido ao vivo, no qual perdeu ambos os braços, desaparecendo completamente da vida pública após sobreviver ao incidente. Mais de dois anos depois, retornou após uma extensa reconstrução corporal, apresentando capacidades físicas muito superiores às anteriores e quatro braços mecânicos capazes de exercer força sobre-humana e produzir poderosas descargas elétricas. Sua reconstrução e retorno foram financiados pelo Banco Supremo, que desde então mantém uma relação pública de patrocínio com o herói. Conhecido pelo estilo de combate direto, personalidade confiante e forte presença diante das câmeras, Hércules mantém sua identidade civil pública e atua profissionalmente como herói independente.",
@@ -406,8 +408,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Belo Horizonte",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 503,
-        rankingAnterior: 504,
+        ranking: 504,
+        rankingAnterior: 503,
         melhorRanking: 80,
         popularidade: 50,
         sobre: "Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -435,8 +437,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 1,
-        rankingAnterior: 3,
+        ranking: 2,
+        rankingAnterior: 1,
         melhorRanking: 1,
         popularidade: 81,
         sobre: "HMarina Alencar dos Santos, mais conhecida como Nympha das Ondas, é uma super-heroína e surfista profissional brasileira com atuação concentrada no Rio de Janeiro. Já conhecida no meio esportivo antes do surgimento de seus poderes, Marina desenvolveu características semelhantes às de uma borboleta, incluindo quatro grandes asas que lhe permitem voar em alta velocidade. Em vez de abandonar sua antiga carreira, incorporou sua experiência como surfista à atividade heroica, utilizando uma prancha tanto para manobras aéreas quanto como arma em um estilo de combate extremamente móvel e acrobático. Extrovertida, festeira e naturalmente sociável, Nympha alcançou enorme popularidade por manter uma relação próxima e informal com o público, sendo frequentemente vista em praias, festas, bares e eventos do Rio de Janeiro. Apesar de lidar bem com fãs, jornalistas e com a própria fama, possui uma relação particularmente hostil com paparazzi e demonstra grande irritação quando considera que sua vida privada está sendo invadida.",
@@ -594,8 +596,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "São Paulo",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 504,
-        rankingAnterior: 505,
+        ranking: 505,
+        rankingAnterior: 504,
         melhorRanking: 20,
         popularidade: 50,
         sobre: "Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -1247,8 +1249,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "São Luís",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 11,
-        rankingAnterior: 13,
+        ranking: 12,
+        rankingAnterior: 11,
         melhorRanking: 11,
         popularidade: 86,
         sobre: "agora um Sobre\nJosué Carvalho, conhecido como Juazeiro, é um herói de São Luís, Maranhão, reconhecido pelo terceiro olho que lhe permite enxergar fragmentos do futuro e antecipar acontecimentos antes que ocorram. Sua precognição faz com que muitas de suas ações pareçam fruto de uma sorte absurda, enquanto Josué prefere alimentar essa impressão com seu jeito brincalhão e despreocupado. Carismático e provocador mesmo diante do perigo, costuma encarar situações impossíveis com um sorriso, confiando que já viu o suficiente para saber onde precisa estar — embora nem sempre revele o quanto realmente sabe sobre aquilo que ainda está por acontecer.",
@@ -1499,5 +1501,2184 @@ window.SUPERFOCO_HEROIS = [
             }
         ],
         pontuacao: 6515
+    },
+    {
+        id: "alice-cheshire",
+        nome: "Alice & Cheshire",
+        arquivo: "ALICE_CHESHIRE",
+        pagina: true,
+        identidade: "Alice Moreira de Carvalho",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "GO",
+        cidade: "Goiânia",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 14,
+        rankingAnterior: 13,
+        melhorRanking: 12,
+        popularidade: 75,
+        sobre: "Alice Moreira de Carvalho, conhecida publicamente ao lado da criatura alienígena Cheshire, forma uma das parcerias mais incomuns em atividade no Centro-Oeste. Alice não possui capacidades sobre-humanas conhecidas. Seu diferencial está no vínculo estabelecido com Cheshire, uma criatura extraterrestre inteligente capaz de exercer telecinese e acessar pensamentos.\nEmbora frequentemente tratados como uma única unidade heroica, Alice insiste que Cheshire não é seu poder, equipamento ou propriedade. A criatura possui vontade própria e nem sempre segue as decisões de sua companheira — característica responsável tanto por alguns dos sucessos mais improváveis da dupla quanto por boa parte de seus problemas.\nAlice costuma atuar de maneira pouco convencional, utilizando Cheshire para contenção, proteção e controle do campo enquanto assume funções investigativas e conduz interrogatórios. Seu desempenho varia consideravelmente conforme os heróis com quem trabalha: operações ao lado de Piatã são conhecidas pela coordenação quase impecável, enquanto suas aparições com Lobo Guá costumam parecer muito mais caóticas do que os resultados sugerem.\nA origem de Cheshire e as circunstâncias exatas de seu encontro com Alice permanecem pouco esclarecidas.",
+        poderes: ["Telecinese", "Leitura de mentes", "Comunicação telepática com Alice", "Força sobre-humana", "Múltiplos membros", "Grande mobilidade e escalada", "Contenção telecinética", "Proteção telecinética", "Percepção mental de indivíduos próximos"],
+        stats: {
+            ocorrencias: 285,
+            resgates: 1430,
+            prisoes: 112,
+            danos: 4850000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "bia.exe",
+                texto: "o cheshire é literalmente a coisa mais fofa que eu já vi e eu NÃO aceito discussão",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@goianiaemfoco",
+                        texto: "fofa até uma criatura de 2 metros entrar no seu quintal 3 da manhã"
+                    },
+                    {
+                        usuario: "@bia.exe",
+                        texto: "se o cheshire entrar no meu quintal 3 da manhã agora ele mora comigo"
+                    },
+                    {
+                        usuario: "@goianiaemfoco",
+                        texto: "ELE LÊ MENTE BIANCA"
+                    },
+                    {
+                        usuario: "@bia.exe",
+                        texto: "então ele já sabe que eu amo ele"
+                    }
+                ]
+            },
+            {
+                usuario: "@cerrado.vivo",
+                texto: "Já vi Alice e Piatã trabalhando juntos. Quem nunca viu não entende. Parece coreografado.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@pedrohenrique_62",
+                        texto: "Cheshire fez literalmente o contrário do que o Piatã mandou umas três vezes kkkkkkk"
+                    },
+                    {
+                        usuario: "@cerrado.vivo",
+                        texto: "SIM e o Piatã mudou o plano três vezes como se já esperasse isso"
+                    },
+                    {
+                        usuario: "@juuhgo",
+                        texto: "Piatã tentando liderar Cheshire é um pai deixando a criança achar que escolheu 😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@dudagyn",
+                texto: "Alice é gente boa mas aquele bicho me dá uma agonia absurda",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@CheshireFanClube",
+                        texto: "\"aquele bicho\" TEM NOME"
+                    },
+                    {
+                        usuario: "@dudagyn",
+                        texto: "desculpa cheshire caso vc esteja lendo meus pensamentos"
+                    }
+                ]
+            },
+            {
+                usuario: "@matheus_74",
+                texto: "Ninguém acha problemático termos um ALIEN QUE LÊ MENTES andando livremente por Goiânia?",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "existem uns 300 supers que conseguem derrubar prédio mas o problema é o rosa"
+                    },
+                    {
+                        usuario: "@matheus_74",
+                        texto: "derrubar prédio eu consigo perceber acontecendo. alguém entrando na minha cabeça não."
+                    },
+                    {
+                        usuario: "@GynNoturno",
+                        texto: "pior que nessa eu concordo com ele"
+                    },
+                    {
+                        usuario: "@CheshireFanClube",
+                        texto: "vcs falam isso como se ele ficasse lendo a mente de todo mundo na fila do pão"
+                    }
+                ]
+            },
+            {
+                usuario: "@loboguazinho",
+                texto: "Alice + Guá é o melhor entretenimento gratuito do Centro-Oeste",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@camilarezende",
+                        texto: "Não existe estratégia. Guá corre. Alice grita. Cheshire pega alguma coisa. No final prenderam todo mundo."
+                    },
+                    {
+                        usuario: "@loboguazinho",
+                        texto: "estratégia: SIM"
+                    },
+                    {
+                        usuario: "@tatica_super",
+                        texto: "Como alguém que estuda operações de supers eu sinto dor física vendo os três."
+                    },
+                    {
+                        usuario: "@camilarezende",
+                        texto: "100% de aproveitamento 0% de compreensão"
+                    }
+                ]
+            },
+            {
+                usuario: "@vitorbsb",
+                texto: "Não confio nesse alien.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@nanda_gyn",
+                        texto: "avaliação da ALICE: ⭐ argumento: não gosto do CHESHIRE"
+                    },
+                    {
+                        usuario: "@vitorbsb",
+                        texto: "ELA ANDA COM ELE"
+                    },
+                    {
+                        usuario: "@nanda_gyn",
+                        texto: "justo retiro minha crítica à sua crítica"
+                    }
+                ]
+            },
+            {
+                usuario: "@marinafaria",
+                texto: "Ela me ajudou numa ocorrência ano passado. Não vou entrar em detalhes, mas Alice ficou comigo até minha mãe chegar. Cheshire ficou sentado do outro lado da rua porque percebeu que eu estava com medo dele. Nunca esqueci disso.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@CheshireFanClube",
+                        texto: "😭😭😭😭"
+                    },
+                    {
+                        usuario: "@analuiza",
+                        texto: "Esse tipo de coisa nunca aparece nas estatísticas."
+                    },
+                    {
+                        usuario: "@marinafaria",
+                        texto: "Por isso vim comentar."
+                    }
+                ]
+            },
+            {
+                usuario: "@dinheiropublico",
+                texto: "alguém precisa filmar Alice toda vez que Vorcaro chega perto do Cheshire KKKKKKK",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@gabrielferraz",
+                        texto: "ele ainda quer comprar o bicho???"
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "aparentemente \"comprar\" virou \"propor parceria de pesquisa\""
+                    },
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "KKKKKKKKKKKKKKKKKKK"
+                    },
+                    {
+                        usuario: "@contaspublicasGO",
+                        texto: "a pergunta importante é COM QUAL VERBA"
+                    }
+                ]
+            },
+            {
+                usuario: "@psicologiapop",
+                texto: "Pergunta séria: Cheshire entende que ler pensamentos sem consentimento é invasivo?",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@isaacgyn",
+                        texto: "Pergunta ainda mais séria: Cheshire entende o conceito humano de privacidade?"
+                    },
+                    {
+                        usuario: "@psicologiapop",
+                        texto: "exatamente. não estou atacando ele. isso genuinamente deveria ser estudado."
+                    },
+                    {
+                        usuario: "@alienado123",
+                        texto: "achamos a conta do Vorcaro"
+                    }
+                ]
+            },
+            {
+                usuario: "@goiasateomundo",
+                texto: "7.480 pontos e ainda tem gente tratando ela como \"a menina do alien rosa\". Respeita a Alice.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@CheshireFanClube",
+                        texto: "respeito a Alice 🤝 respeito ao alien rosa"
+                    },
+                    {
+                        usuario: "@goiasateomundo",
+                        texto: "acordo aceito"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 7775
+    },
+    {
+        id: "lobo-gua",
+        nome: "Lobo Guá",
+        arquivo: "LOBO_GUA",
+        pagina: true,
+        identidade: "Desconhecida",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "MS",
+        cidade: "Campo Grande",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 15,
+        rankingAnterior: 14,
+        melhorRanking: 13,
+        popularidade: 75,
+        sobre: "Lobo Guá é uma figura tão reconhecível quanto misteriosa entre os heróis do Centro-Oeste: permanentemente preso em uma forma semelhante a um enorme lobo-guará humanoide, é incapaz de falar, comunicando-se por gestos, sinais e vocalizações que poucos conseguem compreender. Apesar da aparência feroz e do comportamento aparentemente animalesco, demonstra grande inteligência, percepção e capacidade de tomar decisões durante operações, destacando-se principalmente pela velocidade e pelo combate corpo a corpo. Sua parceria com Piatã é particularmente conhecida, já que o herói consegue compreendê-lo perfeitamente e os dois desenvolveram uma sintonia excepcional em combate. Fora dessa dupla, porém, Lobo Guá é muito mais imprevisível: suas operações com Alice & Cheshire são famosas pelo caos, enquanto sua estranha obediência a Arranca Língua parece nascer de um genuíno medo da entidade que a acompanha.",
+        poderes: ["Supervelocidade", "Agilidade sobre-humana", "Força sobre-humana", "Sentidos aguçados", "Reflexos sobre-humanos", "Garras e presas", "Rastreamento por olfato", "Visão noturna", "Resistência física elevada"],
+        stats: {
+            ocorrencias: 247,
+            resgates: 1180,
+            prisoes: 143,
+            danos: 2300000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@campograndense",
+                texto: "Moro aqui há 12 anos. Já vi esse bicho correndo atrás de ladrão duas vezes. Nunca correu atrás de mim. Pra mim tá ótimo.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@marcosms",
+                        texto: "\"esse bicho\" é um herói cara kkkkk"
+                    },
+                    {
+                        usuario: "@campograndense",
+                        texto: "uma coisa não impede a outra"
+                    }
+                ]
+            },
+            {
+                usuario: "@annalu_ms",
+                texto: "EU QUERO FAZER CARINHO NELE",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ricardoviana",
+                        texto: "ele tem literalmente garras do tamanho da sua mão"
+                    },
+                    {
+                        usuario: "@annalu_ms",
+                        texto: "não muda absolutamente nada"
+                    },
+                    {
+                        usuario: "@vetdocerrado",
+                        texto: "Por favor não tentem acariciar o Lobo Guá."
+                    },
+                    {
+                        usuario: "@annalu_ms",
+                        texto: "covarde"
+                    }
+                ]
+            },
+            {
+                usuario: "@churrascoecia",
+                texto: "Ele veio aqui no restaurante. Comeu 4 pratos. QUATRO.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@msnoticias",
+                        texto: "É verdade aquela foto dele de guardanapo?"
+                    },
+                    {
+                        usuario: "@churrascoecia",
+                        texto: "eu que amarrei nele"
+                    },
+                    {
+                        usuario: "@annalu_ms",
+                        texto: "VOCÊ ENCOSTOU NELE?????????"
+                    }
+                ]
+            },
+            {
+                usuario: "@paulinhocg",
+                texto: "Uma vez vi Piatã discutindo com ele por uns 2 minutos. Guá só rosnava e mexia a cabeça. No final Piatã falou \"eu sei, mas não podemos comer ele\". Até hoje eu quero saber o contexto.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@cerradonews",
+                        texto: "provavelmente é melhor não saber"
+                    },
+                    {
+                        usuario: "@paulinhocg",
+                        texto: "DISCORDO"
+                    }
+                ]
+            },
+            {
+                usuario: "@segurancacg",
+                texto: "Sei que ele tem bons números, mas continuo achando preocupante um indivíduo incapaz de falar atuar sem supervisão.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@pantanalero",
+                        texto: "incapaz de falar ≠ incapaz de pensar"
+                    },
+                    {
+                        usuario: "@segurancacg",
+                        texto: "Não falei que ele não pensa."
+                    },
+                    {
+                        usuario: "@piatafan",
+                        texto: "E ele entende português. O problema é VOCÊ entender ele kkkkk"
+                    }
+                ]
+            },
+            {
+                usuario: "@alicewonderfan",
+                texto: "ALICE + GUÁ DE NOVO POR FAVOR",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@tatica_super",
+                        texto: "NÃO."
+                    },
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "covarde"
+                    },
+                    {
+                        usuario: "@tatica_super",
+                        texto: "Na última vez Guá atravessou uma janela, Cheshire jogou uma moto e Alice interrogou um homem enquanto ainda tinha gente brigando."
+                    },
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "e prenderam todo mundo?"
+                    }
+                ]
+            },
+            {
+                usuario: "@mariaclara_ms",
+                texto: "Ele encontrou meu irmão quando ele se perdeu perto de uma área de mata. Ficou sentado com ele até os bombeiros chegarem. Meu irmão ainda chama ele de \"cachorrão\".",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@annalu_ms",
+                        texto: "EU SABIA"
+                    },
+                    {
+                        usuario: "@ricardoviana",
+                        texto: "ok essa foi fofa"
+                    }
+                ]
+            },
+            {
+                usuario: "@sobrenaturalbr",
+                texto: "Vocês já repararam que ele evita a Arranca Língua?",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "nimais enxergam coisas que a gente não enxerga."
+                    },
+                    {
+                        usuario: "@ceticoms",
+                        texto: "Fonte: minha avó"
+                    },
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "minha avó nunca errou"
+                    }
+                ]
+            },
+            {
+                usuario: "@observadorsuper",
+                texto: "O mais interessante é que o comportamento dele muda completamente perto da Arranca Língua. Abaixa as orelhas, evita olhar diretamente e obedece quando ela manda.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@turistandoMS",
+                texto: "Desculpa mas se eu encontrar ISSO vindo na minha direção de madrugada eu corro.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@campograndense",
+                        texto: "péssima decisão"
+                    },
+                    {
+                        usuario: "@turistandoMS",
+                        texto: "POR QUÊ???"
+                    },
+                    {
+                        usuario: "@campograndense",
+                        texto: "olha as estatísticas dele e as suas"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 7539
+    },
+    {
+        id: "piata",
+        nome: "Piatã",
+        arquivo: "PIATA",
+        pagina: true,
+        identidade: "Piatã",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "MT",
+        cidade: "Cuiabá",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 13,
+        rankingAnterior: 12,
+        melhorRanking: 12,
+        popularidade: 82,
+        sobre: "Piatã é um jovem herói indígena conhecido tanto por suas extraordinárias capacidades sensoriais quanto por sua habilidade de liderança. Suas grandes orelhas proporcionam uma audição excepcional, complementada por sentidos extremamente aguçados, enquanto seu treinamento o tornou um habilidoso combatente corpo a corpo com seu bastão, que também pode ser utilizado como zarabatana. Piatã possui ainda a incomum capacidade de se comunicar diretamente com animais, característica responsável por sua célebre parceria com Lobo Guá, com quem mantém uma sintonia quase perfeita. Calmo, adaptável e excelente improvisador, destaca-se especialmente quando atua ao lado de outros heróis: consegue organizar até o comportamento imprevisível de Alice & Cheshire e demonstra profundo respeito por Arranca Língua e sua relação com os ancestrais. Embora não simpatize com Alex Vorcaro, reconhece a importância de seus recursos e conhecimentos em operações mais complexas.",
+        poderes: ["Sentidos sobre-humanos", "Audição sobre-humana", "Comunicação com animais", "Reflexos aguçados", "Percepção e rastreamento", "Combate corpo a corpo", "Especialista em bastão", "Zarabatana integrada ao bastão", "Grande capacidade de liderança e adaptação tática"],
+        stats: {
+            ocorrencias: 262,
+            resgates: 1510,
+            prisoes: 101,
+            danos: 1900000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@cerradoemfoco",
+                texto: "Já acompanhei ocorrência com vários supers. Piatã é um dos poucos que você percebe que está comandando sem precisar ficar gritando ordem. Todo mundo simplesmente começa a funcionar melhor perto dele.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "ALICE COM ELE PARECE OUTRA HEROÍNA"
+                    },
+                    {
+                        usuario: "@tatica_super",
+                        texto: "Isso não é exagero. A capacidade dele de adaptar o plano quando Cheshire improvisa é impressionante."
+                    },
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "\"improvisa\" é uma palavra muito educada para o que aquele alien faz"
+                    }
+                ]
+            },
+            {
+                usuario: "@loboguazinho",
+                texto: "PIATÃ + GUÁ MELHOR DUPLA DO CENTRO-OESTE",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@piatafan",
+                        texto: "finalmente uma opinião objetivamente correta"
+                    },
+                    {
+                        usuario: "@matheus_ms",
+                        texto: "Só queria legenda quando os dois começam a conversar."
+                    },
+                    {
+                        usuario: "@loboguazinho",
+                        texto: "Guá: GRRR AU RRRR Piatã: você tá maluco isso nunca vai funcionar Guá: rrr Piatã: tá bom vamos tentar"
+                    }
+                ]
+            },
+            {
+                usuario: "@biologiadocerrado",
+                texto: "Até hoje ninguém explica satisfatoriamente como funciona a comunicação dele com animais.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@viniciusgo",
+                        texto: "pergunta pro macaco da foto"
+                    },
+                    {
+                        usuario: "@biologiadocerrado",
+                        texto: "ele se recusou a comentar"
+                    }
+                ]
+            },
+            {
+                usuario: "@luana_mt",
+                texto: "ELE CONVERSA COM O LOBO GUÁ COMO SE FOSSE A COISA MAIS NORMAL DO MUNDO 😭",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@joaopedro",
+                        texto: "tecnicamente deve ser normal pra ele"
+                    },
+                    {
+                        usuario: "@luana_mt",
+                        texto: "imagina o Guá fofocando e só o Piatã sabendo"
+                    }
+                ]
+            },
+            {
+                usuario: "@observadorsuper",
+                texto: "Acho curioso como ele luta. O bastão parece simples até você perceber que ele usa como arma corpo a corpo, apoio, defesa e ainda como zarabatana.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@armassupers",
+                        texto: "Equipamento simples usado por alguém que sabe exatamente o que está fazendo."
+                    },
+                    {
+                        usuario: "@techbro_77",
+                        texto: "Vorcaro provavelmente colocaria 14 milhões em tecnologia nesse bastão."
+                    },
+                    {
+                        usuario: "@contaspublicasGO",
+                        texto: "NÃO DÊ IDEIAS"
+                    }
+                ]
+            },
+            {
+                usuario: "@mariaclara",
+                texto: "Uma coisa que gosto nele é que não parece estar tentando ser famoso. O cara aparece, resolve o problema e vai embora.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@superfoqueiro",
+                        texto: "e mesmo assim tem uma foto dele com um macaquinho no ombro que fez metade da internet surtar"
+                    },
+                    {
+                        usuario: "@mariaclara",
+                        texto: "aquilo foi propaganda extremamente eficiente sem ele nem tentar"
+                    }
+                ]
+            },
+            {
+                usuario: "@orelhasdobrasil",
+                texto: "ninguém vai falar das ORELHAS???",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@piatafan",
+                        texto: "NÃO MEXE NAS ORELHAS DO MEU MANO"
+                    },
+                    {
+                        usuario: "@orelhasdobrasil",
+                        texto: "EU TO ELOGIANDO"
+                    },
+                    {
+                        usuario: "@piatafan",
+                        texto: "então prossiga"
+                    }
+                ]
+            },
+            {
+                usuario: "@rafael_cba",
+                texto: "Bom herói, mas acho que a galera exagera demais quando fala que ele é um gênio tático.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@tatica_super",
+                        texto: "Não acho que seja \"gênio\". A qualidade dele é adaptação. Existe diferença."
+                    },
+                    {
+                        usuario: "@rafael_cba",
+                        texto: "Essa definição eu compro. Ele realmente parece muito difícil de pegar desprevenido."
+                    }
+                ]
+            },
+            {
+                usuario: "@misticismocerrado",
+                texto: "O respeito dele pela Arranca Língua diz bastante sobre o caráter dele.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ceticomt",
+                        texto: "respeitar alguém não significa que os espíritos dela sejam realmente ancestrais"
+                    },
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "chegou o Vorcaro"
+                    },
+                    {
+                        usuario: "@ceticomt",
+                        texto: "ME RETRATA"
+                    }
+                ]
+            },
+            {
+                usuario: "@politicams",
+                texto: "Sempre achei interessante que Piatã claramente não gosta do Vorcaro mas trabalha com ele quando precisa.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@contaspublicasGO",
+                        texto: "porque infelizmente helicóptero, informação e equipamento custam dinheiro"
+                    },
+                    {
+                        usuario: "@politicam",
+                        texto: "O estranho é o Vorcaro saber onde TODO MUNDO está."
+                    },
+                    {
+                        usuario: "@contaspublicasGO",
+                        texto: "muitos anos combatendo o crime 👍"
+                    },
+                    {
+                        usuario: "@politicams",
+                        texto: "esse 👍 deixou a resposta 300% mais suspeita"
+                    }
+                ]
+            },
+            {
+                usuario: "@pantaneira",
+                texto: "Minha parte favorita é quando algum jornalista pergunta pro Piatã o que o Guá falou.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@campograndense",
+                        texto: "\"ele prefere que eu não traduza\""
+                    },
+                    {
+                        usuario: "@pantaneira",
+                        texto: "O QUE ESSE CACHORRO SABE"
+                    }
+                ]
+            },
+            {
+                usuario: "@alicewonderfan",
+                texto: "Piatã liderando Alice & Cheshire: operação militar perfeitamente coordenada Piatã liderando Guá: conversa telepática de velho casado Piatã vendo Vorcaro chegando: 😐",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "Piatã vendo Arranca Língua: 🙏 Piatã vendo Vorcaro: infelizmente precisamos do helicóptero"
+                    },
+                    {
+                        usuario: "@contaspublicasGO",
+                        texto: "o helicóptero foi adquirido mediante processo administrativo REGULAR eu espero"
+                    }
+                ]
+            },
+            {
+                usuario: "@juliamendes",
+                texto: "Ele salvou meu pai. Não tenho história engraçada. Só queria deixar registrado aqui que ele ficou procurando pessoas na mata por horas depois que todo mundo achava que não tinha mais ninguém. Encontrou três.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@piatafan",
+                        texto: "❤️"
+                    },
+                    {
+                        usuario: "@cerradoemfoco",
+                        texto: "É por relatos assim que esses números de resgate significam alguma coisa."
+                    }
+                ]
+            },
+            {
+                usuario: "@gustavocuiaba",
+                texto: "acho ele superestimado",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@loboguazinho",
+                        texto: "Guá discorda"
+                    },
+                    {
+                        usuario: "@gustavocuiaba",
+                        texto: "ele te falou?"
+                    },
+                    {
+                        usuario: "@loboguazinho",
+                        texto: "rrrrrrr"
+                    },
+                    {
+                        usuario: "@gustavocuiaba",
+                        texto: "argumento forte"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 7817
+    },
+    {
+        id: "arranca-lingua",
+        nome: "Arranca Língua",
+        arquivo: "ARRANCA_LINGUA",
+        pagina: true,
+        identidade: "",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "MT",
+        cidade: "Cuiabá",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 54,
+        rankingAnterior: 67,
+        melhorRanking: 51,
+        popularidade: 73,
+        sobre: "Arranca Língua é uma das heroínas mais enigmáticas e temidas do Centro-Oeste. Mulher negra vinculada a um antigo espírito, possui a capacidade de se comunicar com entidades ancestrais e permitir que elas se manifestem através de seu corpo, assumindo características e habilidades sobrenaturais. Sua presença costuma provocar desconforto até mesmo entre outros super-heróis, especialmente Lobo Guá, que demonstra um medo inexplicável dela, possivelmente por enxergar as entidades que a acompanham. Apesar da aparência intimidadora, Arranca Língua é respeitada por sua atuação contra o crime e mantém uma relação de admiração mútua com Piatã. Por outro lado, recusa-se a trabalhar com Alex Vorcaro, afirmando que as presenças espirituais que o acompanham são feitas de pura treva. Reservada e pouco interessada na fama, é uma heroína cuja reputação oscila entre o respeito, o medo e a superstição.",
+        poderes: ["Comunicação espiritual", "Manifestação de espíritos ancestrais", "Incorporação espiritual", "Transformação corporal parcial", "Força sobrenatural", "Garras e membros espirituais", "Percepção de entidades espirituais", "Intimidação sobrenatural", "Resistência sobrenatural", "Ataques espirituais"],
+        stats: {
+            ocorrencias: 229,
+            resgates: 940,
+            prisoes: 126,
+            danos: 6100000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@cuiabano_raiz",
+                texto: "Vi essa mulher entrando sozinha num galpão com uns 15 criminosos armados. Cinco minutos depois os caras saíram correndo PEDINDO PRA SER PRESOS KKKKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@matheus_mt",
+                        texto: "Como que alguém consegue assustar bandido armado desse jeito???"
+                    },
+                    {
+                        usuario: "@cuiabano_raiz",
+                        texto: "irmão eu não sei e NÃO QUERO SABER"
+                    }
+                ]
+            },
+            {
+                usuario: "@espiritosdocerrado",
+                texto: "Vocês têm noção de que ela consegue conversar com os ANCESTRAIS??? Isso é muito maior do que simplesmente sair dando soco em criminoso.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@ceticomt",
+                        texto: "Conseguir manifestar criaturas não significa que sejam espíritos de pessoas mortas."
+                    },
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "Sai do fake Vorcaro"
+                    },
+                    {
+                        usuario: "@ceticomt",
+                        texto: "Vocês precisam parar de chamar qualquer pessoa cética de Vorcaro."
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "exatamente o que o Vorcaro diria"
+                    }
+                ]
+            },
+            {
+                usuario: "@loboguazinho",
+                texto: "KKKKKKKKKKKKKKK O LOBO GUÁ TEM MEDO DELA 😭😭😭",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@pantaneira",
+                        texto: "o bicho enfrenta criminoso armado mas abaixa as orelhas quando essa mulher aparece"
+                    },
+                    {
+                        usuario: "@sobrenaturalbr",
+                        texto: "Dizem que animais conseguem enxergar espíritos. Imagina o que ele vê quando olha pra ela."
+                    },
+                    {
+                        usuario: "@loboguazinho",
+                        texto: "RETIRO MINHAS RISADAS COITADO DO GUÁ"
+                    },
+                    {
+                        usuario: "@ceticomt",
+                        texto: "Ou ele simplesmente tem medo dela. Vocês complicam tudo."
+                    }
+                ]
+            },
+            {
+                usuario: "@marianacba",
+                texto: "Ela salvou minha irmã de um sequestro. Minha irmã disse que ouviu várias vozes vindo dela, mas que todas diziam a mesma coisa: \"Você está segura\". Nunca vou esquecer.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@juliamendes",
+                        texto: "Nossa, arrepiei inteira lendo isso."
+                    },
+                    {
+                        usuario: "@marianacba",
+                        texto: "Minha irmã ainda tem medo das manifestações, mas diz que nunca teve medo dela."
+                    },
+                    {
+                        usuario: "@espiritosdocerrado",
+                        texto: "Isso diz muito sobre quem ela é ❤️"
+                    }
+                ]
+            },
+            {
+                usuario: "@alicewonderfan",
+                texto: "Já repararam que Alice e Arranca Língua nunca aparecem trabalhando juntas?",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@observadorsuper",
+                        texto: "São duas heroínas com métodos completamente diferentes. Não acho que exista uma rivalidade."
+                    },
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "Alice tentando entender o espírito e Cheshire lendo a mente dele seria CINEMA"
+                    },
+                    {
+                        usuario: "@ceticomt",
+                        texto: "Agora fiquei curioso. Um telepata consegue ler a mente de uma manifestação espiritual?"
+                    }
+                ]
+            },
+            {
+                usuario: "@piatafan",
+                texto: "O jeito que Piatã trata ela é muito bonito. Enquanto todo mundo fica assustado, ele conversa com ela como se estivesse diante de alguém extremamente importante.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@cerrado.vivo",
+                        texto: "Porque ele respeita a ligação dela com os ancestrais. Acho muito interessante."
+                    },
+                    {
+                        usuario: "@biologiadocerrado",
+                        texto: "Gosto que os dois possuem poderes tão diferentes e ainda assim se entendem."
+                    }
+                ]
+            },
+            {
+                usuario: "@vorcarofacts",
+                texto: "Afirmar publicamente que um representante político é acompanhado por entidades malignas é extremamente irresponsável. Especialmente sem apresentar qualquer prova.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "Ela literalmente VÊ os espíritos, quer que ela apresente um CPF???"
+                    },
+                    {
+                        usuario: "@vorcarofacts",
+                        texto: "Uma declaração sobrenatural não constitui evidência verificável."
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "pede nota fiscal pros demônios do gabinete"
+                    },
+                    {
+                        usuario: "@contaspublicasGO",
+                        texto: "se estiverem recebendo verba pública EU QUERO"
+                    }
+                ]
+            },
+            {
+                usuario: "@terrorbrasileiro",
+                texto: "A estética dessa mulher é ABSURDA. Finalmente uma heroína que parece saída de um filme de terror nacional.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@medrosocba",
+                        texto: "Fala isso porque você nunca encontrou ela às duas da manhã."
+                    },
+                    {
+                        usuario: "@terrorbrasileiro",
+                        texto: "MEU SONHO"
+                    },
+                    {
+                        usuario: "@medrosocba",
+                        texto: "procura ajuda"
+                    }
+                ]
+            },
+            {
+                usuario: "@carlos_1989",
+                texto: "Desculpa, mas eu não acho normal uma heroína invocar criaturas assustadoras no meio da cidade. Tem criança vendo essas coisas.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@mariaclara_mt",
+                        texto: "Melhor a criança ver uma criatura assustadora salvando alguém do que um criminoso machucando alguém."
+                    },
+                    {
+                        usuario: "@carlos_1989",
+                        texto: "Não estou dizendo que ela não ajuda. Só acho que deveria existir algum cuidado."
+                    },
+                    {
+                        usuario: "@professoraana",
+                        texto: "Concordo parcialmente. Trabalhar a percepção pública também faz parte de ser herói."
+                    }
+                ]
+            },
+            {
+                usuario: "@umbra_77",
+                texto: "Eu queria muito saber se os espíritos que ela manifesta possuem personalidade própria ou se são controlados por ela.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@espiritosdocerrado",
+                        texto: "Se ela realmente se comunica com ancestrais, provavelmente possuem vontade própria."
+                    },
+                    {
+                        usuario: "@umbra_77",
+                        texto: "Então tecnicamente ela não luta sozinha?"
+                    },
+                    {
+                        usuario: "@loboguazinho",
+                        texto: "imagina o adversário achando que é 1x1 e aparecem 8 bisavôs"
+                    }
+                ]
+            },
+            {
+                usuario: "@cuiabano_noturno",
+                texto: "Eu trabalho de madrugada e já vi ela andando sozinha pelo centro de Cuiabá. O mais estranho é que parecia estar conversando com alguém, mas não tinha absolutamente ninguém perto.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@marcosms",
+                        texto: "podia estar no telefone"
+                    },
+                    {
+                        usuario: "@cuiabano_noturno",
+                        texto: "O telefone também explica a sombra andando do lado dela?"
+                    },
+                    {
+                        usuario: "@marcosms",
+                        texto: "boa noite pra vocês"
+                    }
+                ]
+            },
+            {
+                usuario: "@superfoqueiro",
+                texto: "5908 pontos e ainda acho que ela é uma das heroínas mais subestimadas do Centro-Oeste.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@tatica_super",
+                        texto: "O número de resgates é relativamente baixo, mas ela parece atuar em situações bem específicas."
+                    },
+                    {
+                        usuario: "@superfoqueiro",
+                        texto: "Exato. Não dá pra comparar diretamente alguém que faz resgates em massa com quem enfrenta ameaças sobrenaturais."
+                    },
+                    {
+                        usuario: "@observadorsuper",
+                        texto: "Pontuação mede resultados registrados, não necessariamente o grau de dificuldade de cada ocorrência."
+                    }
+                ]
+            },
+            {
+                usuario: "@fofocasdocerrado",
+                texto: "Minha teoria é que Arranca Língua sabe de alguma coisa MUITO errada sobre o Vorcaro e usa essa história de espíritos pra avisar todo mundo.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@politicamt",
+                        texto: "Ou ela realmente acredita que existem espíritos malignos acompanhando ele."
+                    },
+                    {
+                        usuario: "@fofocasdocerrado",
+                        texto: "as duas possibilidades são PÉSSIMAS KKKKK"
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "o único sobrenatural aqui é o orçamento daquele homem"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 6200
+    },
+    {
+        id: "alex-vorcaro",
+        nome: "Alex Vorcaro",
+        arquivo: "ALEX_VORCARO",
+        pagina: true,
+        identidade: "Alex Vorcaro",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "DF",
+        cidade: "Brasília",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 101,
+        rankingAnterior: 72,
+        melhorRanking: 58,
+        popularidade: 56,
+        sobre: "Alex Vorcaro é um dos heróis mais controversos do Centro-Oeste, um político que transformou recursos públicos, influência institucional e contatos estratégicos em suas principais armas contra o crime. Sem possuir poderes sobre-humanos conhecidos, utiliza a verba de seu gabinete para financiar equipamentos de última geração, veículos especiais e operações heroicas de alto custo. Sua extensa rede de contatos e seu conhecimento surpreendentemente profundo sobre o funcionamento das facções criminosas fazem dele um aliado extremamente útil, embora levantem questionamentos sobre a origem de tantas informações. Grande amigo do herói Banco Supremo, Vorcaro também demonstra um interesse quase obsessivo pelo alienígena Cheshire, chegando a oferecer dinheiro para adquiri-lo, o que provoca a indignação de Alice. Sua relação com Arranca Língua é ainda pior: a heroína afirma que ele é acompanhado por entidades de pura treva, acusação que Vorcaro rejeita como superstição. Entre admiradores que exaltam seus resultados e críticos que questionam seus métodos e gastos, Alex continua demonstrando que, no combate ao crime, seu maior superpoder é o orçamento público.",
+        poderes: ["Fortuna pública", "Equipamentos tecnológicos avançados", "Arsenal de alta tecnologia", "Veículos especiais", "Inteligência estratégica", "Conhecimento de organizações criminosas", "Rede de contatos políticos", "Influência institucional", "Financiamento de operações", "Negociação e persuasão"],
+        stats: {
+            ocorrencias: 188,
+            resgates: 1260,
+            prisoes: 74,
+            danos: 8200000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@brasiliense_raiz",
+                texto: "Podem falar o que quiserem, mas quando teve aquela operação na Asa Norte ele chegou com três blindados e um helicóptero. Resolveu em 20 minutos o que a polícia tava tentando resolver fazia 6 horas.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "E QUEM PAGOU OS TRÊS BLINDADOS E O HELICÓPTERO???"
+                    },
+                    {
+                        usuario: "@brasiliense_raiz",
+                        texto: "eu não sei irmão mas eu tava dentro do prédio que os caras invadiram e tô vivo"
+                    },
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "justo. fico feliz por você. MAS AINDA QUERO A NOTA FISCAL"
+                    }
+                ]
+            },
+            {
+                usuario: "@orcamentosecreto",
+                texto: "O BATMAN TEM A WAYNE ENTERPRISES O VORCARO TEM A LEI ORÇAMENTÁRIA ANUAL KKKKKKKKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@direitopublico",
+                        texto: "O verdadeiro superpoder é a dotação orçamentária."
+                    },
+                    {
+                        usuario: "@servidorconcursado",
+                        texto: "Vocês riem mas eu quero saber como ele consegue empenhar essas despesas tão rápido."
+                    },
+                    {
+                        usuario: "@orcamentosecreto",
+                        texto: "velocidade sobre-humana de licitação"
+                    }
+                ]
+            },
+            {
+                usuario: "@alicewonderfan",
+                texto: "PARE DE TENTAR COMPRAR O CHESHIRE SEU ESQUISITO",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@vorcarofacts",
+                        texto: "O deputado apenas demonstrou interesse em financiar pesquisas científicas sobre uma espécie extraterrestre."
+                    },
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "ELE PERGUNTOU QUANTO CUSTAVA O ALIEN"
+                    },
+                    {
+                        usuario: "@vorcarofacts",
+                        texto: "Uma proposta comercial não implica necessariamente ausência de consideração ética."
+                    },
+                    {
+                        usuario: "@CheshireFanClube",
+                        texto: "O CHESHIRE NÃO É UMA IMPRESSORA 3D"
+                    }
+                ]
+            },
+            {
+                usuario: "@politicabsb",
+                texto: "Acho muito curioso como esse homem sabe exatamente onde estão as facções, quem comanda cada operação, quem financia e até quando vão agir.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@vorcarofacts",
+                        texto: "Anos de experiência no combate ao crime organizado."
+                    },
+                    {
+                        usuario: "@politicabsb",
+                        texto: "Sim, mas como ele sabia que a reunião ia acontecer ANTES dos próprios investigadores?"
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "networking"
+                    },
+                    {
+                        usuario: "@politicabsb",
+                        texto: "ESSA É JUSTAMENTE A MINHA PREOCUPAÇÃO"
+                    }
+                ]
+            },
+            {
+                usuario: "@bancosupremofan",
+                texto: "BANCO SUPREMO E VORCARO PRECISAM FAZER MAIS OPERAÇÕES JUNTOS",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "Um herói ligado ao sistema financeiro e um político com acesso ao orçamento público. Que dupla tranquilizadora."
+                    },
+                    {
+                        usuario: "@bancosupremofan",
+                        texto: "dois gigantes do combate ao crime"
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "um cuida do ativo e o outro do passivo"
+                    }
+                ]
+            },
+            {
+                usuario: "@servidorconcursado",
+                texto: "Sou servidor público há 19 anos e não consigo comprar uma cadeira nova pro departamento sem passar por 14 procedimentos. Esse sujeito tem uma FROTA DE VEÍCULOS TÁTICOS.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@brasiliense_raiz",
+                        texto: "talvez você devesse combater o crime com a cadeira"
+                    },
+                    {
+                        usuario: "@servidorconcursado",
+                        texto: "SE EU CONSEGUISSE COMPRAR UMA EU TENTAVA"
+                    },
+                    {
+                        usuario: "@orcamentosecreto",
+                        texto: "KKKKKKKKKKKKKKKKKKKKKKK"
+                    }
+                ]
+            },
+            {
+                usuario: "@misticismocerrado",
+                texto: "A Arranca Língua disse que esse homem é acompanhado por entidades de pura treva e vocês estão preocupados com o helicóptero.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@ceticobsb",
+                        texto: "Porque helicópteros existem e podem ser auditados. Espíritos malignos não."
+                    },
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "E se os espíritos também estiverem usando o helicóptero?"
+                    },
+                    {
+                        usuario: "@ceticobsb",
+                        texto: "Como isso faria qualquer sentido?"
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "aí tem que verificar se recebem diária de viagem"
+                    }
+                ]
+            },
+            {
+                usuario: "@advogadodf",
+                texto: "Eu só queria lembrar que o fato de uma despesa ser destinada ao combate ao crime não significa automaticamente que ela seja uma despesa pública legítima.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@vorcarofacts",
+                        texto: "O deputado possui assessoria jurídica e todos os seus atos são realizados dentro das competências institucionais."
+                    },
+                    {
+                        usuario: "@advogadodf",
+                        texto: "Ótimo. Então não deve existir problema em disponibilizar os documentos que fundamentam essas despesas."
+                    },
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "FINALMENTE ALGUÉM FALOU"
+                    }
+                ]
+            },
+            {
+                usuario: "@marianabsb",
+                texto: "Meu marido foi resgatado por uma equipe financiada pelo Vorcaro. Ele não estava lá pessoalmente, mas foi o equipamento que ele forneceu que permitiu localizar as vítimas. Eu não vou fingir que isso não importa.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@politicabsb",
+                        texto: "Importa sim. É possível reconhecer resultados e ainda cobrar transparência."
+                    },
+                    {
+                        usuario: "@marianabsb",
+                        texto: "Concordo. Só acho injusto quando tratam tudo que ele faz como se não tivesse valor."
+                    },
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "Essa é uma crítica justa. Salvar pessoas tem valor. Fiscalizar gastos também."
+                    }
+                ]
+            },
+            {
+                usuario: "@piatafan",
+                texto: "Piatã claramente não gosta dele, mas reconhece que os equipamentos ajudam muito nas missões. Acho que isso resume o Vorcaro.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@cerrado.vivo",
+                        texto: "Piatã tem maturidade pra trabalhar com alguém de quem não gosta quando vidas estão em risco."
+                    },
+                    {
+                        usuario: "@vorcarofacts",
+                        texto: "Exatamente. Divergências pessoais não impedem o reconhecimento da competência do deputado."
+                    },
+                    {
+                        usuario: "@piatafan",
+                        texto: "Não transforma isso em propaganda eleitoral, por favor."
+                    }
+                ]
+            },
+            {
+                usuario: "@superfoqueiro",
+                texto: "188 ocorrências, 1260 resgates e 8200000 reais em danos. O cara realmente combate o crime como se tivesse orçamento infinito.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@tatica_super",
+                        texto: "Os danos são elevados, mas ele também costuma participar de operações de grande escala."
+                    },
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "Dano colateral é uma coisa. O custo do equipamento usado na operação é OUTRA."
+                    },
+                    {
+                        usuario: "@superfoqueiro",
+                        texto: "ou seja precisamos de duas calculadoras pra avaliar esse homem"
+                    }
+                ]
+            },
+            {
+                usuario: "@ceticobsb",
+                texto: "Não entendo por que criticam tanto ele por não acreditar em magia. Num mundo onde existem alienígenas e pessoas com poderes, questionar explicações sobrenaturais é perfeitamente razoável.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@espiritosdocerrado",
+                        texto: "Questionar é uma coisa. Desrespeitar a experiência da Arranca Língua é outra."
+                    },
+                    {
+                        usuario: "@ceticobsb",
+                        texto: "Concordo. Só não acho que ela deva ser considerada automaticamente correta."
+                    },
+                    {
+                        usuario: "@misticismocerrado",
+                        texto: "engraçado que os espíritos nunca reclamaram dela, só dele"
+                    }
+                ]
+            },
+            {
+                usuario: "@equipamentotatico",
+                texto: "Independente de política, aquele traje blindado novo dele é uma OBRA DE ARTE. Alguém sabe quem fabrica?",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@techbro_77",
+                        texto: "Quero saber também. O sistema de estabilização parece militar."
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "fabricante: contribuinte brasileiro"
+                    },
+                    {
+                        usuario: "@equipamentotatico",
+                        texto: "EU QUERO O MODELO NÃO O PATROCINADOR"
+                    }
+                ]
+            },
+            {
+                usuario: "@eleitorconsciente",
+                texto: "Eu não consigo entender como as pessoas acham normal um político ser super-herói usando recursos do próprio gabinete. Onde termina o mandato e começa a carreira pessoal dele?",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@brasiliense_raiz",
+                        texto: "Se ele tá salvando gente, por mim pode continuar."
+                    },
+                    {
+                        usuario: "@eleitorconsciente",
+                        texto: "Esse argumento permitiria justificar qualquer gasto desde que o resultado fosse positivo."
+                    },
+                    {
+                        usuario: "@brasiliense_raiz",
+                        texto: "tá mas se eu for sequestrado quero que ele venha"
+                    },
+                    {
+                        usuario: "@eleitorconsciente",
+                        texto: "Eu também. E quero que ele preste contas depois."
+                    }
+                ]
+            },
+            {
+                usuario: "@fofocasdobrasil",
+                texto: "Minha teoria é que o Vorcaro não quer comprar o Cheshire porque gosta de alienígenas. Ele quer descobrir como ler a mente dos adversários políticos.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@alicewonderfan",
+                        texto: "NÃO COLOQUEM ESSA IDEIA NA CABEÇA DELE"
+                    },
+                    {
+                        usuario: "@politicabsb",
+                        texto: "Isso seria um pesadelo para a democracia."
+                    },
+                    {
+                        usuario: "@dinheiropublico",
+                        texto: "telepatia parlamentar: projeto de lei 404/2033"
+                    }
+                ]
+            },
+            {
+                usuario: "@bancariosupremo",
+                texto: "Vorcaro e Banco Supremo são a prova de que dinheiro também pode ser usado para fazer o bem.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "Dinheiro de quem?"
+                    },
+                    {
+                        usuario: "@bancariosupremo",
+                        texto: "dinheiro bem investido"
+                    },
+                    {
+                        usuario: "@contaspublicasDF",
+                        texto: "ISSO NÃO RESPONDE A PERGUNTA"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 5290
+    },
+    {
+        id: "geada",
+        nome: "Geada",
+        arquivo: "GEADA",
+        pagina: true,
+        identidade: "",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "RS",
+        cidade: "Porto Alegre",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 1,
+        rankingAnterior: 8,
+        melhorRanking: 1,
+        popularidade: 86,
+        sobre: "Geada é um dos heróis mais antigos e respeitados do Brasil, ocupando uma posição entre os dez maiores do ranking nacional. Vestindo roupas tradicionais do Sul, o veterano combina sua extraordinária habilidade de manipular vento, água e gelo com uma impressionante experiência em combate com faca. Reconhecido por sua inteligência tática e liderança natural, Geada consegue coordenar até os heróis mais imprevisíveis, transformando suas habilidades em estratégias de combate eficientes. Apesar da idade avançada, continua sendo um combatente formidável, admirado tanto por seus feitos individuais quanto pela capacidade de trabalhar em equipe.",
+        poderes: ["Criocinese", "Aerocinese", "Congelamento", "Tempestades de gelo", "Combate com faca", "Controle climático localizado"],
+        stats: {
+            ocorrencias: 510,
+            resgates: 1420,
+            prisoes: 165,
+            danos: 16000000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@GauchoRaiz1903",
+                texto: "ESSE É O VERDADEIRO VÉIO DA FRONTEIRA!!! 🧉❄️🔪 500 OCORRÊNCIAS NAS COSTAS E AINDA BOTA MUITO SUPER NOVINHO PRA MAMAR KKKKKKK 🇧🇷🔥",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@AnaClara_77",
+                texto: "Minha vó é APAIXONADA por esse homem 😭❤️ Toda vez que ele aparece na televisão ela fala \"esse sim é um homem de respeito\". VÓ ELE CONGELOU UM CAMINHÃO KKKKKKKKK ❄️🚛",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@AnalistaSupersBR",
+                texto: "Geada é o tipo de herói que melhora QUALQUER equipe. Com a Cuca parece uma coreografia, com Toró uma tempestade perfeitamente coordenada, com Alvoredo uma operação militar e com Visão um espetáculo dimensional. 🧠❄️👑",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@CucaMinhaRainha",
+                texto: "GENTE O GEADA É O ÚNICO QUE CONSEGUE FAZER A CUCA SEGUIR UM PLANO KKKKKKKKKKK 🐊😭😭😭 os dois lutando juntos parecem que ensaiaram por 3 meses, É MUITO LINDO.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ReptilianaOficial",
+                        texto: "A Cuca sozinha é um furacão sem direção, com o Geada é um furacão com GPS KKKKKKK 🐊🧭💀"
+                    }
+                ]
+            },
+            {
+                usuario: "@JorgeEmpresarioRS",
+                texto: "Excelente herói, mas precisamos parar de romantizar qualquer intervenção de supers. ❄️🏢 Minha empresa ficou quatro dias fechada depois de uma operação dele. Salvou pessoas? Sim. Mas quem paga os prejuízos?",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@TatupebaDefensor",
+                        texto: "4 dias fechado? KKKKKKKKK amigo tu não sabe a sorte que tem de ser o GEADA e não o TATUPEBA 😭😭😭🦔💥"
+                    }
+                ]
+            },
+            {
+                usuario: "@TempestadeJr",
+                texto: "GEADA + TORÓ É SIMPLESMENTE CINEMA ABSOLUTO 🎬⛈️❄️⚡ o moleque faz chover e o véio transforma tudo em gelo, COMO QUE ALGUÉM GANHA DISSO?????",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@MarcosDoInterior",
+                texto: "Meu pai conheceu o Geada numa ocorrência há muitos anos. Disse que ele ficou conversando com os bombeiros depois, tomando um mate e perguntando se todo mundo tava bem. 🧉❤️ Esse tipo de coisa não aparece no ranking.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@NovaGeracaoSupers",
+                texto: "Ninguém discute a experiência dele, mas até quando vamos ter os mesmos veteranos no topo? 🤷‍♂️ Tem herói jovem fazendo coisas absurdas e recebendo metade do reconhecimento.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@DadosSuperFoco",
+                        texto: "9835 pontos. 1420 resgates. 165 prisões. 📊❄️ O ranking não é aposentadoria por idade, amigo KKKKKKK."
+                    }
+                ]
+            },
+            {
+                usuario: "@PortalDaVisao",
+                texto: "EU JURO que Geada e Visão parecem pai e filha 😭😭🖤❄️ ele sai dos portais dela dando facada congelante e depois os dois ficam conversando tranquilos como se não tivessem acabado com um exército inteiro KKKKKK",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@LoboNoturnoRS",
+                texto: "Vocês precisam assistir ao vídeo do Geada lutando com Alvoredo. Os dois NÃO FALAM NADA. Simplesmente sabem o que fazer. É assustador o nível de experiência desses caras 🐺❄️🔥",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@MemeiroDoPampa",
+                texto: "Imagina tu ser um supervilão nível apocalipse e ser derrotado por um senhor de bombacha com uma faca de churrasco e poderes de geladeira KKKKKKKKKKKKK 🧉🔪🧊💀",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@ResgatadaEmPOA",
+                texto: "Eu estava presa num estacionamento alagado. Ele congelou parte da água para criar uma passagem e tirou a gente de lá. Nunca vou esquecer a tranquilidade com que falou que tudo ia ficar bem. Obrigada, Geada. ❤️❄️🙏",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@FiscalDeHerói",
+                texto: "Gosto do Geada, mas acho perigoso colocar qualquer herói num pedestal. 🤔❄️ Ser Top 10 não significa estar acima de fiscalização ou prestação de contas. Experiência também traz responsabilidade.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@FrioDeRachar",
+                texto: "Não é o mais rápido, não é o mais jovem, não é o mais chamativo. Mas quando a situação fica FEIA todo mundo quer o Geada do lado. ❄️🧉👑 RESPEITA O VETERANO!!!",
+                estrelas: 5,
+                respostas: []
+            }
+        ],
+        pontuacao: 10179
+    },
+    {
+        id: "cuca",
+        nome: "Cuca",
+        arquivo: "CUCA",
+        pagina: true,
+        identidade: "Camila Duarte Ferraz",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "SC",
+        cidade: "Florianópolis",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 55,
+        rankingAnterior: 284,
+        melhorRanking: 55,
+        popularidade: 68,
+        sobre: "Cuca é uma super-heroína parcialmente transformada em crocodilo, conhecida por sua força brutal, personalidade explosiva e enorme carisma. Extremamente popular entre crianças e adolescentes, conquistou uma legião de fãs por sua espontaneidade, bom humor e disposição para interagir com o público, embora sua aparência intimide parte das gerações mais velhas. Em combate, prefere confrontos diretos, utilizando seus punhos e sua poderosa mandíbula para neutralizar adversários. Apesar de sua impulsividade e tendência a provocar companheiros, demonstra excelente desempenho ao lado de heróis experientes como Geada e Alvoredo. Sua parceria com Toró, entretanto, tornou-se controversa após uma operação conjunta terminar em uma catástrofe.",
+        poderes: ["Superforça", "Mordida devastadora", "Super-resistência", "Garras afiadas", "Combate anfíbio", "Apneia prolongada", "Sentidos reptilianos", "Cauda poderosa"],
+        stats: {
+            ocorrencias: 330,
+            resgates: 720,
+            prisoes: 155,
+            danos: 18000000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@CucaSupremacy",
+                texto: "A MAIOR QUE TEMOS!!!! 🐊💚💚💚 A MULHER É UM CROCODILO GIGANTE QUE SAI NA PORRADA COM SUPERVILÃO E AINDA RESPONDE COMENTÁRIO NO INSTA KKKKKKKKK TE AMOOOO 😭😭🔥🔥",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@JacareDoZap",
+                        texto: "ELA CURTIU MEU COMENTÁRIO UMA VEZ E EU NUNCA MAIS FUI O MESMO 😭😭😭🐊💚"
+                    }
+                ]
+            },
+            {
+                usuario: "@DonaMarilene62",
+                texto: "Me desculpem, mas eu tenho MEDO dessa moça. 😰🐊 Vi ela abrindo a boca na televisão e quase tive um negócio. Não acho normal colocar uma criatura dessas perto de crianças!!! 😡",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@BiaJacarezete",
+                        texto: "VÓ ELA É LITERALMENTE UMA HEROÍNA KKKKKKK 😭😭😭😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@TempestadeSemControle",
+                texto: "VCS VIRAM O QUE ACONTECEU NA ÚLTIMA MISSÃO DELA COM O TORÓ???? ⛈️💥💥 Uma catástrofe porque ela NÃO CONSEGUE FICAR QUIETA!!! Como deixam alguém assim trabalhar com outros supers???? 🤬🤬",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@DefensoraDaCuca",
+                        texto: "O TORÓ VIRA UM FURACÃO PQ ALGUÉM CHAMOU ELE DE CABEÇA DE ALGODÃO E A CULPA É DELA???? KKKKKKKKK 🐊😭⛈️"
+                    },
+                    {
+                        usuario: "@MeteorologistaBR",
+                        texto: "Os dois precisam aprender a trabalhar juntos. Um não sabe parar de provocar e o outro não sabe ignorar. 😐"
+                    }
+                ]
+            },
+            {
+                usuario: "@GeadaFanClub",
+                texto: "A CUCA COM O GEADA É OUTRA PESSOA KKKKKKK ❄️🐊 O VELHO APONTA PRA ESQUERDA E ELA JÁ TÁ VOANDO PRA DAR UM SOCO NO BANDIDO 😭😭😭 AS LUTAS DOS DOIS SÃO CINEMA!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@CinefiloSuper",
+                        texto: "Não ironicamente a melhor coreografia de combate entre supers brasileiros 🎬🔥🔥🔥"
+                    }
+                ]
+            },
+            {
+                usuario: "@LoboDoMato",
+                texto: "Cuca + Alvoredo é uma das duplas mais SUBESTIMADAS do Brasil 🐊🐺🔥 Ela sai destruindo tudo e ele acompanha cada movimento como se soubesse o que ela vai fazer antes dela mesma KKKKKKK",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@FloripaVidaReal",
+                texto: "Moro em Floripa e já vi a Cuca pessoalmente umas três vezes. A mulher é ENORME KKKKKKK 😭🐊 Mas é muito gente boa, principalmente com as crianças. Só não provoca ela que tá tudo certo 💚",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@FiscalDosSupers",
+                texto: "18000000 reais em danos materiais. 💸💸💸 A gente precisa discutir RESPONSABILIDADE. Ser carismática não significa que pode sair destruindo propriedade alheia. 🏢💥",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@JacareCapitalista",
+                        texto: "18 milhões de danos e 155 prisões, basicamente cada bandido custa um apartamento KKKKKKKKK 🐊💸🏠"
+                    }
+                ]
+            },
+            {
+                usuario: "@LariCosplay",
+                texto: "FUI DE CUCA NUM EVENTO E ELA REPOSTOU MINHA FOTO 😭😭😭😭🐊💚💚💚💚 GENTE EU TÔ TREMENDO ATÉ AGORA AAAAAAAA",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@VisaoEnigma",
+                texto: "A Cuca e a Visão trabalhando juntas é muito engraçado KKKKK 🐊🖤 Parece que foram contratadas pra resolver dois problemas diferentes. Uma vai pra esquerda e a outra abre um portal e desaparece 😭😭😭",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@TrabalhoEmGrupo",
+                        texto: "Trabalho em grupo da faculdade quando cada um faz sua parte e ninguém conversa no WhatsApp KKKKKKK 💀📚"
+                    }
+                ]
+            },
+            {
+                usuario: "@SeuOsvaldo1958",
+                texto: "Não gosto muito do jeito dela, fala demais e parece não levar as coisas a sério. Mas tenho que reconhecer que já ajudou muita gente aqui na região. Deus abençoe essa moça. 🙏🐊",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@CrocoFitness",
+                texto: "MANO ELA DEU UM SOCO NUM CAMINHÃO E O CAMINHÃO FOI PRA TRÁS 💀💀💀🐊💪 EU NA ACADEMIA TENTANDO FICAR IGUAL A ELA KKKKKKKKK",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@MaeDeDoisSC",
+                texto: "Minha filha tinha medo dela quando era pequena. Um dia a Cuca parou para conversar com ela, fez careta, tirou foto e ficou uns dez minutos brincando. Hoje minha filha quer ser heroína por causa dela. 🥹❤️🐊",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@RankingSemFiltro",
+                texto: "Cuca tem 155 prisões e 720 resgates. 📊🐊 É uma heroína extremamente competente, mas precisa melhorar o controle emocional e reduzir os danos. Tem potencial para subir MUITO no ranking.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@CucaPresidenta",
+                texto: "SE A CUCA TEM 1000 FÃS EU SOU UM DELES 🐊💚 SE TEM 1 FÃ SOU EU 😭 SE NÃO TEM NENHUM É PQ ELA ME MORDEU SEM QUERER KKKKKKKKKKKKK 💀💀💀",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@MordidaDeAmor",
+                        texto: "MORREU FAZENDO O QUE AMAVA KKKKKKKKKKK 😭🐊💚"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 6197
+    },
+    {
+        id: "toro",
+        nome: "Toró",
+        arquivo: "TORO",
+        pagina: true,
+        identidade: "Lucas Henrique Martins",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "PR",
+        cidade: "Curitiba",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 503,
+        rankingAnterior: 823,
+        melhorRanking: 412,
+        popularidade: 73,
+        sobre: "Toró é um jovem super-herói conhecido por seus cabelos formados por nuvens e sua capacidade de controlar água, chuva e eletricidade. Apesar de normalmente apresentar uma personalidade calma e descontraída, perde a paciência facilmente diante de provocações, fazendo com que suas nuvens escureçam conforme sua irritação aumenta. Em situações de fúria extrema, transforma-se em um gigantesco ser de nuvens tempestuosas, adquirindo um poder destrutivo colossal, mas perdendo grande parte do controle sobre suas ações. Popular entre o público jovem, Toró demonstra enorme potencial, especialmente quando atua ao lado de Geada, Alvoredo ou Visão. Entretanto, sua instabilidade emocional e os elevados danos materiais de suas operações, incluindo uma catástrofe durante uma missão com Cuca, prejudicam sua posição no ranking nacional.",
+        poderes: ["Eletrocinese", "Hidrocinese", "Pluviocinese", "Manipulação de nuvens", "Controle de tempestades", "Forma tempestuosa", "Descargas atmosféricas", "Resistência elétrica"],
+        stats: {
+            ocorrencias: 250,
+            resgates: 900,
+            prisoes: 70,
+            danos: 28000000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@NuvemDeAlgodao",
+                texto: "ELE TEM CABELO DE NUVEM MANO 😭😭☁️☁️☁️ COMO QUE EU NÃO VOU AMAR ESSE GAROTO????? PROTEJAM O TORÓ A TODO CUSTO 💙⛈️⚡",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@CabeloDeChuva",
+                        texto: "IMAGINA ELE ENTRANDO NO BANHO E O CABELO DELE COMEÇANDO A CHOVER KKKKKKKKK 🚿☁️😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@CuritibanoIndignado",
+                texto: "28000000 EM DANOS????? 💀💀💀 ESSE MOLEQUE É UMA CALAMIDADE PÚBLICA COM CPF!!! ⛈️🏚️💸 Como que deixam alguém que vira uma TEMPESTADE GIGANTE atuar no meio de uma cidade????",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@TorozeteOficial",
+                        texto: "900 PESSOAS SALVAS E VC PREOCUPADO COM CONCRETO 😭😭😭⚡"
+                    },
+                    {
+                        usuario: "@EngenheiroPR",
+                        texto: "Pessoas salvas são prioridade, mas danos estruturais também colocam vidas em risco. Uma coisa não anula a outra. 🏗️⚠️"
+                    }
+                ]
+            },
+            {
+                usuario: "@JacareProvocadora",
+                texto: "A CUCA CHAMOU ELE DE CABEÇA DE ALGODÃO E O CARA VIROU UM FENÔMENO METEOROLÓGICO KKKKKKKKKKKKKKK 🐊☁️😭😭😭",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@CucaMinhaRainha",
+                        texto: "A CUCA PRECISA SER PROIBIDA DE FALAR PERTO DELE KKKKKKKKK 😭🐊⛈️"
+                    },
+                    {
+                        usuario: "@NaoFoiEngracado",
+                        texto: "Vocês fazem piada, mas teve gente que perdeu a casa naquela operação. Não foi engraçado. 😐🏚️"
+                    }
+                ]
+            },
+            {
+                usuario: "@GeadaFanClub",
+                texto: "TORÓ + GEADA É A DUPLA MAIS ABSURDA DO SUL ❄️⛈️⚡ O MOLEQUE CRIA UMA TEMPESTADE INTEIRA E O VELHO TRANSFORMA TUDO EM GELO. É ARTE, É CINEMA, É PERFEIÇÃO!!! 🎬🔥🔥",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@PsicologoDeSuper",
+                texto: "O Toró não é uma pessoa ruim, mas alguém que perde o controle de poderes capazes de destruir bairros inteiros precisa de acompanhamento e treinamento emocional. 🧠⛈️ Não dá para depender da boa vontade dos colegas.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@MemeiroDoPampa",
+                        texto: "o psicólogo: e como você reage quando fica bravo? toró: 🌩️🌪️🌊⚡🏚️💥💥💥"
+                    }
+                ]
+            },
+            {
+                usuario: "@PortalDaVisao",
+                texto: "VOCÊS VIRAM ELE JOGANDO UM RAIO NUM PORTAL E O RAIO SAINDO ATRÁS DO VILÃO????? 🖤⚡🌀😭😭😭 VISÃO E TORÓ SÃO SIMPLESMENTE ROUBADOS JUNTOS!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@FisicaDosSupers",
+                        texto: "O potencial estratégico desses dois é absurdo. Ela consegue redirecionar ataques que normalmente seriam impossíveis de controlar. ⚡🌀📐"
+                    }
+                ]
+            },
+            {
+                usuario: "@LoboNoturnoRS",
+                texto: "Alvoredo lutando com Toró é outro nível 🐺⛈️ O lobo parece saber exatamente onde cada raio vai cair e onde cada inimigo vai correr. Não sei COMO ele consegue, mas funciona.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@MaePreocupadaPR",
+                texto: "Meu filho ama esse herói, tem até camiseta dele. Mas sinceramente fico preocupada com a ideia de um rapaz que não consegue controlar a própria raiva tendo tanto poder. 😟💙 Espero que ele amadureça.",
+                estrelas: 2,
+                respostas: []
+            },
+            {
+                usuario: "@MeteorologiaMemes",
+                texto: "PREVISÃO DO TEMPO EM CURITIBA: ☀️ 08h — Sol ☁️ 10h — Toró acordou 🌧️ 12h — Alguém falou do cabelo dele 🌪️ 14h — Cuca chegou 💀 15h — DEFESA CIVIL",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@CuritibaSemSol",
+                        texto: "ISSO EXPLICA O CLIMA DA CIDADE KKKKKKKKKKKKKKK 😭😭😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@ResgatadaPeloToro",
+                texto: "Fiquei presa numa enchente com minha irmã. Ele controlou a água para abrir passagem e tirou a gente de lá. Foi supergentil, perguntou nossos nomes e ficou até chegarem os bombeiros. ❤️😭⛈️ Não deixem os erros apagarem as coisas boas que ele faz.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@RankingSupersBR",
+                texto: "Toró tem 3050 pontos, mas sem a penalização pelos danos estaria com 5850. 📊📉⛈️ É um dos exemplos mais claros de como poder bruto não significa eficiência operacional.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@ExFaDoToro",
+                texto: "Eu gostava muito dele, mas depois daquela operação com a Cuca perdi a confiança. 😕 Uma coisa é cometer erros, outra é colocar uma cidade inteira em risco porque não aguenta uma provocação.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@NuvemDeAlgodao",
+                        texto: "Ele precisa melhorar, concordo. Mas desistir de alguém que já salvou tanta gente também não resolve nada. 💙☁️"
+                    }
+                ]
+            },
+            {
+                usuario: "@AlgodaoDoceEletrico",
+                texto: "O CARA É LITERALMENTE UM DEUS DA TEMPESTADE COM CABELO DE ALGODÃO DOCE 😭😭😭⚡☁️💙 COMO PODE SER TÃO FOFO E TÃO PERIGOSO AO MESMO TEMPO KKKKKKKKK",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@DefesaCivilCuritiba",
+                texto: "O potencial de Toró em operações de resgate e controle de enchentes é enorme. 🌧️🚨 Entretanto, é fundamental que suas intervenções sejam coordenadas com as equipes de emergência para evitar riscos adicionais à população.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@FuturoTop10",
+                texto: "PODEM PRINTAR 📸📸📸 ESSE MOLEQUE AINDA VAI SER TOP 10 DO BRASIL!!! ⛈️⚡👑 Quando aprender a controlar os poderes ninguém segura. NINGUÉM!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@RealistaPR",
+                        texto: "Primeiro ele precisa aprender a controlar a paciência KKKKKKK 😭⛈️"
+                    }
+                ]
+            }
+        ],
+        pontuacao: 3342
+    },
+    {
+        id: "alvoredo",
+        nome: "Alvoredo",
+        arquivo: "ALVOREDO",
+        pagina: true,
+        identidade: "Desconhecido",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "RS",
+        cidade: "Caxias do Sul",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 56,
+        rankingAnterior: 326,
+        melhorRanking: 56,
+        popularidade: 73,
+        sobre: "Alvoredo é um dos heróis mais misteriosos e assustadores do Sul do Brasil, conhecido por sua transformação em um enorme lobisomem e por sua extraordinária capacidade de combate. Pouco se sabe sobre sua identidade, origem ou passado, e sua aparência monstruosa contribui para sua baixa popularidade. Entretanto, aqueles que foram salvos por ele costumam se tornar seus defensores mais fiéis. Apesar de reservado e pouco comunicativo, Alvoredo demonstra uma inteligência tática excepcional, sendo capaz de adaptar seu estilo de luta a praticamente qualquer aliado, desde a impulsiva Cuca até o experiente Geada. Sua coordenação com outros heróis é tão precisa que alguns especulam sobre uma possível conexão telepática, embora não existam evidências que confirmem essa capacidade.",
+        poderes: ["Licantropia", "Superforça", "Supervelocidade", "Superagilidade", "Super-resistência", "Regeneração acelerada", "Sentidos aguçados", "Garras e presas", "Instinto de matilha"],
+        stats: {
+            ocorrencias: 298,
+            resgates: 640,
+            prisoes: 120,
+            danos: 8000000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@LoboDoSul",
+                texto: "O ALVOREDO É SIMPLESMENTE O HERÓI MAIS SUBESTIMADO DO BRASIL!!! 🐺🔥🔥 O cara não precisa fazer discurso, não precisa aparecer na televisão, só chega, resolve o problema e desaparece. LENDA ABSOLUTA.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@MatilhaAlvoredo",
+                        texto: "FINALMENTE ALGUÉM FALANDO!!! 🐺🐺🐺 Enquanto uns querem aparecer, ele tá trabalhando!!!"
+                    }
+                ]
+            },
+            {
+                usuario: "@DonaCelinaRS",
+                texto: "Me desculpem, mas isso não é normal. 😰 Vi uma fotografia dele e fiquei horrorizada. Parece um monstro de filme de terror! Como querem que as crianças se sintam seguras perto de uma criatura dessas?",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@SalvaPeloLobo",
+                        texto: "Quando meu carro capotou, foi esse \"monstro\" que arrancou a porta e me tirou de lá. Não esqueço daqueles olhos olhando pra mim enquanto esperava o socorro. Ele não me machucou. Ele me salvou. ❤️🐺"
+                    },
+                    {
+                        usuario: "@DonaCelinaRS",
+                        texto: "Não sabia dessa história. Fico feliz que você esteja bem, meu filho. Deus abençoe esse rapaz. 🙏❤️"
+                    }
+                ]
+            },
+            {
+                usuario: "@TeoriaDosSupers",
+                texto: "EU TENHO CERTEZA QUE O ALVOREDO É TELEPATA!!! 🧠🐺🌀 Não existe explicação pra ele conseguir acompanhar os portais da Visão SEM ELA FALAR NADA!!! Ele já começa a correr antes do portal abrir!!!!",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@AnalistaDeCombate",
+                        texto: "Pode ser só uma capacidade absurda de leitura corporal. Lobos se coordenam em grupo sem precisar conversar. Ele parece fazer isso com humanos também. 🐺📊"
+                    },
+                    {
+                        usuario: "@VisaoEnigma",
+                        texto: "\"SÓ LEITURA CORPORAL\" AMIGO ELE ATRAVESSOU TRÊS PORTAIS EM SEQUÊNCIA SEM OLHAR PRA TRÁS 😭😭😭🖤🐺"
+                    }
+                ]
+            },
+            {
+                usuario: "@GeadaFanClub",
+                texto: "GEADA E ALVOREDO É A DEFINIÇÃO DE \"POUCAS PALAVRAS, GRANDES FEITOS\" ❄️🐺🔥 O velho levanta a mão, o lobo já sabe o que fazer. NINGUÉM PRECISA FALAR NADA. ABSURDO!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@TaticaSuprema",
+                        texto: "Dois veteranos jogando xadrez enquanto os vilões acham que estão numa briga de bar KKKKKKK ♟️🐺❄️"
+                    }
+                ]
+            },
+            {
+                usuario: "@JacareSupremacy",
+                texto: "ALVOREDO + CUCA É A MELHOR DUPLA DO SUL 🐺🐊💚 A CUCA SAI DANDO SOCO EM TODO MUNDO E O LOBO CONSEGUE ACOMPANHAR COMO SE TIVESSEM ENSAIADO POR 10 ANOS KKKKKKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@CucaMinhaRainha",
+                        texto: "ELE É O ÚNICO QUE ENTENDE A LINGUAGEM DO CAOS DELA KKKKKKK 😭🐊🐺"
+                    }
+                ]
+            },
+            {
+                usuario: "@MaePreocupada",
+                texto: "Eu reconheço o trabalho dele, mas acho que deveriam evitar colocá-lo em eventos públicos com crianças pequenas. Meu filho teve pesadelos depois de ver uma reportagem. 😔🐺",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@ProfessoraAna",
+                        texto: "Sou professora e uso o Alvoredo nas aulas para conversar sobre aparência e preconceito. As crianças aprendem muito quando percebem que alguém assustador pode ser uma pessoa boa. ❤️📚🐺"
+                    }
+                ]
+            },
+            {
+                usuario: "@MatilhaDeCaxias",
+                texto: "Aqui em Caxias todo mundo conhece alguém que já viu ele trabalhando. 🐺🌙 O homem aparece, resolve tudo e some antes de alguém conseguir tirar foto KKKKKKKK LENDA URBANA VIVA.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@InvestigadorNoturno",
+                texto: "Ninguém sabe o nome, ninguém sabe de onde veio, ninguém sabe como conseguiu os poderes... 🤔🐺 Vocês realmente não acham estranho uma pessoa com tanta força operar sem praticamente nenhuma informação pública?",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@DireitoDosSupers",
+                        texto: "Transparência operacional é importante, mas isso não significa que um herói precise divulgar sua identidade civil para o público. ⚖️"
+                    }
+                ]
+            },
+            {
+                usuario: "@ToroFanClub",
+                texto: "ALVOREDO É O MELHOR PARCEIRO DO TORÓ!!! 🐺⛈️⚡ O CARA CONSEGUE FAZER O TORÓ PARECER UM PROFISSIONAL ORGANIZADO KKKKKKKKKKKKK 😭😭😭",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@NuvemDeAlgodao",
+                        texto: "O LOBO É O ÚNICO QUE CONSEGUE PREVER ONDE O TORÓ VAI JOGAR RAIO ANTES DO PRÓPRIO TORÓ KKKKKKK ⚡🐺"
+                    }
+                ]
+            },
+            {
+                usuario: "@ResgatadaEm2025",
+                texto: "Nunca vou esquecer quando ele me encontrou presa nos escombros. Eu estava apavorada com a aparência dele, comecei a chorar quando se aproximou. Ele simplesmente sentou no chão, ficou quietinho e esperou eu me acalmar antes de me carregar. 😭❤️🐺 Obrigada por tudo.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@MatilhaAlvoredo",
+                        texto: "EU NÃO TÔ CHORANDO VOCÊ QUE TÁ 😭😭😭😭🐺❤️"
+                    }
+                ]
+            },
+            {
+                usuario: "@RankingSupersBR",
+                texto: "290 ocorrências, 120 prisões, 640 resgates e apenas R$ 8000000 em danos. 📊🐺 Alvoredo é um exemplo de eficiência operacional. Sua pontuação de 5760 não reflete completamente sua importância em operações conjuntas.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@LobisomemOuAlien",
+                texto: "TEORIA: o Alvoredo não é um lobisomem. 🛸🐺 É um alienígena que parece um lobo. NINGUÉM SABE A ORIGEM DELE, PENSEM NISSO!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@FiloBatsArquivo",
+                        texto: "Nem todo mundo que tem uma aparência estranha é alienígena, gente 😭😭😭"
+                    }
+                ]
+            },
+            {
+                usuario: "@SilencioDaMatilha",
+                texto: "A melhor coisa do Alvoredo é que ele não tenta ser uma celebridade. 🐺🖤 Não vende personagem, não faz gracinha, não transforma resgate em publicidade. Só ajuda quem precisa. Respeito demais.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@MemesDoSul",
+                texto: "VILÃO: VOCÊS NÃO PODEM ME DERROTAR, EU PLANEJEI TUDO!!! GEADA: ❄️ VISÃO: 🌀 ALVOREDO: 🐺 VILÃO: gente cadê todo mundo",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@VilaoDesempregado",
+                        texto: "IMAGINA LUTAR CONTRA UM LOBO QUE JÁ SABE ONDE VOCÊ VAI ESTAR KKKKKKKKK 😭💀"
+                    }
+                ]
+            },
+            {
+                usuario: "@CaxiasNoturna",
+                texto: "Acho o trabalho dele importante, mas gostaria de ver mais prestação de contas. Não sabemos praticamente nada sobre ele. Como avaliar a conduta de alguém que evita qualquer contato com a imprensa? 🤷‍♂️",
+                estrelas: 2,
+                respostas: []
+            }
+        ],
+        pontuacao: 6148
+    },
+    {
+        id: "visao",
+        nome: "Visão",
+        arquivo: "VISAO",
+        pagina: true,
+        identidade: "Helena Vitória Nascimento",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "SC",
+        cidade: "Joinville",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 11,
+        rankingAnterior: 34,
+        melhorRanking: 11,
+        popularidade: 84,
+        sobre: "Visão é uma das heroínas mais enigmáticas e populares do Sul do Brasil, conhecida por sua personalidade reservada e pela capacidade de criar portais dos quais emerge uma misteriosa energia negra e sólida, utilizada para atacar, defender e surpreender adversários. Mulher parda e de poucas palavras, raramente concede entrevistas ou compartilha detalhes de sua vida pessoal, mas sua postura discreta apenas aumenta o fascínio do público. Em combate, destaca-se pela precisão e imprevisibilidade, sendo capaz de transformar completamente a dinâmica de uma batalha ao abrir portais em posições inesperadas. Sua parceria com Geada é especialmente admirada, tanto pela eficiência extraordinária quanto pela relação afetuosa, semelhante à de pai e filha, que demonstram fora dos confrontos. Também apresenta uma sincronia impressionante com Alvoredo e Toró, enquanto suas operações com Cuca costumam ser marcadas por atuações independentes. Apesar de sua popularidade, ninguém parece compreender inteiramente a verdadeira natureza de seus poderes.",
+        poderes: ["Criação de portais", "Manipulação de energia negra", "Projeções ofensivas", "Construtos de energia", "Defesa por portais", "Reposicionamento espacial", "Redirecionamento de ataques", "Combate multidirecional"],
+        stats: {
+            ocorrencias: 390,
+            resgates: 1100,
+            prisoes: 145,
+            danos: 11000000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@VisaoSupremacy",
+                texto: "ELA NÃO FALA, NÃO SORRI, NÃO EXPLICA NADA, SÓ ABRE UM PORTAL E ACABA COM A LUTA 😭😭😭🖤🖤🖤 A MAIOR INTROVERTIDA DO BRASIL!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@IntrovertidosUnidos",
+                        texto: "A REPRESENTATIVIDADE DE QUEM QUER IR EMBORA DE QUALQUER EVENTO SOCIAL KKKKKKK 😭🖤"
+                    }
+                ]
+            },
+            {
+                usuario: "@PortalNegro",
+                texto: "ALGUÉM ME EXPLICA COMO FUNCIONA AQUELE NEGÓCIO PRETO QUE SAI DOS PORTAIS DELA???? 🖤🌀 Parece sólido, mas muda de forma, se mexe sozinho e às vezes parece ter vontade própria. QUE PODER É ESSE????",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@FisicaDosSupers",
+                        texto: "Pode ser algum tipo de matéria exótica ou energia com propriedades físicas incomuns. Não temos dados suficientes para afirmar nada. 🔬🖤"
+                    },
+                    {
+                        usuario: "@TeoriaDoAbismo",
+                        texto: "EU ACHO QUE ELA ABRE PORTAIS PRA OUTRA DIMENSÃO E PUXA ALGUMA COISA DE LÁ 💀💀💀"
+                    }
+                ]
+            },
+            {
+                usuario: "@GeadaFanClub",
+                texto: "EU NÃO SUPORTO O GEADA E A VISÃO JUNTOS 😭😭😭❄️🖤 ELE FICA TODO ORGULHOSO QUANDO ELA FAZ ALGUMA COISA INCRÍVEL. É LITERALMENTE UM PAI CORUJA COM A FILHA!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@FamiliaDeGelo",
+                        texto: "NO ÚLTIMO VÍDEO ELA DEU UM SORRISINHO QUANDO ELE COLOCOU A MÃO NO OMBRO DELA 😭😭😭😭🖤❄️"
+                    },
+                    {
+                        usuario: "@TaticoBR",
+                        texto: "Além da relação bonita, a combinação dos dois é assustadora. Geada controla o terreno e ela elimina qualquer possibilidade de fuga. ♟️"
+                    }
+                ]
+            },
+            {
+                usuario: "@JoinvilleNoticias",
+                texto: "É engraçado como uma das heroínas mais populares da região consegue passar praticamente despercebida fora das operações. 🖤 Quase não aparece em eventos, evita entrevistas e raramente responde à imprensa.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@NaoGostoDeGente",
+                        texto: "Ela descobriu o segredo da felicidade: abre um portal e VAI EMBORA KKKKKKKKK 😭🌀"
+                    }
+                ]
+            },
+            {
+                usuario: "@AlvoredoMatilha",
+                texto: "VISÃO + ALVOREDO É A DUPLA MAIS ASSUSTADORA DO BRASIL 🐺🖤 O LOBO ENTRA NOS PORTAIS DELA SEM HESITAR UM SEGUNDO!!! COMO ELE SABE ONDE VAI SAIR?????",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ConspiracaoSupers",
+                        texto: "EU FALO HÁ ANOS QUE ESSES DOIS SE COMUNICAM POR TELEPATIA 🧠🐺🖤"
+                    },
+                    {
+                        usuario: "@AnalistaDeCombate",
+                        texto: "Ou ele simplesmente confia nela e consegue interpretar os movimentos dela. Nem tudo precisa ser telepatia."
+                    }
+                ]
+            },
+            {
+                usuario: "@DonaReginaSC",
+                texto: "Eu respeito o trabalho dessa moça, mas aquelas coisas pretas que aparecem atrás dela me deixam muito desconfortável. 😟 Parece coisa de filme de terror. Não sei se gostaria de ver isso perto dos meus netos.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@SalvaPelaVisao",
+                        texto: "Eu também tive medo quando vi pela primeira vez. Mas foi aquela energia que segurou os escombros até conseguirem me tirar de lá. Hoje só consigo sentir gratidão. ❤️"
+                    }
+                ]
+            },
+            {
+                usuario: "@ToroFanClub",
+                texto: "VISÃO E TORÓ PRECISAM DE UMA SÉRIE SÓ DELES!!!! ⛈️⚡🖤 O CARA JOGA UM RAIO NUM PORTAL E O RAIO SAI EM CINCO LUGARES DIFERENTES KKKKKKKKK É MUITO APELÃO!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@EngenheiroEletrico",
+                        texto: "A precisão que ela oferece aos ataques dele reduz absurdamente o risco de atingir locais errados. Essa dupla merece mais reconhecimento. ⚡📐"
+                    }
+                ]
+            },
+            {
+                usuario: "@CucaMinhaRainha",
+                texto: "A CUCA E A VISÃO NA MESMA MISSÃO É MUITO BOM KKKKKKK 🐊🖤 UMA GRITANDO E QUEBRANDO TUDO E A OUTRA NO OUTRO LADO DO BAIRRO RESOLVENDO OUTRA COISA EM SILÊNCIO 😭😭😭",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@TrabalhoEmGrupo",
+                        texto: "São duas pessoas fazendo um trabalho em dupla sem trocar UMA PALAVRA KKKKKKKKKKK 😭📚"
+                    }
+                ]
+            },
+            {
+                usuario: "@InvestigadorSupers",
+                texto: "Ninguém consegue explicar exatamente a natureza dos poderes dela. Não sabemos de onde vem a energia, quais são seus limites ou se existem riscos associados. 🤔🖤 Acho legítimo pedir mais transparência.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@PrivacidadeHeroica",
+                        texto: "Transparência sobre segurança, sim. Exigir que ela revele tudo sobre a própria vida e os próprios poderes, não."
+                    }
+                ]
+            },
+            {
+                usuario: "@ResgatadoNoCentro",
+                texto: "Ela me salvou quando fiquei preso num prédio durante um ataque. Abriu um portal bem na minha frente e só estendeu a mão. Eu estava tremendo, mas ela esperou pacientemente até eu conseguir levantar. Não disse quase nada. Nunca vou esquecer. ❤️🖤",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@VisaoSupremacy",
+                        texto: "E TEM GENTE QUE ACHA QUE ELA É FRIA SÓ PQ NÃO FALA MUITO 😭😭😭🖤"
+                    }
+                ]
+            },
+            {
+                usuario: "@RankingSupersBR",
+                texto: "390 ocorrências, 1100 resgates, 145 prisões e R$ 11000000 em danos. 📊🖤 Visão é uma das heroínas mais eficientes do Sul. Seus 7955 pontos são impressionantes, especialmente considerando sua capacidade de potencializar outros supers.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@CosplayDaVisao",
+                texto: "FIZ COSPLAY DA VISÃO E ELA PASSOU DO MEU LADO NUM EVENTO 😭😭😭🖤 EU FALEI QUE AMAVA ELA E ELA SÓ ACENOU COM A CABEÇA. FOI A MELHOR INTERAÇÃO DA MINHA VIDA!!!!!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@IntrovertidosUnidos",
+                        texto: "ELA DEU O MÁXIMO DE INTERAÇÃO SOCIAL QUE CONSEGUIA KKKKKKKKK 😭🖤"
+                    }
+                ]
+            },
+            {
+                usuario: "@SombrasDaNoite",
+                texto: "O VISUAL DELA É SIMPLESMENTE PERFEITO 🖤🖤🖤 Não precisa de armadura dourada, capa gigante ou uniforme colorido. Ela fica parada, abre um portal preto e TODO MUNDO SABE QUE A LUTA ACABOU.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@TeoriaDasSombras",
+                texto: "Já repararam que às vezes a energia dela parece se mover ANTES de ela fazer qualquer gesto? 👀🖤🌀 Vi três vídeos diferentes e não consigo entender. Pode ser reflexo, edição ou alguma reação automática dos poderes.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@CientistaDeSofa",
+                        texto: "Se for uma defesa automática, isso explicaria muita coisa. Mas vídeo de celular não é evidência suficiente. 🔬"
+                    }
+                ]
+            },
+            {
+                usuario: "@JornalistaFrustrado",
+                texto: "Já tentei entrevistá-la duas vezes. Na primeira respondeu três perguntas com cinco palavras. Na segunda, abriu um portal e foi embora antes de eu terminar a apresentação. 🫠🎤🌀",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@VisaoSupremacy",
+                        texto: "CINCO PALAVRAS????? VOCÊ CONSEGUIU UMA ENTREVISTA EXCLUSIVA KKKKKKKKK 😭😭😭🖤"
+                    }
+                ]
+            },
+            {
+                usuario: "@MaeDeHeroina",
+                texto: "Minha filha é muito tímida e sempre achou que precisava ser extrovertida para fazer coisas importantes. Desde que conheceu a Visão, diz que quer ser uma heroína silenciosa igual a ela. 🥹🖤 Obrigada por mostrar que existem diferentes maneiras de ser forte.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ProfessoraAna",
+                        texto: "Que relato lindo! ❤️ Nem toda liderança precisa ser barulhenta."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 8291
     }
 ];

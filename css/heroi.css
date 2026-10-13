@@ -172,13 +172,76 @@
   margin:6px 0 0;color:var(--muted);font-size:13px
 }
 
+/* =========================
+   COMENTÁRIOS
+   ========================= */
+
 #comentarios.comment-grid .comentario{
-  margin:0;background:white;padding:18px;
-  border-radius:7px;border-top:3px solid var(--red);
-  line-height:1.45
+  margin:0;
+  background:white;
+  padding:18px;
+  border-radius:7px;
+  border-top:3px solid var(--red);
+  line-height:1.45;
 }
-#comentarios.comment-grid .comentario strong{
-  display:block;margin-bottom:8px
+
+.comment-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:8px;
+}
+
+#comentarios.comment-grid .comment-header strong{
+  margin:0;
+  display:block;
+}
+
+.comment-stars{
+  color:#e5a000;
+  font-size:16px;
+  letter-spacing:1px;
+  white-space:nowrap;
+}
+
+.comment-text{
+  margin:0;
+  color:#374151;
+}
+
+
+/* =========================
+   RESPOSTAS
+   ========================= */
+
+.comment-replies{
+  margin-top:16px;
+  padding-left:18px;
+  border-left:3px solid #e5e7eb;
+}
+
+.comment-reply{
+  padding:10px 0;
+  border-bottom:1px solid #eef0f4;
+}
+
+.comment-reply:last-child{
+  border-bottom:0;
+  padding-bottom:0;
+}
+
+.comment-reply strong{
+  display:block;
+  font-size:13px;
+  margin-bottom:4px;
+}
+
+.comment-reply p{
+  margin:0;
+  color:#4b5563;
+  font-size:13px;
+  line-height:1.5;
 }
 
 .profile-error{
