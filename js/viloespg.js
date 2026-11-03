@@ -1,7 +1,7 @@
 (() => {
 
   const V =
-    window.SUPERFOCO_VILOES || [];
+    (window.SUPERFOCO_VILOES || []).map(v => ({...v, ...SuperFocoViloes.calcular(v)}));
 
 
   const lista =
@@ -147,13 +147,13 @@
 
     baixa:1,
 
-    moderada:2,
+    media:2,
 
     alta:3,
 
-    severa:4,
+    nacional:4,
 
-    extrema:5
+    mundial:5
 
   };
 
@@ -177,7 +177,7 @@
       return "threat-low";
 
 
-    if(a === "moderada")
+    if(a === "media")
       return "threat-moderate";
 
 
@@ -185,11 +185,11 @@
       return "threat-high";
 
 
-    if(a === "severa")
+    if(a === "nacional")
       return "threat-severe";
 
 
-    if(a === "extrema")
+    if(a === "mundial")
       return "threat-extreme";
 
 
@@ -434,9 +434,7 @@
 
               v.ameaca,
 
-              ...(v.poderes || []),
-
-              ...(v.crimes || [])
+              ...(v.poderes || [])
 
             ].join(" "));
 

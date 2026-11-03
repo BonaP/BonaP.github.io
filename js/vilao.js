@@ -62,8 +62,7 @@
     v.nome;
 
 
-  $("#nome-noticias").textContent =
-    v.nome;
+
 
 
   /* =========================
@@ -102,7 +101,7 @@
   ========================= */
 
   $("#ameaca").textContent =
-    v.ameaca || "—";
+    SuperFocoViloes.calcular(v).ameaca;
 
 
   /* =========================
@@ -221,22 +220,6 @@
 
 
   /* =========================
-     CRIMES
-  ========================= */
-
-  (v.crimes || [])
-    .forEach(crime => {
-
-      $("#crimes")
-        .insertAdjacentHTML(
-          "beforeend",
-          `<span class="crime">${crime}</span>`
-        );
-
-    });
-
-
-  /* =========================
      INFORMAÇÕES
   ========================= */
 
@@ -332,8 +315,8 @@
   const stats = [
 
     [
-      "Ocorrências",
-      v.stats?.ocorrencias
+      "Vítimas",
+      v.stats?.vitimas
     ],
 
     [
@@ -342,8 +325,10 @@
     ],
 
     [
-      "Prisões",
-      v.stats?.prisoes
+      "Danos materiais",
+      v.stats?.danos === null || v.stats?.danos === undefined || v.stats?.danos === ''
+        ? null
+        : Number(v.stats.danos).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
     ],
 
     [
@@ -365,7 +350,7 @@
             <div class="stat">
 
               <strong>
-                ${valor ?? "—"}
+                ${valor === '' ? "—" : valor ?? "—"}
               </strong>
 
               ${titulo}
@@ -382,7 +367,7 @@
      HERÓIS ENFRENTADOS
   ========================= */
 
-  (v.inimigos || [])
+  SuperFocoViloes.referencias(v.inimigos || [], H).ids
     .forEach(idHeroi => {
 
       const h =
@@ -423,79 +408,11 @@
      HISTÓRICO
   ========================= */
 
-  (v.historico || [])
-    .forEach(evento => {
-
-      $("#historico")
-        .insertAdjacentHTML(
-          "beforeend",
-
-          `
-            <div class="evento">
-
-              <strong>
-                ${evento.data}
-              </strong>
-
-              ${evento.evento}
-
-            </div>
-          `
-        );
-
-    });
-
-
-  /* =========================
-     NOTÍCIAS
-  ========================= */
-
-  const noticias =
-    N.filter(n =>
-      (n.viloes || [])
-        .includes(v.id)
-    );
-
-
-  $("#noticias").innerHTML =
-    noticias.length
-
-      ? noticias
-          .slice()
-          .sort(
-            (a,b) =>
-              new Date(b.data) -
-              new Date(a.data)
-          )
-          .map(n => `
-
-            <div class="noticia">
-
-              <a
-                href="noticia.html?id=${n.id}"
-              >
-
-                <strong>
-                  ${n.titulo}
-                </strong>
-
-              </a>
-
-              <p>
-                ${
-                  n.subtitulo ||
-                  n.resumo ||
-                  ""
-                }
-              </p>
-
-            </div>
-
-          `)
-          .join("")
-
-      : "Nenhuma matéria cadastrada até o momento.";
-
+  const esc = valor => String(valor ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+  $('#historico').innerHTML = SuperFocoViloes.noticias(v, N).map(n => `
+    <div class="evento"><strong>${esc(n.data)}</strong>
+    <a href="noticia.html?id=${encodeURIComponent(n.id)}">${esc(n.titulo)}</a>
+    <p>${esc(n.subtitulo || n.resumo || '')}</p></div>`).join('') || 'Nenhuma notícia vinculada até o momento.';
 
   /* =========================
      COMENTÁRIOS
@@ -512,10 +429,12 @@
             <div class="comentario">
 
               <strong>
-                ${c.usuario}
+                ${esc(c.usuario)}
               </strong>
 
-              ${c.texto}
+              ${esc(c.texto)}
+              ${Number.isInteger(c.estrelas) && c.estrelas >= 0 && c.estrelas <= 5 ? `<p aria-label="${c.estrelas} estrelas">${'★'.repeat(c.estrelas)}${'☆'.repeat(5-c.estrelas)}</p>` : ''}
+              ${(c.respostas || []).map(r => `<div class="resposta"><strong>${esc(r.usuario)}</strong> ${esc(r.texto)}</div>`).join('')}
 
             </div>
           `

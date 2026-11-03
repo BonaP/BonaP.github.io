@@ -253,8 +253,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "São Paulo",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 4,
-        rankingAnterior: 3,
+        ranking: 5,
+        rankingAnterior: 4,
         melhorRanking: 1,
         popularidade: 45,
         sobre: "Heitor Alcântara, mais conhecido como Hércules, é um super-herói brasileiro com atuação concentrada em São Paulo. Ex-fisiculturista, iniciou sua carreira nos primeiros anos da Era dos Supers, quando ainda não possuía poderes ou aprimoramentos conhecidos, contando apenas com sua força física excepcional e treinamento. Sua primeira carreira foi interrompida após um violento confronto transmitido ao vivo, no qual perdeu ambos os braços, desaparecendo completamente da vida pública após sobreviver ao incidente. Mais de dois anos depois, retornou após uma extensa reconstrução corporal, apresentando capacidades físicas muito superiores às anteriores e quatro braços mecânicos capazes de exercer força sobre-humana e produzir poderosas descargas elétricas. Sua reconstrução e retorno foram financiados pelo Banco Supremo, que desde então mantém uma relação pública de patrocínio com o herói. Conhecido pelo estilo de combate direto, personalidade confiante e forte presença diante das câmeras, Hércules mantém sua identidade civil pública e atua profissionalmente como herói independente.",
@@ -408,8 +408,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Belo Horizonte",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 504,
-        rankingAnterior: 503,
+        ranking: 505,
+        rankingAnterior: 504,
         melhorRanking: 80,
         popularidade: 50,
         sobre: "Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -437,8 +437,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Rio de Janeiro",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 3,
-        rankingAnterior: 2,
+        ranking: 2,
+        rankingAnterior: 4,
         melhorRanking: 1,
         popularidade: 81,
         sobre: "HMarina Alencar dos Santos, mais conhecida como Nympha das Ondas, é uma super-heroína e surfista profissional brasileira com atuação concentrada no Rio de Janeiro. Já conhecida no meio esportivo antes do surgimento de seus poderes, Marina desenvolveu características semelhantes às de uma borboleta, incluindo quatro grandes asas que lhe permitem voar em alta velocidade. Em vez de abandonar sua antiga carreira, incorporou sua experiência como surfista à atividade heroica, utilizando uma prancha tanto para manobras aéreas quanto como arma em um estilo de combate extremamente móvel e acrobático. Extrovertida, festeira e naturalmente sociável, Nympha alcançou enorme popularidade por manter uma relação próxima e informal com o público, sendo frequentemente vista em praias, festas, bares e eventos do Rio de Janeiro. Apesar de lidar bem com fãs, jornalistas e com a própria fama, possui uma relação particularmente hostil com paparazzi e demonstra grande irritação quando considera que sua vida privada está sendo invadida.",
@@ -446,7 +446,7 @@ window.SUPERFOCO_HEROIS = [
         stats: {
             ocorrencias: 465,
             resgates: 1850,
-            prisoes: 70,
+            prisoes: 215,
             danos: 14000000
         },
         inimigos: ["Rei dos Ratos"],
@@ -504,85 +504,101 @@ window.SUPERFOCO_HEROIS = [
             {
                 usuario: "@CariocaVoador",
                 texto: "Já encontrei ela duas vezes e nas duas parou pra tirar foto com todo mundo. Nympha é gente boa demais 😍😍.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@MaréAlta",
                 texto: "A mulher literalmente pegou o conceito de surfar e decidiu que o oceano era pequeno demais🦋.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@SuperFan",
                 texto: "Uma das heroínas mais carismáticas do Brasil. Não tem como não gostar dela.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@SemCapa",
                 texto: "Ela salvou uma galera em 28. Pode aparecer em quantos bares quiser depois disso.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@CopacabanaRJ",
                 texto: "Já vi ela voando pela orla umas três vezes. É MUITO mais rápido ao vivo do que parece nos vídeos.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@PranchaQuebrada",
                 texto: "Como surfista eu ainda acho um crime ela usar uma prancha pra bater nos outros 🤣🤣🤣.",
-                estrelas: 4
+                estrelas: 4,
+                respostas: []
             },
             {
                 usuario: "@NoiteCarioca",
                 texto: "A maior habilidade da Nympha é salvar o Rio às 18h e aparecer no bar às 22h como se nada tivesse acontecido.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@FlashNews",
                 texto: "Ela gosta muito da fama até aparecer uma câmera que não foi ela que chamou.",
-                estrelas: 2
+                estrelas: 2,
+                respostas: []
             },
             {
                 usuario: "@DefensorUrbano",
                 texto: "Podem zoar o jeito dela, mas quando dá problema de verdade ela sempre aparece.",
-                estrelas: 4
+                estrelas: 4,
+                respostas: []
             },
             {
                 usuario: "@OndaPerfeita",
                 texto: "Eu acompanhava a Marina antes dos poderes. É muito doido pensar que ela continua competindo depois de tudo.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@OlhoNoCeu",
                 texto: "Nympha contra Rasante foi uma das perseguições mais absurdas que eu já vi. Parecia corrida de caça no meio dos prédios.",
-                estrelas: 4
+                estrelas: 4,
+                respostas: []
             },
             {
                 usuario: "@Anonimo021",
                 texto: "Popular demais. Às vezes parece mais celebridade que heroína.",
-                estrelas: 2
+                estrelas: 2,
+                respostas: []
             },
             {
                 usuario: "@ZonaSul",
                 texto: "Minha irmã pediu foto pra ela num bar e a Nympha ficou uns dez minutos conversando com a gente. Zero estrelismo 💓.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@ReiDoClick",
                 texto: "Engraçado como ela ama fotógrafo quando é ensaio patrocinado.",
-                estrelas: 1
+                estrelas: 1,
+                respostas: []
             },
             {
                 usuario: "@Pikolina",
                 texto: "Goxtosa 🔥🔥!!!!",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             },
             {
                 usuario: "@SalvaVidasRJ",
                 texto: "Durante a Invasão de 28 ela podia ter simplesmente ido embora voando. Em vez disso ficou voltando pra buscar gente. Nunca esqueço disso.",
-                estrelas: 5
+                estrelas: 5,
+                respostas: []
             }
         ],
-        pontuacao: 9254
+        pontuacao: 11429
     },
     {
         id: "TechnoVortex",
@@ -596,8 +612,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "São Paulo",
         afiliacao: "Independente",
         primeiraAparicao: "A definir",
-        ranking: 505,
-        rankingAnterior: 504,
+        ranking: 506,
+        rankingAnterior: 505,
         melhorRanking: 20,
         popularidade: 50,
         sobre: "Herói conhecido pela força extraordinária e por intervenções de alto impacto. O SuperFoco apresenta aqui apenas informações conhecidas publicamente.",
@@ -1742,8 +1758,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Campo Grande",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 16,
-        rankingAnterior: 15,
+        ranking: 18,
+        rankingAnterior: 19,
         melhorRanking: 13,
         popularidade: 75,
         sobre: "Lobo Guá é uma figura tão reconhecível quanto misteriosa entre os heróis do Centro-Oeste: permanentemente preso em uma forma semelhante a um enorme lobo-guará humanoide, é incapaz de falar, comunicando-se por gestos, sinais e vocalizações que poucos conseguem compreender. Apesar da aparência feroz e do comportamento aparentemente animalesco, demonstra grande inteligência, percepção e capacidade de tomar decisões durante operações, destacando-se principalmente pela velocidade e pelo combate corpo a corpo. Sua parceria com Piatã é particularmente conhecida, já que o herói consegue compreendê-lo perfeitamente e os dois desenvolveram uma sintonia excepcional em combate. Fora dessa dupla, porém, Lobo Guá é muito mais imprevisível: suas operações com Alice & Cheshire são famosas pelo caos, enquanto sua estranha obediência a Arranca Língua parece nascer de um genuíno medo da entidade que a acompanha.",
@@ -2502,8 +2518,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Brasília",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 101,
-        rankingAnterior: 72,
+        ranking: 102,
+        rankingAnterior: 101,
         melhorRanking: 58,
         popularidade: 56,
         sobre: "Alex Vorcaro é um dos heróis mais controversos do Centro-Oeste, um político que transformou recursos públicos, influência institucional e contatos estratégicos em suas principais armas contra o crime. Sem possuir poderes sobre-humanos conhecidos, utiliza a verba de seu gabinete para financiar equipamentos de última geração, veículos especiais e operações heroicas de alto custo. Sua extensa rede de contatos e seu conhecimento surpreendentemente profundo sobre o funcionamento das facções criminosas fazem dele um aliado extremamente útil, embora levantem questionamentos sobre a origem de tantas informações. Grande amigo do herói Banco Supremo, Vorcaro também demonstra um interesse quase obsessivo pelo alienígena Cheshire, chegando a oferecer dinheiro para adquiri-lo, o que provoca a indignação de Alice. Sua relação com Arranca Língua é ainda pior: a heroína afirma que ele é acompanhado por entidades de pura treva, acusação que Vorcaro rejeita como superstição. Entre admiradores que exaltam seus resultados e críticos que questionam seus métodos e gastos, Alex continua demonstrando que, no combate ao crime, seu maior superpoder é o orçamento público.",
@@ -2852,8 +2868,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Porto Alegre",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 1,
-        rankingAnterior: 8,
+        ranking: 3,
+        rankingAnterior: 2,
         melhorRanking: 1,
         popularidade: 86,
         sobre: "Geada é um dos heróis mais antigos e respeitados do Brasil, ocupando uma posição entre os dez maiores do ranking nacional. Vestindo roupas tradicionais do Sul, o veterano combina sua extraordinária habilidade de manipular vento, água e gelo com uma impressionante experiência em combate com faca. Reconhecido por sua inteligência tática e liderança natural, Geada consegue coordenar até os heróis mais imprevisíveis, transformando suas habilidades em estratégias de combate eficientes. Apesar da idade avançada, continua sendo um combatente formidável, admirado tanto por seus feitos individuais quanto pela capacidade de trabalhar em equipe.",
@@ -3134,8 +3150,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Curitiba",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 503,
-        rankingAnterior: 823,
+        ranking: 504,
+        rankingAnterior: 503,
         melhorRanking: 412,
         popularidade: 73,
         sobre: "Toró é um jovem super-herói conhecido por seus cabelos formados por nuvens e sua capacidade de controlar água, chuva e eletricidade. Apesar de normalmente apresentar uma personalidade calma e descontraída, perde a paciência facilmente diante de provocações, fazendo com que suas nuvens escureçam conforme sua irritação aumenta. Em situações de fúria extrema, transforma-se em um gigantesco ser de nuvens tempestuosas, adquirindo um poder destrutivo colossal, mas perdendo grande parte do controle sobre suas ações. Popular entre o público jovem, Toró demonstra enorme potencial, especialmente quando atua ao lado de Geada, Alvoredo ou Visão. Entretanto, sua instabilidade emocional e os elevados danos materiais de suas operações, incluindo uma catástrofe durante uma missão com Cuca, prejudicam sua posição no ranking nacional.",
@@ -3693,8 +3709,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Manaus",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 2,
-        rankingAnterior: 4,
+        ranking: 4,
+        rankingAnterior: 3,
         melhorRanking: 2,
         popularidade: 88,
         sobre: "Ararurama é uma das maiores heroínas do Brasil e a principal guardiã dos rios e lagos da Região Norte. Nascida em uma comunidade indígena isolada da Floresta Amazônica, cresceu profundamente conectada à natureza e se tornou a primeira indígena a receber superpoderes. Capaz de controlar enormes volumes de água, destaca-se tanto pelo extraordinário poder de combate quanto pela habilidade de realizar resgates em larga escala. Apesar de sua força, é conhecida pela personalidade amável, delicada e extremamente atenciosa com seus admiradores, conquistando uma legião de fãs que a tratam como uma verdadeira celebridade. Sua presença transmite segurança e tranquilidade, tornando-a uma das figuras mais queridas e confiáveis do cenário heroico nacional.",
@@ -4664,8 +4680,8 @@ window.SUPERFOCO_HEROIS = [
         cidade: "Manaus",
         afiliacao: "Independente",
         primeiraAparicao: "",
-        ranking: 102,
-        rankingAnterior: "",
+        ranking: 103,
+        rankingAnterior: 102,
         melhorRanking: 102,
         popularidade: 87,
         sobre: "Rasga é um poderoso xamã e estudioso das artes espirituais, conhecido por sua profunda conexão com a Floresta Amazônica e sua extraordinária capacidade de preparação. Nascido no Canadá, mudou-se ainda jovem para o Brasil acompanhando seus pais, pesquisadores e químicos interessados nas propriedades das plantas amazônicas. Durante uma expedição científica, acabou se perdendo na floresta e foi encontrado por uma comunidade indígena isolada, onde aprendeu os fundamentos da magia xamânica e desenvolveu uma ligação especial com os espíritos, os animais e a natureza. Embora não seja particularmente habilidoso em improvisações táticas, seu conhecimento sobrenatural e sua dedicação aos estudos permitem antecipar ameaças e encontrar soluções para problemas aparentemente impossíveis. Respeitado por outros heróis, especialmente Ararurama e Unca, Rasga costuma demonstrar que preparação e conhecimento podem ser tão importantes quanto força bruta.",
@@ -4906,5 +4922,908 @@ window.SUPERFOCO_HEROIS = [
             }
         ],
         pontuacao: 5148
+    },
+    {
+        id: "ariete",
+        nome: "Ariéte",
+        arquivo: "ARIETE",
+        pagina: true,
+        identidade: "Brian Tejada",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "DF",
+        cidade: "Brasília",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 1,
+        rankingAnterior: 16,
+        melhorRanking: 1,
+        popularidade: 60,
+        sobre: "Brian Tejada, conhecido como Ariête, é um dos super-heróis militares mais poderosos e respeitados do Brasil, além de líder dos Cobras Aladas. Reconhecido por sua força extraordinária, resistência e disciplina, tornou-se símbolo da atuação militar contra ameaças super-humanas de grande escala. Diferentemente dos heróis independentes, Ariête atua sob ordens do Estado, participando de operações de segurança nacional, contenção de supers perigosos e missões de resgate. Sua postura séria, autoritária e comprometida com o dever lhe rendeu admiradores e críticos, especialmente por representar o uso institucional de superpoderes.",
+        poderes: ["Superforça", "Super-resistência", "Durabilidade sobre-humana", "Combate corpo a corpo", "Impactos devastadores"],
+        stats: {
+            ocorrencias: 335,
+            resgates: 2880,
+            prisoes: 450,
+            danos: 50200000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@PatriotaBR",
+                texto: "O Ariête é o maior símbolo de segurança que esse país tem. Enquanto outros supers ficam fazendo propaganda, ele está na linha de frente protegendo o Brasil. RESPEITO!",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@LiberdadeSuper",
+                        texto: "Proteger o Brasil ou proteger o governo? São duas coisas bem diferentes."
+                    },
+                    {
+                        usuario: "@PatriotaBR",
+                        texto: "Quero ver você falar isso quando precisar ser resgatado."
+                    }
+                ]
+            },
+            {
+                usuario: "@MarianaSP",
+                texto: "Não gosto muito da ideia de super-heróis subordinados aos militares, mas é impossível negar que esse homem já salvou muita gente.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@CarlosM",
+                        texto: "Pelo menos ele responde a alguma autoridade. Pior é super fazendo o que quer sem prestar contas."
+                    }
+                ]
+            },
+            {
+                usuario: "@RenegadosLivre",
+                texto: "Motim, Espectro, Colosso e Íris. QUATRO membros saíram dos Cobras Aladas e vocês ainda acham que não existe problema nessa liderança? Abram os olhos.",
+                estrelas: 0,
+                respostas: [
+                    {
+                        usuario: "@DefesaNacional",
+                        texto: "Você sabe por que cada um saiu? Porque eu não vi nenhum deles explicando tudo publicamente."
+                    },
+                    {
+                        usuario: "@RenegadosLivre",
+                        texto: "Quatro coincidências seguidas? Tá bom então."
+                    }
+                ]
+            },
+            {
+                usuario: "@CaboFerreira",
+                texto: "Participei de uma operação em que ele estava presente. Quando a estrutura começou a desabar, ele voltou para buscar dois soldados que tinham ficado para trás. Não esqueço disso.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@AnaLuiza",
+                        texto: "Meu pai também serviu com os Cobras Aladas e sempre falou muito bem dele."
+                    }
+                ]
+            },
+            {
+                usuario: "@ObservadorSupers",
+                texto: "Ele é extremamente poderoso, disciplinado e eficiente. Minha dúvida é se teria coragem de desobedecer uma ordem injusta.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@JuliaMendes",
+                texto: "Quando eu era pequena, achava que heróis só existiam nos filmes. Ver o Ariête pessoalmente foi uma das coisas mais incríveis da minha vida.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@NerdDosSupers",
+                        texto: "Você conseguiu tirar foto com ele? Dizem que quase nunca para para conversar com fãs."
+                    },
+                    {
+                        usuario: "@JuliaMendes",
+                        texto: "Consegui sim! Ele foi super educado, só parecia estar com pressa kkkkk."
+                    }
+                ]
+            },
+            {
+                usuario: "@AntiMilitarizacao",
+                texto: "Um homem capaz de derrubar prédios com as mãos recebendo ordens de políticos e generais. Só eu acho isso assustador? Ocultar respostas",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@BrunoDF",
+                        texto: "E um homem com esse poder sem nenhuma supervisão seria melhor?"
+                    }
+                ]
+            },
+            {
+                usuario: "@HeroiDeVerdade",
+                texto: "O cara lidera uma equipe de supers militares, enfrenta ameaças nacionais e ainda tem gente reclamando porque ele não dá entrevista sorrindo. Herói não é influencer.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@SofiaRibeiro",
+                texto: "Depois daquela operação perto da minha casa, tivemos que ficar três dias fora por causa dos danos. Salvaram a região, mas ninguém explicou quem pagaria os prejuízos.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@DefesaNacional",
+                        texto: "A operação impediu uma tragédia maior. Isso também precisa entrar na conta."
+                    },
+                    {
+                        usuario: "@SofiaRibeiro",
+                        texto: "Eu sei, mas quem perdeu a casa também merece resposta."
+                    }
+                ]
+            },
+            {
+                usuario: "@RankSupersBR",
+                texto: "9220 pontos no SuperFoco. Tem gente que não gosta dele, mas os números mostram uma carreira impressionante.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@VelhoSargento",
+                texto: "Brian Tejada é um soldado antes de ser uma celebridade. Disciplina, coragem e responsabilidade. É disso que precisamos.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@ConspiracaoTotal",
+                texto: "Vocês realmente acreditam que o governo conta tudo sobre as operações dos Cobras Aladas? Quero saber quantas missões desse sujeito nunca chegaram aos jornais.",
+                estrelas: 0,
+                respostas: [
+                    {
+                        usuario: "@FatosPrimeiro",
+                        texto: "Missões sigilosas existem. Isso não prova que ele esteja cometendo crimes."
+                    },
+                    {
+                        usuario: "@ConspiracaoTotal",
+                        texto: "E quem fiscaliza essas missões sigilosas?"
+                    }
+                ]
+            },
+            {
+                usuario: "@MaeDeDois",
+                texto: "Meu filho tem uma miniatura do Ariête e dorme com ela do lado da cama. Para ele, é o homem mais forte do mundo.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@CriticoHeroico",
+                texto: "Não questiono a força dele, mas parece que os Cobras Aladas resolvem tudo com operações militares. Nem todo problema envolvendo supers precisa de um batalhão.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@EstrategistaBR",
+                        texto: "Concordo em parte. Às vezes uma negociação resolveria antes de começar o confronto."
+                    }
+                ]
+            },
+            {
+                usuario: "@FanDoHercules",
+                texto: "Queria MUITO ver Hércules e Ariête disputando queda de braço. Aposto que quebravam a mesa antes de sair um vencedor.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@BrasiliaNoticias",
+                texto: "Ele pode não ser o mais simpático nas entrevistas, mas sempre parece levar as perguntas sobre segurança muito a sério.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@ExMilitar1990",
+                texto: "O problema de colocar um super no comando é que ninguém tem coragem de discordar dele. Poder demais concentrado numa pessoa só.",
+                estrelas: 1,
+                respostas: []
+            },
+            {
+                usuario: "@LaraCosta",
+                texto: "Podem discutir política o quanto quiserem. Quando tudo desmorona e ele aparece para tirar as pessoas dos escombros, ninguém pergunta em quem ele vota.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@EquipeRenegada",
+                texto: "Eu gostava mais dos Cobras Aladas quando a equipe era completa. Hoje parece que só existe a vontade do Ariête.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@ArgosFan",
+                        texto: "Bastião, Vetor, Fulminante e Argos continuam lá. Eles também têm voz e trabalho próprio."
+                    }
+                ]
+            },
+            {
+                usuario: "@JoaoVitorDF",
+                texto: "Ariête pode não ser perfeito, mas passou anos arriscando a própria vida pelo país. Não precisa ser meu herói favorito para merecer respeito.",
+                estrelas: 5,
+                respostas: []
+            }
+        ],
+        pontuacao: 11750
+    },
+    {
+        id: "fulminante",
+        nome: "Fulminante",
+        arquivo: "FULMINANTE",
+        pagina: true,
+        identidade: "Diego Nascimento",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "DF",
+        cidade: "Brasília",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 101,
+        rankingAnterior: "",
+        melhorRanking: 101,
+        popularidade: 65,
+        sobre: "Diego Nascimento, conhecido como Fulminante, é um super-herói militar integrante dos Cobras Aladas, reconhecido pelo seu extraordinário poder destrutivo e pela capacidade de neutralizar ameaças de grande escala. Especialista em operações ofensivas, Fulminante costuma ser mobilizado quando a força convencional é insuficiente para enfrentar criminosos superpoderosos. Sua atuação é marcada por ataques devastadores e confrontos intensos, frequentemente acompanhados de danos materiais significativos. Embora seja considerado um recurso valioso para a segurança nacional, seus métodos agressivos despertam críticas sobre o uso excessivo da força e os riscos à população civil.",
+        poderes: ["Projeção de energia explosiva", "Explosões concentradas", "Ondas de choque", "Resistência a explosões", "Combate ofensivo"],
+        stats: {
+            ocorrencias: 238,
+            resgates: 720,
+            prisoes: 155,
+            danos: 10100000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@ExplosaoBR",
+                texto: "O FULMINANTE É ABSURDO!!! Vi um vídeo dele derrubando um super criminoso com uma única explosão. O cara é praticamente uma arma de guerra ambulante KKKKK.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@SegurancaPrimeiro",
+                        texto: "E é justamente isso que me preocupa. Uma arma de guerra andando no meio da cidade."
+                    },
+                    {
+                        usuario: "@ExplosaoBR",
+                        texto: "Prefere deixar o criminoso destruir tudo então?"
+                    }
+                ]
+            },
+            {
+                usuario: "@MarianaSP",
+                texto: "Ele salvou o bairro de uma ameaça, mas destruiu metade da rua no processo. Até hoje tem comerciante esperando indenização. Não dá pra ignorar isso.",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@DefesaNacional",
+                        texto: "Sem a intervenção dele, os prejuízos poderiam ter sido muito maiores."
+                    },
+                    {
+                        usuario: "@MarianaSP",
+                        texto: "Isso não significa que as pessoas prejudicadas devam ficar sem assistência."
+                    }
+                ]
+            },
+            {
+                usuario: "@CaboFerreira",
+                texto: "Já vi o Fulminante em operação. Ele parece impulsivo nas gravações, mas sabe exatamente quando liberar toda aquela energia. É um profissional.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ObservadorSupers",
+                        texto: "Se ele tem tanto controle assim, por que os danos materiais são tão altos?"
+                    },
+                    {
+                        usuario: "@CaboFerreira",
+                        texto: "Porque os alvos dele geralmente não são criminosos comuns."
+                    }
+                ]
+            },
+            {
+                usuario: "@AnaLuiza",
+                texto: "Eu acho engraçado como ele parece sempre estar se divertindo nas entrevistas. É o completo oposto do Ariête, que vive com aquela cara fechada kkkkk",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@CriticoHeroico",
+                texto: "10100000 reais em danos materiais. DEZ MILHÕES! E vocês continuam tratando esse homem como exemplo de eficiência? Imaginem se um herói independente causasse isso.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@RankSupersBR",
+                        texto: "Esse valor é acumulado em 238 ocorrências, não em uma única operação."
+                    },
+                    {
+                        usuario: "@CriticoHeroico",
+                        texto: "Continua sendo dinheiro e patrimônio destruídos."
+                    }
+                ]
+            },
+            {
+                usuario: "@FanDosCobras",
+                texto: "Ariête segura a linha de frente, Bastião protege a equipe e Fulminante acaba com a ameaça. Essa combinação é simplesmente perfeita.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@RenegadosLivre",
+                texto: "Curioso como o governo chama de herói um sujeito que pode explodir um quarteirão inteiro, mas trata qualquer super independente como uma ameaça em potencial.",
+                estrelas: 0,
+                respostas: [
+                    {
+                        usuario: "@BrasiliaNoticias",
+                        texto: "A diferença é que ele atua dentro de uma estrutura militar e responde por suas operações."
+                    },
+                    {
+                        usuario: "@RenegadosLivre",
+                        texto: "Responde mesmo? Quantas punições vocês já viram?"
+                    }
+                ]
+            },
+            {
+                usuario: "@JoaoVitorDF",
+                texto: "Meu irmão foi resgatado numa operação dos Cobras Aladas. Fulminante abriu uma passagem entre os escombros para os socorristas entrarem. Nunca vou esquecer.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@EstrategistaBR",
+                texto: "Fulminante é excelente quando precisa destruir uma ameaça rapidamente, mas parece ser uma péssima escolha para operações em áreas densamente povoadas. Cada herói tem sua função.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@TaticaMilitar",
+                        texto: "Concordo. O problema não é necessariamente o poder dele, mas quem decide onde e quando utilizá-lo."
+                    }
+                ]
+            },
+            {
+                usuario: "@SofiaRibeiro",
+                texto: "Ele pode ser barulhento, exagerado e causar um estrago enorme, mas não dá pra negar a coragem. Só gostaria que pensasse um pouquinho mais antes de explodir tudo.",
+                estrelas: 4,
+                respostas: []
+            }
+        ],
+        pontuacao: 5871
+    },
+    {
+        id: "bastiao",
+        nome: "Bastião",
+        arquivo: "BASTIAO",
+        pagina: true,
+        identidade: "Marcelo Siqueira",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "DF",
+        cidade: "Brasília",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 16,
+        rankingAnterior: 17,
+        melhorRanking: 16,
+        popularidade: 73,
+        sobre: "Marcelo Siqueira, conhecido como Bastião, é um super-herói militar integrante dos Cobras Aladas, especializado em defesa, contenção de ameaças e proteção de civis. Reconhecido por sua extraordinária resistência e capacidade de suportar ataques devastadores, Bastião frequentemente assume a linha de frente das operações, funcionando como um verdadeiro escudo humano para seus companheiros. Diferentemente de integrantes mais ofensivos, como Fulminante, sua prioridade é minimizar vítimas e garantir a segurança de pessoas em situações de risco. Sua postura disciplinada, paciente e protetora o tornou um dos membros mais confiáveis da equipe, sendo especialmente valorizado em operações de resgate e evacuação.",
+        poderes: ["Invulnerabilidade sobre-humana", "Superforça", "Resistência física extrema", "Absorção de impactos", "Proteção corporal", "Combate defensivo"],
+        stats: {
+            ocorrencias: 253,
+            resgates: 1390,
+            prisoes: 151,
+            danos: 7400000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@MarianaSP",
+                texto: "Esse homem é literalmente um escudo humano. Vi ele segurando os escombros de um prédio enquanto os bombeiros retiravam as pessoas. Não tem como não admirar.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@BrunoDF",
+                        texto: "O mais impressionante é que ele ficou ali até retirarem a última pessoa."
+                    }
+                ]
+            },
+            {
+                usuario: "@FanDosCobras",
+                texto: "Todo mundo fala da força do Ariête e das explosões do Fulminante, mas sem o Bastião metade da equipe já tinha ido de arrasta pra cima KKKKK.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ExplosaoBR",
+                        texto: "O Fulminante deve dar mais trabalho pra ele que os próprios vilões KKKKK."
+                    },
+                    {
+                        usuario: "@FanDosCobras",
+                        texto: "Bastião merece adicional de insalubridade só por trabalhar com aquele maluco."
+                    }
+                ]
+            },
+            {
+                usuario: "@CriticoHeroico",
+                texto: "É um dos poucos Cobras Aladas que parecem realmente preocupados em evitar destruição. Ainda assim, faz parte da mesma estrutura militar que os outros.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@AnaLuiza",
+                texto: "Minha mãe estava presa num ônibus depois de um acidente envolvendo supers. Bastião protegeu os passageiros enquanto tudo acontecia do lado de fora. Obrigada por salvar minha família. ❤️",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@MaeDeDois",
+                        texto: "É por relatos assim que eu admiro tanto ele. Espero que sua mãe esteja bem!"
+                    },
+                    {
+                        usuario: "@AnaLuiza",
+                        texto: "Está sim! Obrigada ❤️"
+                    }
+                ]
+            },
+            {
+                usuario: "@AntiMilitarizacao",
+                texto: "Pode ser uma boa pessoa, mas continua sendo um super militar. O fato de ele proteger civis não elimina o problema de concentrar tanto poder nas mãos do Estado.Ocultar respostas",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@CarlosM",
+                        texto: "Mas qual seria a alternativa? Deixar pessoas com poderes desse nível agirem sem qualquer supervisão?"
+                    }
+                ]
+            },
+            {
+                usuario: "@CaboFerreira",
+                texto: "Já estive numa operação com ele. Bastião é o tipo de soldado que você quer ao seu lado quando tudo dá errado. Não abandona ninguém, mesmo quando recebe ordem de recuar.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@RankSupersBR",
+                texto: "1390 resgates e 151 prisões. O cara tem números excelentes e ainda assim recebe muito menos atenção que os membros mais ofensivos dos Cobras Aladas.",
+                estrelas: 4,
+                respostas: [
+                    {
+                        usuario: "@ObservadorSupers",
+                        texto: "Porque impedir uma tragédia não rende vídeos tão impressionantes quanto provocar uma explosão."
+                    }
+                ]
+            },
+            {
+                usuario: "@RenegadosLivre",
+                texto: "Todo mundo elogiando o Bastião, mas ninguém pergunta por que ele continuou nos Cobras Aladas depois que quatro integrantes abandonaram a equipe. Lealdade tem limite.",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@DefesaNacional",
+                        texto: "Talvez porque ele acredite na missão da equipe? Sair não é automaticamente a decisão correta."
+                    },
+                    {
+                        usuario: "@RenegadosLivre",
+                        texto: "Ou talvez seja mais fácil ficar quieto do que questionar o comando."
+                    }
+                ]
+            },
+            {
+                usuario: "@JoaoVitorDF",
+                texto: "Bastião é meu herói favorito desde criança. Enquanto os outros tentam vencer a luta, ele parece estar sempre pensando em quem precisa ser protegido.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@EstrategistaBR",
+                texto: "A capacidade defensiva dele muda completamente a dinâmica de um confronto. Com Bastião presente, a equipe consegue evacuar civis e manter posições que seriam impossíveis para soldados comuns.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@TaticaMilitar",
+                        texto: "Exatamente. Ele não é só resistente, é uma vantagem estratégica absurda."
+                    }
+                ]
+            },
+            {
+                usuario: "@SofiaRibeiro",
+                texto: "Ele visitou as famílias que perderam suas casas depois de uma operação. Não tinha câmera, não tinha jornalista, não tinha propaganda. Só estava lá conversando com as pessoas.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@PatriotaBR",
+                texto: "Ariête é a força do Brasil, Fulminante é o poder de fogo e Bastião é a nossa muralha. ORGULHO DOS COBRAS ALADAS! 🇧🇷Ocultar respostas",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@LiberdadeSuper",
+                        texto: "É uma frase bonita de propaganda. Só não esquece que esses poderes também podem ser usados contra a população."
+                    }
+                ]
+            },
+            {
+                usuario: "@VelhoSargento",
+                texto: "Disciplina, paciência e coragem. Bastião entende que a missão de um soldado não é simplesmente derrotar o inimigo, mas proteger aqueles que não podem se defender.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@ConspiracaoTotal",
+                texto: "O governo adora mostrar o Bastião salvando criancinhas, mas nunca mostra o que acontece nas operações secretas. Não acredito nessa imagem de santo.",
+                estrelas: 0,
+                respostas: [
+                    {
+                        usuario: "@FatosPrimeiro",
+                        texto: "Você tem alguma prova contra ele especificamente ou só está desconfiando de tudo?"
+                    },
+                    {
+                        usuario: "@ConspiracaoTotal",
+                        texto: "Quando tudo é sigiloso, como alguém vai conseguir provar?"
+                    }
+                ]
+            },
+            {
+                usuario: "@LaraCosta",
+                texto: "Pode não ser o mais famoso, o mais forte ou o mais carismático, mas, se eu estivesse presa num prédio desabando, Bastião seria o primeiro herói que eu gostaria de ver chegando.",
+                estrelas: 5,
+                respostas: []
+            }
+        ],
+        pontuacao: 7633
+    },
+    {
+        id: "vetor",
+        nome: "Vetor",
+        arquivo: "VETOR",
+        pagina: true,
+        identidade: "Helena Prado",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "DF",
+        cidade: "Brasília",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 17,
+        rankingAnterior: 18,
+        melhorRanking: 17,
+        popularidade: 77,
+        sobre: "Helena Prado, conhecida como Vetor, é uma super-heroína militar integrante dos Cobras Aladas, especializada no controle de movimentos, trajetórias e forças direcionais. Reconhecida por sua precisão e inteligência tática, Vetor é uma das principais responsáveis pela contenção de ameaças super-humanas e pela neutralização de adversários sem a necessidade de confrontos prolongados. Sua capacidade de alterar a direção de objetos e ataques permite proteger aliados, desviar projéteis e controlar o campo de batalha. Disciplinada, calculista e extremamente eficiente, representa o lado estratégico dos Cobras Aladas, complementando a força bruta de Ariête e o poder destrutivo de Fulminante.",
+        poderes: ["Manipulação vetorial", "Redirecionamento de projéteis", "Controle de movimento", "Repulsão vetorial", "Barreiras cinéticas", "Mobilidade vetorial", "Precisão tática"],
+        stats: {
+            ocorrencias: 268,
+            resgates: 890,
+            prisoes: 181,
+            danos: 4600000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@FisicaDosSupers",
+                texto: "A Vetor consegue mudar a trajetória de objetos em movimento. Vocês têm NOÇÃO do absurdo que é esse poder??? Ela pode ser uma das supers mais perigosas do Brasil se quiser.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@NerdDosSupers",
+                        texto: "Finalmente alguém falando disso! Ela não precisa ser mais forte que o inimigo, só precisa usar a força dele contra ele."
+                    },
+                    {
+                        usuario: "@FisicaDosSupers",
+                        texto: "EXATAMENTE!!! Física é muito mais assustadora que superforça kkkkk."
+                    }
+                ]
+            },
+            {
+                usuario: "@MarianaSP",
+                texto: "Vi um vídeo dela desviando os destroços de uma explosão para longe de um grupo de pessoas. Foi tão rápido que ninguém percebeu o que tinha acontecido até reverem as imagens.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@AnaLuiza",
+                        texto: "Eu vi esse vídeo! Ela salvou todo mundo sem nem precisar tocar em nada."
+                    }
+                ]
+            },
+            {
+                usuario: "@FanDosCobras",
+                texto: "Ariête é o músculo, Bastião é o escudo, Fulminante é a artilharia e Vetor é o CÉREBRO. Sem ela, metade das operações seria uma bagunça.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@AntiMilitarizacao",
+                texto: "Uma pessoa capaz de alterar a trajetória de qualquer projétil trabalhando para o governo. Vocês realmente não enxergam o perigo disso?",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@DefesaNacional",
+                        texto: "Ela usa esse poder para proteger pessoas. Você prefere que criminosos tenham essa vantagem?"
+                    },
+                    {
+                        usuario: "@AntiMilitarizacao",
+                        texto: "Prefiro que exista fiscalização real sobre quem possui esse tipo de poder."
+                    }
+                ]
+            },
+            {
+                usuario: "@RankSupersBR",
+                texto: "181 prisões e 4600000 em danos materiais. Comparada com outros integrantes dos Cobras Aladas, Vetor consegue resultados excelentes com destruição relativamente controlada.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@JoaoVitorDF",
+                texto: "Meu irmão é completamente fã dela. Vive tentando explicar como os poderes funcionam usando carrinhos de brinquedo e bolinhas de gude KKKKK.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ProfessorAndre",
+                        texto: "Pelo menos está aprendendo física! Já é melhor que muito conteúdo da internet."
+                    }
+                ]
+            },
+            {
+                usuario: "@ObservadorSupers",
+                texto: "É uma heroína extremamente eficiente, mas quase nunca fala sobre as decisões do comando. Gostaria de saber se ela concorda com todas as operações dos Cobras Aladas.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@SofiaRibeiro",
+                texto: "Ela parece tão séria nas entrevistas, mas vi uma gravação dela explicando seus poderes para uma criança. Teve uma paciência enorme e ainda fez uma moeda flutuar para demonstrar.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@HelenaFan",
+                        texto: "Ela sempre parece muito mais simpática quando está falando de ciência do que quando perguntam sobre política kkkkk."
+                    }
+                ]
+            },
+            {
+                usuario: "@RenegadosLivre",
+                texto: "Motim, Espectro, Colosso e Íris saíram. Vetor ficou. Será que ela realmente concorda com o que acontece dentro dos Cobras Aladas ou simplesmente prefere não se envolver?",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@ArgosFan",
+                        texto: "Ficar na equipe não significa concordar com absolutamente tudo. Vocês tratam qualquer um que não saiu como cúmplice."
+                    }
+                ]
+            },
+            {
+                usuario: "@EstrategistaBR",
+                texto: "Vetor é provavelmente a integrante mais importante da equipe em ambientes urbanos. Desviar ataques e controlar deslocamentos vale mais do que destruir o inimigo em várias situações.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@ConspiracaoTotal",
+                texto: "Se ela consegue controlar trajetórias, como alguém provaria que um acidente foi realmente um acidente? Pensem nisso antes de confiar cegamente nos supers militares.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@FatosPrimeiro",
+                        texto: "Você está acusando uma pessoa de provocar acidentes sem apresentar absolutamente nenhuma evidência."
+                    },
+                    {
+                        usuario: "@ConspiracaoTotal",
+                        texto: "Não estou acusando, estou fazendo perguntas."
+                    }
+                ]
+            },
+            {
+                usuario: "@CaboFerreira",
+                texto: "Já vi a Vetor interromper um confronto inteiro sem disparar um tiro. Enquanto todo mundo estava preocupado em atacar, ela simplesmente impediu os criminosos de se moverem.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@CriticoHeroico",
+                texto: "O poder dela parece ideal para capturas não letais. Gostaria de ver mais operações em que ela liderasse a contenção em vez de deixar Fulminante resolver tudo explodindo.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@ExplosaoBR",
+                        texto: "Às vezes precisa explodir também, pô KKKKK."
+                    },
+                    {
+                        usuario: "@CriticoHeroico",
+                        texto: "É justamente esse 'às vezes' que deveria ser melhor avaliado."
+                    }
+                ]
+            },
+            {
+                usuario: "@LaraCosta",
+                texto: "Não é minha heroína favorita, mas gosto que ela não fique tentando aparecer. Faz o trabalho, responde o necessário e vai embora.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@VelhoSargento",
+                texto: "Precisão, disciplina e inteligência. Vetor representa aquilo que diferencia uma operação planejada de uma demonstração de força sem direção. Excelente militar.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@BrunoDF",
+                        texto: "Concordo. Só acho que ela deveria aparecer mais nas campanhas oficiais, sempre dão destaque para Ariête."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 7559
+    },
+    {
+        id: "argos",
+        nome: "Argos",
+        arquivo: "ARGOS",
+        pagina: true,
+        identidade: "Camila Torres",
+        status: "ATIVO",
+        pais: "Brasil",
+        estado: "DF",
+        cidade: "Brasília",
+        afiliacao: "Independente",
+        primeiraAparicao: "",
+        ranking: 503,
+        rankingAnterior: "",
+        melhorRanking: 503,
+        popularidade: 73,
+        sobre: "Camila Torres, conhecida como Argos, é uma super-heroína militar integrante dos Cobras Aladas, especializada em reconhecimento, vigilância e identificação de ameaças. Dotada de capacidades sensoriais extraordinárias, consegue localizar inimigos ocultos, acompanhar movimentações a grandes distâncias e identificar perigos antes que se tornem ameaças imediatas. Sua precisão e inteligência estratégica fazem dela uma peça fundamental nas operações de captura, infiltração e resgate da equipe. Reservada, observadora e meticulosa, Argos prefere antecipar os movimentos de seus adversários a enfrentá-los diretamente, sendo reconhecida por sua eficiência e pelo baixo índice de danos materiais em suas operações.",
+        poderes: ["Visão sobre-humana", "Visão multiespectral", "Percepção ampliada", "Rastreamento avançado", "Precisão extraordinária", "Processamento sensorial acelerado", "Reconhecimento tático"],
+        stats: {
+            ocorrencias: 249,
+            resgates: 940,
+            prisoes: 183,
+            danos: 39000000
+        },
+        inimigos: [],
+        historico: [],
+        comentarios: [
+            {
+                usuario: "@OlhoDeAguiaBR",
+                texto: "A Argos consegue enxergar um criminoso escondido a quilômetros de distância e ainda identificar o que ele está carregando. COMO ALGUÉM FOGE DESSA MULHER??? KKKKK",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@NerdDosSupers",
+                        texto: "O pior é que ela provavelmente já sabe para onde você vai fugir antes mesmo de você decidir."
+                    },
+                    {
+                        usuario: "@OlhoDeAguiaBR",
+                        texto: "Imagina tentar brincar de esconde-esconde com ela KKKKK."
+                    }
+                ]
+            },
+            {
+                usuario: "@MarianaSP",
+                texto: "Vi uma reportagem sobre ela encontrando pessoas desaparecidas numa área de mata. Enquanto todo mundo procurava no chão, ela conseguiu localizar os sobreviventes de longe. Heroísmo também é isso.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@AnaLuiza",
+                        texto: "Exatamente! Nem todo herói precisa sair quebrando tudo para salvar vidas."
+                    }
+                ]
+            },
+            {
+                usuario: "@FanDosCobras",
+                texto: "Ariête lidera, Bastião protege, Fulminante explode, Vetor controla e Argos encontra o alvo. Essa equipe foi literalmente feita para funcionar junta.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@PrivacidadeImporta",
+                texto: "Uma pessoa que pode enxergar através da escuridão, detectar calor e observar pessoas a quilômetros de distância trabalhando para o governo. E a nossa privacidade fica como?",
+                estrelas: 1,
+                respostas: [
+                    {
+                        usuario: "@DefesaNacional",
+                        texto: "Ela usa esses poderes para localizar criminosos e salvar pessoas, não para ficar espionando cidadãos."
+                    },
+                    {
+                        usuario: "@PrivacidadeImporta",
+                        texto: "E quem garante isso? Existem regras específicas para o uso desses poderes?"
+                    }
+                ]
+            },
+            {
+                usuario: "@RankSupersBR",
+                texto: "183 prisões e 940 resgates. A Argos tem números excelentes para alguém que raramente aparece na linha de frente dos confrontos.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@JoaoVitorDF",
+                texto: "Minha irmã é fã da Argos porque ela usa inteligência em vez de força bruta. Finalmente uma heroína que mostra que observar também é uma superpotência.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@ProfessorAndre",
+                        texto: "Ela seria um pesadelo em qualquer prova de observação científica kkkkk."
+                    }
+                ]
+            },
+            {
+                usuario: "@ObservadorSupers",
+                texto: "O trabalho dela é impressionante, mas gostaria de saber quanto das informações que coleta fica armazenado pelo Exército. Uma capacidade dessas exige transparência.",
+                estrelas: 3,
+                respostas: []
+            },
+            {
+                usuario: "@SofiaRibeiro",
+                texto: "A Argos parece tão fria nas entrevistas, mas vi ela conversando com uma criança que tinha sido resgatada. Ficou ajoelhada do lado dela até os pais chegarem. Muito humana.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@HelenaFan",
+                        texto: "Ela e a Vetor parecem sérias, mas sempre demonstram muita paciência quando estão ajudando alguém."
+                    }
+                ]
+            },
+            {
+                usuario: "@RenegadosLivre",
+                texto: "Quatro membros abandonaram os Cobras Aladas e a Argos, que supostamente enxerga tudo, continua lá. Será que ela realmente não percebeu os problemas da equipe?",
+                estrelas: 2,
+                respostas: [
+                    {
+                        usuario: "@ArgosFan",
+                        texto: "Ter sentidos aprimorados não significa conhecer todas as decisões internas ou concordar com elas."
+                    }
+                ]
+            },
+            {
+                usuario: "@ConspiracaoTotal",
+                texto: "Vocês acham normal existir uma super capaz de observar qualquer lugar sem ninguém perceber? Aposto que ela sabe muito mais sobre a população do que o governo admite.",
+                estrelas: 0,
+                respostas: [
+                    {
+                        usuario: "@FatosPrimeiro",
+                        texto: "Você está confundindo capacidade com prova de espionagem. Não é a mesma coisa."
+                    },
+                    {
+                        usuario: "@ConspiracaoTotal",
+                        texto: "E como alguém descobriria que está sendo observado?"
+                    }
+                ]
+            },
+            {
+                usuario: "@EstrategistaBR",
+                texto: "Argos é provavelmente uma das integrantes mais importantes em operações de busca e captura. Informação antecipada evita emboscadas, reduz riscos e permite neutralizar ameaças antes que ataquem.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@CaboFerreira",
+                texto: "Já participei de uma operação orientada pela Argos. Ela identificou uma emboscada antes de qualquer equipamento detectar o inimigo. Provavelmente salvou a vida de metade do pelotão.",
+                estrelas: 5,
+                respostas: []
+            },
+            {
+                usuario: "@CriticoHeroico",
+                texto: "Ela poderia ser uma das melhores heroínas independentes do país, mas acaba sendo utilizada principalmente como ferramenta de reconhecimento militar. Queria ver mais operações humanitárias.",
+                estrelas: 3,
+                respostas: [
+                    {
+                        usuario: "@TaticaMilitar",
+                        texto: "Ela já participa de resgates. O fato de trabalhar com militares não significa que só atua em combate."
+                    },
+                    {
+                        usuario: "@CriticoHeroico",
+                        texto: "Eu sei, só acho que o potencial dela vai muito além disso."
+                    }
+                ]
+            },
+            {
+                usuario: "@LaraCosta",
+                texto: "Gosto que ela não tenta chamar atenção. Enquanto outros heróis fazem discursos e poses, Argos simplesmente encontra quem precisa ser encontrado.",
+                estrelas: 4,
+                respostas: []
+            },
+            {
+                usuario: "@VelhoSargento",
+                texto: "Informação salva vidas. Uma equipe pode ter toda a força do mundo, mas sem saber onde está o inimigo, essa força não serve para nada. Argos entende isso melhor que ninguém.",
+                estrelas: 5,
+                respostas: [
+                    {
+                        usuario: "@BrunoDF",
+                        texto: "Concordo. O trabalho dela parece invisível justamente porque evita problemas antes que aconteçam."
+                    }
+                ]
+            }
+        ],
+        pontuacao: 4005
     }
 ];
